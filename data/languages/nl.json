@@ -189,7 +189,7 @@
 		"value": "De geest kan mensen infecteren en mensen genezen met zijn hamer."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Hij kan ook 1 schade punt opleveren per seconde door mensen te haken."
 	},
 	{
@@ -323,6 +323,11 @@
 		"other": "{int:NumMines} mijnen zijn actief",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "Gelieve 5 minuten te wachten voordat je een ander account aanmaakt"
 	},
@@ -354,6 +359,10 @@
 	{
 		"key": "Scientist",
 		"value": "Wetenschapper"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "De wetenschapper kan zwevende mijnen vormen met zijn hamer."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -524,7 +533,16 @@
 		"value": "De levensduur van een muur is {sec:LifeSpan} en muren zijn beperkt tot \u00e9\u00e9n per speler tegelijk."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "De ondode is eindelijk dood"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "De ondode is eindelijk dood"
 	},
 	{
@@ -613,6 +631,10 @@
 		"value": "De geest kan mensen infecteren en mensen genezen met zijn hamer."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "De geest kan mensen infecteren en mensen genezen met zijn hamer."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "Web-modus geactiveerd"
 	},
@@ -630,6 +652,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "De Heks kan mensen infecteren en ge\u00efnfecteerden genezen met haar hamer."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "De Heks kan mensen infecteren en ge\u00efnfecteerden genezen met haar hamer."
 	},
 	{
@@ -742,12 +768,52 @@
 		"value": "Je account is aangemaakt en je bent nu ingelogd."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Boomer"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Geest"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Ghoul"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Jager"
+	},
+	{
+		"key": "a Slug",
+		"value": "Slak"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Smoker"
+	},
+	{
+		"key": "a Spider",
+		"value": "Spin"
+	},
+	{
+		"key": "a Witch",
+		"value": "Heks"
+	},
+	{
+		"key": "an Undead",
+		"value": "Ondode"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} veranderde zijn naam naar {str:NewName}"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} veranderde zijn naam naar {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} is binnengekomen en sloot zich aan tot het spel"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -790,6 +856,26 @@
 		"value": "{str:PlayerName} wil {str:VictimName} verbannen ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} is verbannen ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} heeft het spel verlaten"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} heeft het spel verlaten"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} veranderde zijn naam naar {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} is verbannen ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName} is ge\u00efnfecteerd"
 	},
@@ -824,6 +910,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "Hij kan explosieven opwinden met zijn hamer die belemmeren de ge\u00efnfecteerden."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Hij kan ook 1 schade punt opleveren per seconde door mensen te haken."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

@@ -148,7 +148,7 @@
 		"value": "\u30b4\u30fc\u30b9\u30c8\u306f\u30cf\u30f3\u30de\u30fc\u3067\u751f\u5b58\u8005\u3092\u611f\u67d3\u3055\u305b\u305f\u308a\u3001\u4ed6\u306e\u611f\u67d3\u8005\u3092\u56de\u5fa9\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "\u307e\u305f\u3001\u30d5\u30c3\u30af\u3067\u751f\u5b58\u8005\u3092\u6355\u3089\u3048\u308b\u3068\u3001\u305d\u306e\u751f\u5b58\u8005\u306b1\u30c0\u30e1\u30fc\u30b8\u305a\u3064\u4e0e\u3048\u307e\u3059\u3002"
 	},
 	{
@@ -272,6 +272,10 @@
 		"other": "{int:NumMines} \u500b\u306e\u5730\u96f7\u304c\u5c55\u958b\u4e2d",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "\u5225\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u4f5c\u6210\u5b8c\u4e86\u3059\u308b\u307e\u30675\u5206\u9593\u304a\u5f85\u3061\u304f\u3060\u3055\u3044"
 	},
@@ -302,6 +306,10 @@
 	{
 		"key": "Scientist",
 		"value": "\u79d1\u5b66\u8005"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "\u79d1\u5b66\u8005\u306f\u30cf\u30f3\u30de\u30fc\u3067\u5730\u96f7\u3092\u4ed5\u639b\u3051\u3089\u308c\u307e\u3059\u3002"
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -440,7 +448,15 @@
 		"value": "\u30d0\u30ea\u30a2\u306f {sec:LifeSpan} \u307e\u3067\u6301\u3061\u3001\u307e\u305f1\u4eba\u306b\u3064\u304d1\u3064\u307e\u3067\u3057\u304b\u69cb\u7bc9\u3067\u304d\u307e\u305b\u3093\u3002"
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "\u30a2\u30f3\u30c7\u30c3\u30c9\u306f\u5012\u308c\u305f"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "\u30a2\u30f3\u30c7\u30c3\u30c9\u306f\u5012\u308c\u305f"
 	},
 	{
@@ -512,6 +528,10 @@
 		"value": "\u30b4\u30fc\u30b9\u30c8\u306f\u30cf\u30f3\u30de\u30fc\u3067\u751f\u5b58\u8005\u3092\u611f\u67d3\u3055\u305b\u305f\u308a\u3001\u4ed6\u306e\u611f\u67d3\u8005\u3092\u56de\u5fa9\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "\u30b4\u30fc\u30b9\u30c8\u306f\u30cf\u30f3\u30de\u30fc\u3067\u751f\u5b58\u8005\u3092\u611f\u67d3\u3055\u305b\u305f\u308a\u3001\u4ed6\u306e\u611f\u67d3\u8005\u3092\u56de\u5fa9\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "\u8718\u86db\u7cf8\u30e2\u30fc\u30c9\u4e2d"
 	},
@@ -529,6 +549,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "\u9b54\u5973\u306f\u30cf\u30f3\u30de\u30fc\u3067\u751f\u5b58\u8005\u3092\u611f\u67d3\u3055\u305b\u305f\u308a\u3001\u4ed6\u306e\u611f\u67d3\u8005\u3092\u56de\u5fa9\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "\u9b54\u5973\u306f\u30cf\u30f3\u30de\u30fc\u3067\u751f\u5b58\u8005\u3092\u611f\u67d3\u3055\u305b\u305f\u308a\u3001\u4ed6\u306e\u611f\u67d3\u8005\u3092\u56de\u5fa9\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
 	},
 	{
@@ -608,12 +632,44 @@
 		"value": "\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u4f5c\u6210\u304c\u5b8c\u4e86\u3057\u3001\u73fe\u5728\u30a2\u30ab\u30a6\u30f3\u30c8\u60c5\u5831\u3092\u8a18\u9332\u3057\u3066\u3044\u307e\u3059\u3002"
 	},
 	{
+		"key": "a Boomer",
+		"value": "\u7206\u5f3e\u9b54"
+	},
+	{
+		"key": "a Ghost",
+		"value": "\u30b4\u30fc\u30b9\u30c8"
+	},
+	{
+		"key": "a Hunter",
+		"value": "\u30cf\u30f3\u30bf\u30fc"
+	},
+	{
+		"key": "a Smoker",
+		"value": "\u30be\u30f3\u30d3"
+	},
+	{
+		"key": "a Spider",
+		"value": "\u8718\u86db"
+	},
+	{
+		"key": "a Witch",
+		"value": "\u9b54\u5973"
+	},
+	{
+		"key": "an Undead",
+		"value": "\u30a2\u30f3\u30c7\u30c3\u30c9"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} \u306f\u540d\u524d\u3092 {str:NewName} \u3078\u5909\u66f4\u3057\u307e\u3057\u305f"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} \u306f\u540d\u524d\u3092 {str:NewName} \u3078\u5909\u66f4\u3057\u307e\u3057\u305f"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName}\u304c\u53c2\u52a0\u3057\u307e\u3057\u305f"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -656,6 +712,26 @@
 		"value": "{str:PlayerName}\u306b\u3088\u308a\u3001{str:VictimName}\u306fBAN\u3055\u308c\u307e\u3057\u305f ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} \u306fBAN\u3055\u308c\u305f({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} \u304c\u96e2\u8131\u3057\u307e\u3057\u305f"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} \u304c\u96e2\u8131\u3057\u307e\u3057\u305f"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} \u306f\u540d\u524d\u3092 {str:NewName} \u3078\u5909\u66f4\u3057\u307e\u3057\u305f"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} \u306fBAN\u3055\u308c\u305f({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName} \u306f\u611f\u67d3\u3057\u305f"
 	},
@@ -682,6 +758,10 @@
 	{
 		"key": "He can also inflict 4 damage points per second by hooking humans.",
 		"value": "\u307e\u305f\u3001\u30d5\u30c3\u30af\u3067\u751f\u5b58\u8005\u3092\u6355\u3089\u3048\u308b\u3068\u3001\u305d\u306e\u751f\u5b58\u8005\u306b4\u30c0\u30e1\u30fc\u30b8\u305a\u3064\u4e0e\u3048\u307e\u3059\u3002"
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "\u307e\u305f\u3001\u30d5\u30c3\u30af\u3067\u751f\u5b58\u8005\u3092\u6355\u3089\u3048\u308b\u3068\u3001\u305d\u306e\u751f\u5b58\u8005\u306b1\u30c0\u30e1\u30fc\u30b8\u305a\u3064\u4e0e\u3048\u307e\u3059\u3002"
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

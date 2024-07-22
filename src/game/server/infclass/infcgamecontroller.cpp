@@ -5,6 +5,7 @@
 #include "events-director.h"
 
 #include "game/infclass/classes.h"
+#include "game/infclass/events.h"
 
 #include <game/server/gamecontext.h>
 #include <game/server/infclass/classes/infcplayerclass.h>
@@ -1036,6 +1037,36 @@ int CInfClassGameController::GetInfectionStartTick() const
 {
 	const int InfectionTick = m_RoundStartTick + Server()->TickSpeed() * GetInfectionDelay();
 	return InfectionTick;
+}
+
+const char *CInfClassGameController::GetEventName(ERandomEvent Event)
+{
+	return toString(Event);
+}
+
+const char *CInfClassGameController::GetEventDisplayName(ERandomEvent Event)
+{
+	switch (Event)
+	{
+		case ERandomEvent::Storage:
+			return _C("Events", "Storage");
+		case ERandomEvent::Brave:
+			return _C("Events", "Brave");
+
+		case ERandomEvent::Thief:
+			return _C("Events", "Thief");
+		case ERandomEvent::Ashes:
+			return _C("Events", "Ashes");
+
+		case ERandomEvent::Disabling:
+			return _C("Events", "Disabling");
+		case ERandomEvent::Fear:
+			return _C("Events", "Fear");
+
+		case ERandomEvent::None:
+		default:
+			return _C("Events", "Nothing");
+	}
 }
 
 bool CInfClassGameController::IsDefenderClass(EPlayerClass PlayerClass)
@@ -2566,6 +2597,35 @@ void CInfClassGameController::OnInfectionTriggered()
 
 	m_InfUnbalancedTick = -1;
 	MaybeSuggestMoreRounds();
+
+	ChooseRandomEvent();
+}
+
+void CInfClassGameController::ChooseRandomEvent()
+{
+	m_HumanEvent = AllHumanEvents[random_int(0, AllHumanEvents.Size() - 1)];
+	m_InfectedEvent = AllInfectedEvents[random_int(0, AllInfectedEvents.Size() - 1)];
+	if(random_prob(0.7f))
+		m_GlobalEvent = AllGlobalEvents[random_int(0, AllGlobalEvents.Size() - 1)];
+	else
+		m_GlobalEvent = ERandomEvent::None;
+
+	/* send message of random event */
+	GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_SCORE, 
+		_("Human event '{str:EventName}' was chosen!"),
+		"EventName", GetEventDisplayName(m_HumanEvent),
+		nullptr);
+	GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_SCORE, 
+		_("Infected event '{str:EventName}' was chosen!"),
+		"EventName", GetEventDisplayName(m_InfectedEvent),
+		nullptr);
+	if(m_GlobalEvent != ERandomEvent::None)
+	{
+		GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_SCORE, 
+			_("Oops! Global event '{str:EventName}'!"),
+			"EventName", GetEventDisplayName(m_GlobalEvent),
+			nullptr);
+	}
 }
 
 void CInfClassGameController::StartInfectionGameplay(int PlayersToInfect)
@@ -2666,6 +2726,10 @@ void CInfClassGameController::StartRound()
 	{
 		IncreaseCurrentRoundCounter();
 	}
+
+	m_HumanEvent = ERandomEvent::Invalid;
+	m_InfectedEvent = ERandomEvent::Invalid;
+	m_GlobalEvent = ERandomEvent::None;
 
 	ResetRoundData();
 	SaveRoundRules();
@@ -4444,9 +4508,17 @@ void CInfClassGameController::OnCharacterDeath(CInfClassCharacter *pVictim, cons
 				InfectionType = INFECTION_TYPE::RESTORE_INF_CLASS;
 				break;
 			case EPlayerClass::Undead:
-				GameServer()->SendBroadcast_Localization(-1, BROADCAST_PRIORITY_GAMEANNOUNCE, BROADCAST_DURATION_GAMEANNOUNCE, _("The undead is finally dead"), NULL);
-				GameServer()->CreateSoundGlobal(SOUND_CTF_RETURN);
-				InfectionType = INFECTION_TYPE::RESTORE_INF_CLASS;
+				if(GetInfectedEvent() == ERandomEvent::Ashes)
+				{
+					GameServer()->SendBroadcast_Localization(-1, BROADCAST_PRIORITY_GAMEANNOUNCE, BROADCAST_DURATION_GAMEANNOUNCE, _("The undead is finally dead.....?"), NULL);
+					GameServer()->CreateSoundGlobal(SOUND_CTF_DROP);
+				}
+				else
+				{
+					GameServer()->SendBroadcast_Localization(-1, BROADCAST_PRIORITY_GAMEANNOUNCE, BROADCAST_DURATION_GAMEANNOUNCE, _("The undead is finally dead"), NULL);
+					GameServer()->CreateSoundGlobal(SOUND_CTF_RETURN);
+					InfectionType = INFECTION_TYPE::RESTORE_INF_CLASS;
+				}
 				break;
 			default:
 				break;
@@ -5302,6 +5374,21 @@ void CInfClassGameController::QueueRoundType(ERoundType RoundType)
 {
 	dbg_msg("controller", "Queued round: %s", toString(RoundType));
 	m_QueuedRoundType = RoundType;
+}
+
+ERandomEvent CInfClassGameController::GetHumanEvent() const
+{
+	return m_HumanEvent;
+}
+
+ERandomEvent CInfClassGameController::GetInfectedEvent() const
+{
+	return m_InfectedEvent;
+}
+
+ERandomEvent CInfClassGameController::GetGlobalEvent() const
+{
+	return m_GlobalEvent;
 }
 
 CLASS_AVAILABILITY CInfClassGameController::GetPlayerClassAvailability(EPlayerClass PlayerClass, const CInfClassPlayer *pForPlayer) const

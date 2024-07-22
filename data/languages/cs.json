@@ -174,7 +174,7 @@
 		"value": "Duch m\u016f\u017ee infikovat lidi a l\u00e9\u010dit naka\u017een\u00e9 sv\u00fdm kladivem."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Taky m\u016f\u017ee zp\u016fsobit 1 \u00fato\u010dn\u00fd bod za sekundu zah\u00e1knut\u00edm lid\u00ed."
 	},
 	{
@@ -314,6 +314,12 @@
 		"other": "{int:NumMines} miny jsou aktivn\u00ed",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"few": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "Pros\u00edm, po\u010dkej 5 minut p\u0159ed vytvo\u0159en\u00edm dal\u0161\u00edho \u00fa\u010dtu"
 	},
@@ -346,6 +352,10 @@
 	{
 		"key": "Scientist",
 		"value": "V\u011bdec"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "V\u011bdci m\u016f\u017eou kladivem um\u00edstit nehybn\u00e9 miny"
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -496,7 +506,17 @@
 		"value": "\u017divotnost zdi je {sec:LifeSpan}, a ze\u010f m\u016f\u017ee\u0161 m\u00edt v\u017edy jen jednu."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"few": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "Nemrtv\u00fd je kone\u010dn\u011b mrtv\u00fd"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "Nemrtv\u00fd je kone\u010dn\u011b mrtv\u00fd"
 	},
 	{
@@ -586,6 +606,10 @@
 		"value": "Duch m\u016f\u017ee infikovat lidi a l\u00e9\u010dit naka\u017een\u00e9 sv\u00fdm kladivem."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "Duch m\u016f\u017ee infikovat lidi a l\u00e9\u010dit naka\u017een\u00e9 sv\u00fdm kladivem."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "Pavu\u010dinov\u00fd m\u00f3d aktivov\u00e1n"
 	},
@@ -603,6 +627,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "\u010carod\u011bjnice m\u016f\u017eou infikovat lidi a l\u00e9\u010dit naka\u017een\u00e9 sv\u00fdm kladivem."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "\u010carod\u011bjnice m\u016f\u017eou infikovat lidi a l\u00e9\u010dit naka\u017een\u00e9 sv\u00fdm kladivem."
 	},
 	{
@@ -704,12 +732,48 @@
 		"value": "Tv\u016fj \u00fa\u010det byl vytvo\u0159en a u\u017e jsi p\u0159ihl\u00e1\u0161en."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Sebevrah"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Duch"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Gh\u016fl"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Lovec"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Ku\u0159\u00e1k"
+	},
+	{
+		"key": "a Spider",
+		"value": "Pavouk"
+	},
+	{
+		"key": "a Witch",
+		"value": "\u010carod\u011bjnice"
+	},
+	{
+		"key": "an Undead",
+		"value": "Nemrtv\u00fd"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} zm\u011bnil sv\u00e9 jm\u00e9no na {str:NewName}"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} zm\u011bnil sv\u00e9 jm\u00e9no na {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} se p\u0159ipojil a vstoupil do hry"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -752,6 +816,26 @@
 		"value": "{str:PlayerName} chce, aby byl {str:VictimName} zabanov\u00e1n z d\u016fvodu: ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} byl zabanov\u00e1n ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} opustil hru"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} opustil hru"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} zm\u011bnil sv\u00e9 jm\u00e9no na {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} byl zabanov\u00e1n ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName} byl naka\u017een"
 	},
@@ -782,6 +866,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "M\u016f\u017ee sv\u00fdm kladivem tvo\u0159it exploze."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Taky m\u016f\u017ee zp\u016fsobit 1 \u00fato\u010dn\u00fd bod za sekundu zah\u00e1knut\u00edm lid\u00ed."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

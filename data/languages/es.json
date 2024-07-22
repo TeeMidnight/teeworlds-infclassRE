@@ -189,7 +189,7 @@
 		"value": "El Fantasma puede infectar a humanos y curar a otros infectados con su martillo."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Tambi\u00e9n puede infligir 1 punto de da\u00f1o por segundo al enganchar a humanos."
 	},
 	{
@@ -323,6 +323,11 @@
 		"other": "{int:NumMines} minas est\u00e1n activadas",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "\u00a1Espera 5 minutos antes de que creares otra cuenta, por favor!"
 	},
@@ -354,6 +359,10 @@
 	{
 		"key": "Scientist",
 		"value": "Cient\u00edfico"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "El cient\u00edfico puede poner minas flotantes con su martillo."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -524,7 +533,16 @@
 		"value": "La duraci\u00f3n de una barrera es de {sec:LifeSpan}, y s\u00f3lo puede haber una barrera por jugador al mismo tiempo."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "El muerto viviente ha muerto finalmente"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "El muerto viviente ha muerto finalmente"
 	},
 	{
@@ -613,6 +631,10 @@
 		"value": "El Fantasma puede infectar a humanos y curar a otros infectados con su martillo."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "El Fantasma puede infectar a humanos y curar a otros infectados con su martillo."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "Modo telara\u00f1a activado"
 	},
@@ -630,6 +652,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "La Bruja puede infectar a humanos y curar a otros infectados con su martillo."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "La Bruja puede infectar a humanos y curar a otros infectados con su martillo."
 	},
 	{
@@ -742,12 +768,52 @@
 		"value": "Tu cuenta fue creada y ya has iniciado tu sesi\u00f3n."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Boomer"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Fantasma"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Gul"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Cazador"
+	},
+	{
+		"key": "a Slug",
+		"value": "Limaco"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Smoker"
+	},
+	{
+		"key": "a Spider",
+		"value": "Ara\u00f1a"
+	},
+	{
+		"key": "a Witch",
+		"value": "Bruja"
+	},
+	{
+		"key": "an Undead",
+		"value": "Muerto viviente"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} ha cambiado su nombre por {str:NewName}"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} ha cambiado su nombre por {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} ha entrado y se ha unido a la partida"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -790,6 +856,26 @@
 		"value": "{str:PlayerName} pide que {str:VictimName} sea baneado ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} ha sido baneado ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} ha salido del juego"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} ha salido del juego"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} ha cambiado su nombre por {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} ha sido baneado ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName} ha sido infectado"
 	},
@@ -824,6 +910,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "Puede embobinar artilugios explosivos que impiden a los infectados da\u00f1ar."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Tambi\u00e9n puede infligir 1 punto de da\u00f1o por segundo al enganchar a humanos."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

@@ -190,7 +190,7 @@
 		"value": "Duch mo\u017ce zara\u017ca\u0107 ludzi i leczy\u0107 zara\u017conych swoim m\u0142otem."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Mo\u017ce r\u00f3wnie\u017c zabiera\u0107 1 punkt \u017cycia \u0142api\u0105c na hak ludzi."
 	},
 	{
@@ -330,6 +330,12 @@
 		"many": "{int:NumMines} min jest aktywnych",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"few": "",
+		"many": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "Prosz\u0119 poczekaj 5 minut przed utworzeniem nast\u0119pnego konta"
 	},
@@ -362,6 +368,10 @@
 	{
 		"key": "Scientist",
 		"value": "Naukowiec"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "Naukowiec mo\u017ce stawia\u0107 lataj\u0105ce miny swoim m\u0142otem."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -532,7 +542,17 @@
 		"value": "Czas istnienia \u015bciany to {sec:LifeSpan}, i \u015bciany s\u0105 limitowane. po jednaj na gracza, w jednym momencie."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"few": "",
+		"many": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "Nieumar\u0142y jest wreszcie martwy"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "Nieumar\u0142y jest wreszcie martwy"
 	},
 	{
@@ -622,6 +642,10 @@
 		"value": "Duch mo\u017ce zara\u017ca\u0107 ludzi i leczy\u0107 zara\u017conych swoim m\u0142otem."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "Duch mo\u017ce zara\u017ca\u0107 ludzi i leczy\u0107 zara\u017conych swoim m\u0142otem."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "Tryb sieci aktywowany"
 	},
@@ -639,6 +663,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "Wied\u017ama mo\u017ce zara\u017ca\u0107 lud\u017ai i leczy\u0107 zainfekowanych swoim m\u0142otem."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "Wied\u017ama mo\u017ce zara\u017ca\u0107 lud\u017ai i leczy\u0107 zainfekowanych swoim m\u0142otem."
 	},
 	{
@@ -752,12 +780,52 @@
 		"value": "Twoje konto zosta\u0142o utworzone i jeste\u015b zalogowany."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Wybuchacz"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Duch"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Ghul"
+	},
+	{
+		"key": "a Hunter",
+		"value": "\u0141owca"
+	},
+	{
+		"key": "a Slug",
+		"value": "\u015blimak"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Chwytacz"
+	},
+	{
+		"key": "a Spider",
+		"value": "Paj\u0105k"
+	},
+	{
+		"key": "a Witch",
+		"value": "Wied\u017ama"
+	},
+	{
+		"key": "an Undead",
+		"value": "Nieumar\u0142y"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} Zmieni\u0142 imi\u0119 na {str:NewName}"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} Zmieni\u0142 imi\u0119 na {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} Po\u0142\u0105czy\u0142 si\u0119 i jest gotowy do gry"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -800,6 +868,26 @@
 		"value": "{str:PlayerName} chce {str:VictimName} aby by\u0142 zbanowany ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} Zosta\u0142 zbanowany ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} Opu\u015bci\u0142 gr\u0119"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} Opu\u015bci\u0142 gr\u0119"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} Zmieni\u0142 imi\u0119 na {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} Zosta\u0142 zbanowany ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName} Zosta\u0142 zainfekowany"
 	},
@@ -834,6 +922,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "Mo\u017ce na\u0142adowa\u0107 pole ekslozji swoim m\u0142otem kt\u00f3re uniemo\u017cliwia zainfekowanym szkodzi\u0107."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Mo\u017ce r\u00f3wnie\u017c zabiera\u0107 1 punkt \u017cycia \u0142api\u0105c na hak ludzi."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

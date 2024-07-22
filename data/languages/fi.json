@@ -101,6 +101,10 @@
 		"value": "Haamu voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
 	{
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
+		"value": "H\u00e4m\u00e4h\u00e4kin koukku (molemmissa tiloissa) tekee yhden vahinkopisteen sekunnissa ja voi vet\u00e4\u00e4 ihmisen kahdessa sekunnissa."
+	},
+	{
 		"key": "It can infect humans and heal the infected with the hammer.",
 		"value": "Haamu voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
@@ -163,6 +167,11 @@
 		"other": "",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "Odota 5 minuuttia niin voit tehd\u00e4 toisen k\u00e4ytt\u00e4j\u00e4n"
 	},
@@ -182,6 +191,10 @@
 	{
 		"key": "Scientist",
 		"value": "Tutkija"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "H\u00e4m\u00e4h\u00e4kki voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
 	{
 		"key": "Scientists",
@@ -264,6 +277,11 @@
 		"value": "H\u00e4m\u00e4h\u00e4kki voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Their hammer is replaced with a katana, allowing them to dash {int:NinjaJump} times before touching the ground.",
 		"one": "",
 		"other": "",
@@ -297,11 +315,19 @@
 		"value": "Haamu voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "Haamu voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
+	},
+	{
 		"key": "Witch",
 		"value": "Noita"
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "Haamu voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "Haamu voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
 	{
@@ -402,8 +428,48 @@
 		"value": "Sinun k\u00e4ytt\u00e4j\u00e4 on tehty ja olet nyt liittynyt."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Pommi"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Haamu"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Aave"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Mets\u00e4st\u00e4j\u00e4"
+	},
+	{
+		"key": "a Slug",
+		"value": "Myrkytt\u00e4j\u00e4"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Savuttaja"
+	},
+	{
+		"key": "a Spider",
+		"value": "H\u00e4m\u00e4h\u00e4kki"
+	},
+	{
+		"key": "a Witch",
+		"value": "Noita"
+	},
+	{
+		"key": "an Undead",
+		"value": "Ep\u00e4kuollut"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} j\u00e4tti pelin ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} saapui ja liittyi peliin"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -444,6 +510,26 @@
 	{
 		"key": "{str:PlayerName} wants {str:VictimName} to be banned ({str:Reason})",
 		"value": "{str:PlayerName} haluaa {str:VictimName} bannit({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} on kielletty ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} j\u00e4tti pelin"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} j\u00e4tti pelin"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} j\u00e4tti pelin ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} on kielletty ({str:Reason})"
 	},
 	{
 		"key": "{str:VictimName} has been infected",

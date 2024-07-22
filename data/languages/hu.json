@@ -117,7 +117,7 @@
 		"value": "A szellem kalap\u00e1cs\u00e1val megfert\u0151zhet embereket, \u00e9s gy\u00f3gy\u00edthat zombikat."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Tov\u00e1bb\u00e1 m\u00e1sodpercenk\u00e9nt 1 ponttal sebzi az embereket, ha r\u00e1juk akaszkodik."
 	},
 	{
@@ -243,6 +243,11 @@
 		"other": "",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "K\u00e9rj\u00fck v\u00e1rj 5 percet miel\u0151tt l\u00e9trehozol egy m\u00e1sik felhaszn\u00e1l\u00f3t"
 	},
@@ -274,6 +279,10 @@
 	{
 		"key": "Scientist",
 		"value": "Tud\u00f3s"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "A tud\u00f3s fel\u00e1ll\u00edthat lebeg\u0151 akn\u00e1kat kalap\u00e1cs\u00e1val."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -408,7 +417,16 @@
 		"value": "A fal {sec:LifeSpan} m\u00falva megsemmis\u00fcl, \u00e9s egy m\u00e9rn\u00f6knek egyszerre csak egy fel\u00e1ll\u00edtott fala lehet."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "Az \u00e9l\u0151halott v\u00e9gre meghalt"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "Az \u00e9l\u0151halott v\u00e9gre meghalt"
 	},
 	{
@@ -477,6 +495,10 @@
 		"value": "A szellem kalap\u00e1cs\u00e1val megfert\u0151zhet embereket, \u00e9s gy\u00f3gy\u00edthat zombikat."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "A szellem kalap\u00e1cs\u00e1val megfert\u0151zhet embereket, \u00e9s gy\u00f3gy\u00edthat zombikat."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "H\u00e1l\u00f3 m\u00f3d bekapcsolva"
 	},
@@ -494,6 +516,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "A boszork\u00e1ny kalap\u00e1cs\u00e1val megfert\u0151zhet embereket, \u00e9s gy\u00f3gy\u00edthat zombikat."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "A boszork\u00e1ny kalap\u00e1cs\u00e1val megfert\u0151zhet embereket, \u00e9s gy\u00f3gy\u00edthat zombikat."
 	},
 	{
@@ -562,12 +588,44 @@
 		"other": "",
 	},
 	{
+		"key": "a Boomer",
+		"value": "Bomba"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Szellem"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Vad\u00e1sz"
+	},
+	{
+		"key": "a Smoker",
+		"value": "F\u00fcst\u00f6s"
+	},
+	{
+		"key": "a Spider",
+		"value": "P\u00f3k"
+	},
+	{
+		"key": "a Witch",
+		"value": "Boszork\u00e1ny"
+	},
+	{
+		"key": "an Undead",
+		"value": "\u00c9l\u0151halott"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} megv\u00e1ltoztatta nev\u00e9t {str:NewName}-ra"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} megv\u00e1ltoztatta nev\u00e9t {str:NewName}-ra"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} bel\u00e9pett, \u00e9s csatlakozott a j\u00e1t\u00e9khoz"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -606,6 +664,26 @@
 		"value": "{str:PlayerName} megv\u00e1ltoztatta nev\u00e9t {str:NewName}-ra"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName}-t letiltott\u00e1k ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} kil\u00e9pett a j\u00e1t\u00e9kb\u00f3l"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} kil\u00e9pett a j\u00e1t\u00e9kb\u00f3l"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} megv\u00e1ltoztatta nev\u00e9t {str:NewName}-ra"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName}-t letiltott\u00e1k ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName}-t megfert\u0151zt\u00e9k"
 	},
@@ -628,6 +706,10 @@
 	{
 		"key": "He can also inflict 4 damage points per second by hooking humans.",
 		"value": "Tov\u00e1bb\u00e1 m\u00e1sodpercenk\u00e9nt 4 ponttal sebzi az embereket, ha r\u00e1juk akaszkodik."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Tov\u00e1bb\u00e1 m\u00e1sodpercenk\u00e9nt 1 ponttal sebzi az embereket, ha r\u00e1juk akaszkodik."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

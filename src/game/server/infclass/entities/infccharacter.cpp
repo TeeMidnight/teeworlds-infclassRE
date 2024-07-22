@@ -630,6 +630,14 @@ bool CInfClassCharacter::TakeDamage(const vec2 &Force, float FloatDmg, int From,
 	GetClass()->OnCharacterDamage(&DamageContext);
 
 	const bool DmgFromHuman = pKillerPlayer && pKillerPlayer->IsHuman();
+	if(DmgFromHuman && GameController()->GetHumanEvent() == ERandomEvent::Brave)
+	{
+		if(Server()->Tick() - pKillerPlayer->m_LastActionMoveTick > 5)
+		{
+			Dmg = round_to_int(Dmg * 1.2f);
+		}
+	}
+
 	if(DmgFromHuman && (GetPlayerClass() == EPlayerClass::Soldier) && (Weapon == WEAPON_HAMMER))
 	{
 		// Soldier is immune to any traps force
@@ -1783,6 +1791,15 @@ void CInfClassCharacter::HandleWeaponsRegen()
 
 		if(Params.RegenInterval)
 		{
+			if(GameController()->GetHumanEvent() == ERandomEvent::Brave && Server()->Tick() - GetPlayer()->m_LastActionMoveTick > 5)
+			{
+				Params.RegenInterval = round_to_int(Params.RegenInterval * 0.75f);
+			}
+			if(GameController()->GetHumanEvent() == ERandomEvent::Storage && Server()->Tick() - GetPlayer()->m_LastActionMoveTick > 5)
+			{
+				Params.RegenInterval = round_to_int(Params.RegenInterval * 0.6f);
+			}
+
 			if (m_aWeapons[i].m_AmmoRegenStart < 0)
 				m_aWeapons[i].m_AmmoRegenStart = Server()->Tick();
 
@@ -2566,6 +2583,34 @@ void CInfClassCharacter::UpdateTuningParam()
 		NoHook = true;
 		NoControls = true;
 		NoGravity = true;
+	}
+
+	if(GameController()->GetGlobalEvent() == ERandomEvent::Disabling || GameController()->GetGlobalEvent() == ERandomEvent::Fear)
+	{
+		float Factor = 1.0f;
+		if(GameController()->GetGlobalEvent() == ERandomEvent::Disabling)
+			Factor = (float) m_Health / 5.f;
+		else
+			Factor += (float) (10 - m_Health) / 20.f;
+
+		pTuningParams->m_GroundControlSpeed = pTuningParams->m_GroundControlSpeed * Factor;
+		pTuningParams->m_AirControlSpeed = pTuningParams->m_AirControlSpeed * Factor;
+
+		pTuningParams->m_GroundJumpImpulse = pTuningParams->m_GroundJumpImpulse * Factor;
+		pTuningParams->m_AirJumpImpulse = pTuningParams->m_AirJumpImpulse * Factor;
+
+		pTuningParams->m_HookFireSpeed = pTuningParams->m_HookFireSpeed * Factor;
+		pTuningParams->m_HookDragAccel = pTuningParams->m_HookDragAccel * Factor;
+		pTuningParams->m_HookDragSpeed = pTuningParams->m_HookDragSpeed * Factor;
+	}
+
+	if(IsInfected())
+	{
+		if(GameController()->GetInfectedEvent() == ERandomEvent::Thief && m_Core.HookedPlayer() != -1)
+		{
+			pTuningParams->m_HookDragAccel = pTuningParams->m_HookDragAccel * 1.5f;
+			pTuningParams->m_HookDragSpeed = pTuningParams->m_HookDragSpeed * 1.5f;
+		}
 	}
 	
 	if(m_SlowMotionTick > 0)

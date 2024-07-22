@@ -189,7 +189,7 @@
 		"value": "O Fantasma pode infectar humanos e curar infectados com seu martelo."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Ele tamb\u00e9m causa 1 ponto de dano por segundo ao segurar humanos com seu gancho."
 	},
 	{
@@ -323,6 +323,11 @@
 		"other": "{int:NumMines} minas est\u00e3o ativas",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "Por favor espere 5 minutos antes de criar outra conta"
 	},
@@ -354,6 +359,10 @@
 	{
 		"key": "Scientist",
 		"value": "Cientista"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "O Cientista pode colocar minas com seu martelo."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -524,7 +533,16 @@
 		"value": "A dura\u00e7\u00e3o do muro \u00e9 de {sec:LifeSpan}, e cada jogador s\u00f3 pode ter um muro ativo por vez."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "O Morto Vivo finalmente morreu"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "O Morto Vivo finalmente morreu"
 	},
 	{
@@ -613,6 +631,10 @@
 		"value": "O Fantasma pode infectar humanos e curar infectados com seu martelo."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "O Fantasma pode infectar humanos e curar infectados com seu martelo."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "Modo Teia ativado"
 	},
@@ -630,6 +652,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "A Bruxa pode infectar humanos e curar infectados com seu martelo."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "A Bruxa pode infectar humanos e curar infectados com seu martelo."
 	},
 	{
@@ -742,12 +768,52 @@
 		"value": "Sua conta foi criada e agora voc\u00ea est\u00e1 logado."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Boomer"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Fantasma"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Canibal"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Ca\u00e7ador"
+	},
+	{
+		"key": "a Slug",
+		"value": "Lesma"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Smoker"
+	},
+	{
+		"key": "a Spider",
+		"value": "Aranha"
+	},
+	{
+		"key": "a Witch",
+		"value": "Bruxa"
+	},
+	{
+		"key": "an Undead",
+		"value": "Morto Vivo"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} mudou seu nome para {str:NewName}"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} mudou seu nome para {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} se conectou e entrou no jogo"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -790,6 +856,26 @@
 		"value": "{str:PlayerName} quer que {str:VictimName} seja banido ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} foi banido ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} saiu do jogo"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} saiu do jogo"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} mudou seu nome para {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} foi banido ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "{str:VictimName} foi infectado"
 	},
@@ -824,6 +910,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "Ele pode armar explosivos com seu martelo os quais impedem que os infectados causem dano temporariamente."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Ele tamb\u00e9m causa 1 ponto de dano por segundo ao segurar humanos com seu gancho."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

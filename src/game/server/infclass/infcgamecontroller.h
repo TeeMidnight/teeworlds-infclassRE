@@ -4,6 +4,7 @@
 #define GAME_SERVER_INFCLASS_GAMECONTROLLER_H
 
 #include <game/infclass/classes.h>
+#include <game/infclass/events.h>
 #include <game/server/gamecontroller.h>
 #include <game/server/teams.h>
 
@@ -134,6 +135,10 @@ public:
 	ERoundType GetRoundType() const;
 	void QueueRoundType(ERoundType RoundType);
 
+	ERandomEvent GetHumanEvent() const;
+	ERandomEvent GetInfectedEvent() const;
+	ERandomEvent GetGlobalEvent() const;
+
 	CLASS_AVAILABILITY GetPlayerClassAvailability(EPlayerClass PlayerClass, const CInfClassPlayer *pForPlayer = nullptr) const;
 	bool CanVote() override;
 
@@ -189,6 +194,9 @@ public:
 	int GetRoundTick() const;
 	int GetInfectionTick() const;
 	int GetInfectionStartTick() const;
+
+	static const char *GetEventName(ERandomEvent Event);
+	static const char *GetEventDisplayName(ERandomEvent Event);
 
 	static bool IsDefenderClass(EPlayerClass PlayerClass);
 	static bool IsSupportClass(EPlayerClass PlayerClass);
@@ -304,6 +312,7 @@ private:
 	void FormatHintMessage(const CHintMessage &Message, dynamic_string *pBuffer, const char *pLanguage) const;
 
 	void OnInfectionTriggered();
+	void ChooseRandomEvent();
 
 	void StartInfectionGameplay(int PlayersToInfect);
 
@@ -374,6 +383,10 @@ private:
 	bool m_MoreRoundsSuggested = false;
 
 	static int64_t m_LastTipTime;
+
+	ERandomEvent m_HumanEvent = ERandomEvent::Invalid;
+	ERandomEvent m_InfectedEvent = ERandomEvent::Invalid;
+	ERandomEvent m_GlobalEvent = ERandomEvent::None;
 };
 
 #endif

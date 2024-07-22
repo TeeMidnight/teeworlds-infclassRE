@@ -181,7 +181,7 @@
 		"value": "Ang Ghost ay kayang maka infect ng humans at makagamot ng mga infected gamit ang kanyang hammer."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Kaya nya rin na magbigay ng isang damage point kada segundo sa paghohohook ng mga tao."
 	},
 	{
@@ -315,6 +315,11 @@
 		"other": "{int:NumMines} mine ang active",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "Maghintay ng 5 minuto bago gumawa ng bagong account"
 	},
@@ -346,6 +351,10 @@
 	{
 		"key": "Scientist",
 		"value": "Scientist"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "Ang scientist ay kayang maglagay ng mga mine gamit ang kanyang hammer."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -516,7 +525,16 @@
 		"value": "Ang haba ng buhay ng mga pader ay {sec:LifeSpan}, at isa lamang ang pader nakayang magawa ng player sa parehas na panahon."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "Wala na ang undead"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "Wala na ang undead"
 	},
 	{
@@ -605,6 +623,10 @@
 		"value": "Ang Ghost ay kayang maka infect ng humans at makagamot ng mga infected gamit ang kanyang hammer."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "Ang Ghost ay kayang maka infect ng humans at makagamot ng mga infected gamit ang kanyang hammer."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "Ang hook ay nasa lagay ng sapot na"
 	},
@@ -622,6 +644,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "Ang witch ay kayang makainfect ng mga tao at gumamot ng infected gamit ang kanyang hammer."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "Ang witch ay kayang makainfect ng mga tao at gumamot ng infected gamit ang kanyang hammer."
 	},
 	{
@@ -730,12 +756,52 @@
 		"value": "Ang account mo ay nagawa na at ikaw ay naka log-in na."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Boomer"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Ghost"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Ghould"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Hunter"
+	},
+	{
+		"key": "a Slug",
+		"value": "Slug"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Smoker"
+	},
+	{
+		"key": "a Spider",
+		"value": "Spider"
+	},
+	{
+		"key": "a Witch",
+		"value": "Witch"
+	},
+	{
+		"key": "an Undead",
+		"value": "Undead"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} ay pumasok at sumama sa laro"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -778,6 +844,26 @@
 		"value": "Si {str:PlayerName} ay gustong maban si {str:VictimName} dahil ({str:Reason})"
 	},
 	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} ay naban dahil ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} ay umalis na"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} ay umalis na"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} ay naban dahil ({str:Reason})"
+	},
+	{
 		"key": "{str:VictimName} has been infected",
 		"value": "si {str:VictimName} ay isa nang infected"
 	},
@@ -812,6 +898,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "Kaya nyang mag lagay ng mga pasabog gamit ang kanyang hammer na pinipigil ang mga infected na makasakit."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Kaya nya rin na magbigay ng isang damage point kada segundo sa paghohohook ng mga tao."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

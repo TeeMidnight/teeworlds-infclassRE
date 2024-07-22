@@ -189,7 +189,7 @@
 		"value": "Hayalet, insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrebilir ve \u00e7ekiciyle vurarak zombileri iyile\u015ftirebilir."
 	},
 	{
-		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"key": "It can also inflict 1 damage point per second by hooking humans.",
 		"value": "Ayr\u0131ca kancayla insanlar\u0131 tuttu\u011fu her saniye 1 puan zarar verir."
 	},
 	{
@@ -323,6 +323,11 @@
 		"other": "{int:NumMines} say\u0131da may\u0131n aktif",
 	},
 	{
+		"key": "Placed a turret, {int:TurretsNumber} turrets left",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "Please wait 5 minutes before creating another account",
 		"value": "L\u00fctfen ba\u015fka bir hesap olu\u015fturmadan \u00f6nce 5 dakika bekleyin"
 	},
@@ -354,6 +359,10 @@
 	{
 		"key": "Scientist",
 		"value": "Bilim adam\u0131"
+	},
+	{
+		"key": "Scientist can rocket jump with the laser rifle.",
+		"value": "Bilim adam\u0131, \u00e7ekiciyle u\u00e7an may\u0131nlar kurabilir."
 	},
 	{
 		"key": "Scientist has also grenades that teleport them.",
@@ -524,7 +533,16 @@
 		"value": "Duvar\u0131n s\u00fcresi {sec:LifeSpan} kadard\u0131r ve her oyuncu ayn\u0131 anda birer duvar yapabilir."
 	},
 	{
+		"key": "The survival is over after {int:NumWaves} waves.",
+		"one": "",
+		"other": "",
+	},
+	{
 		"key": "The undead is finally dead",
+		"value": "Zombi nihayet \u00f6ld\u00fc"
+	},
+	{
+		"key": "The undead is finally dead.....?",
 		"value": "Zombi nihayet \u00f6ld\u00fc"
 	},
 	{
@@ -613,6 +631,10 @@
 		"value": "Hayalet, insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrebilir ve \u00e7ekiciyle vurarak zombileri iyile\u015ftirebilir."
 	},
 	{
+		"key": "Voodoo can unfreeze an Undead while in Spirit mode.",
+		"value": "Hayalet, insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrebilir ve \u00e7ekiciyle vurarak zombileri iyile\u015ftirebilir."
+	},
+	{
 		"key": "Web mode enabled",
 		"value": "A\u011f modu aktif"
 	},
@@ -630,6 +652,10 @@
 	},
 	{
 		"key": "Witch can infect humans and heal the infected with the hammer.",
+		"value": "Cad\u0131, insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrebilir ve \u00e7ekiciyle vurarak zombileri iyile\u015ftirebilir."
+	},
+	{
+		"key": "Witch can spawn the infected through narrow walls.",
 		"value": "Cad\u0131, insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrebilir ve \u00e7ekiciyle vurarak zombileri iyile\u015ftirebilir."
 	},
 	{
@@ -734,12 +760,52 @@
 		"value": "Hesab\u0131n\u0131z olu\u015fturuldu ve giri\u015f yapt\u0131n\u0131z."
 	},
 	{
+		"key": "a Boomer",
+		"value": "Patlay\u0131c\u0131"
+	},
+	{
+		"key": "a Ghost",
+		"value": "Hayalet"
+	},
+	{
+		"key": "a Ghoul",
+		"value": "Gulyabani"
+	},
+	{
+		"key": "a Hunter",
+		"value": "Avc\u0131"
+	},
+	{
+		"key": "a Slug",
+		"value": "S\u00fcm\u00fckl\u00fcb\u00f6cek"
+	},
+	{
+		"key": "a Smoker",
+		"value": "Dumanc\u0131"
+	},
+	{
+		"key": "a Spider",
+		"value": "\u00d6r\u00fcmcek"
+	},
+	{
+		"key": "a Witch",
+		"value": "Cad\u0131"
+	},
+	{
+		"key": "an Undead",
+		"value": "Zombi"
+	},
+	{
 		"key": "{str:PlayerName} changed the class to {str:ClassName}",
 		"value": "{str:PlayerName} ad\u0131n\u0131 {str:NewName} yapt\u0131"
 	},
 	{
 		"key": "{str:PlayerName} changed their name to {str:NewName}",
 		"value": "{str:PlayerName} ad\u0131n\u0131 {str:NewName} yapt\u0131"
+	},
+	{
+		"key": "{str:PlayerName} didn't survive in this round.",
+		"value": "{str:PlayerName} girdi ve oyuna kat\u0131ld\u0131"
 	},
 	{
 		"key": "{str:PlayerName} entered and joined the game",
@@ -760,6 +826,26 @@
 	{
 		"key": "{str:PlayerName} wants to start the vote '{str:VoteName}'",
 		"value": "{str:PlayerName} ad\u0131n\u0131 {str:NewName} yapt\u0131"
+	},
+	{
+		"key": "{str:PlayerName} was chopped up by {str:Killer}.",
+		"value": "{str:PlayerName} oyunu terk etti ({str:Reason})"
+	},
+	{
+		"key": "{str:PlayerName} was decapitated by {str:Killer}.",
+		"value": "{str:PlayerName} oyundan ayr\u0131ld\u0131"
+	},
+	{
+		"key": "{str:PlayerName} was destroyed by {str:Killer}.",
+		"value": "{str:PlayerName} oyundan ayr\u0131ld\u0131"
+	},
+	{
+		"key": "{str:PlayerName} was removed from this world by {str:Killer}.",
+		"value": "{str:PlayerName} ad\u0131n\u0131 {str:NewName} yapt\u0131"
+	},
+	{
+		"key": "{str:PlayerName} was slain by {str:Killer}.",
+		"value": "{str:PlayerName} oyunu terk etti ({str:Reason})"
 	},
 	{
 		"key": "{str:VictimName} has been infected",
@@ -792,6 +878,10 @@
 	{
 		"key": "He can coil explosives with his hammer that hinder infected from harming.",
 		"value": "\u00c7ekiciyle \u00e7e\u015fitli patlay\u0131c\u0131lar kurabilir ve uzaktan patlatabilir."
+	},
+	{
+		"key": "It can also inflict 1 damage point per second by hooking humans, which sucks their blood, restoring the Bat's health.",
+		"value": "Ayr\u0131ca kancayla insanlar\u0131 tuttu\u011fu her saniye 1 puan zarar verir."
 	},
 	{
 		"key": "Once taken, the flag gives 1 health point, 4 armor points, and full ammo to all humans, furthermore full health and armor to the hero.",

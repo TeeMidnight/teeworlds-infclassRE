@@ -5,6 +5,8 @@ bam
 /config.lua
 /datasrc/__pycache__
 /datasrc/*.pyc
+/datasrc/seven/__pycache__
+/datasrc/seven/*.pyc
 /objs
 src/game/generated
 /*.dll
@@ -22,5 +24,28 @@ src/game/generated
 /infclass_srv*
 /infclass_editor*
 /bin/server_d
+/Infclass-Server
+/map_convert_for_client
 
 /bin/GeoLite2-Country.mmdb
+
+/src/game/gversion.h
+
+build.ninja
+.ninja_deps
+.ninja_log
+CACHEDIR.TAG
+CMakeCache.txt
+CMakeFiles
+CMakeSettings*
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+cmake_install.cmake
+
+/dummy_map
+/map_diff
+/map_extract
+/unicode_confusables
+/uuid
+*.a
