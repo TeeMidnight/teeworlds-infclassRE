@@ -1039,6 +1039,26 @@ int CInfClassGameController::GetInfectionStartTick() const
 	return InfectionTick;
 }
 
+void CInfClassGameController::AshesEventCheck(int& Dmg, int From, EDamageType DamageType)
+{
+	if(GetInfectedEvent() != ERandomEvent::Ashes)
+		return;
+
+	CInfClassPlayerIterator<PLAYERITER_INGAME> Iter(GameServer()->m_apPlayers);
+	while(Iter.Next())
+	{
+		if(Iter.Player()->GetClass() == EPlayerClass::Undead)
+		{
+			if(Iter.Player()->GetCharacter() && !Iter.Player()->GetCharacter()->IsFrozen())
+			{
+				Dmg -= 1;
+				Iter.Player()->GetCharacter()->TakeDamage(vec2(0.f, -1.f), 1.f, From, DamageType);
+				return;
+			}
+		}
+	}
+}
+
 const char *CInfClassGameController::GetEventName(ERandomEvent Event)
 {
 	return toString(Event);

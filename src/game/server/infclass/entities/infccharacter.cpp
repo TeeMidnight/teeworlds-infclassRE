@@ -638,6 +638,11 @@ bool CInfClassCharacter::TakeDamage(const vec2 &Force, float FloatDmg, int From,
 		}
 	}
 
+	if(DmgFromHuman && IsInfected() && (GetPlayerClass() != EPlayerClass::Undead))
+	{
+		GameController()->AshesEventCheck(Dmg, From, DamageType);
+	}
+
 	if(DmgFromHuman && (GetPlayerClass() == EPlayerClass::Soldier) && (Weapon == WEAPON_HAMMER))
 	{
 		// Soldier is immune to any traps force
