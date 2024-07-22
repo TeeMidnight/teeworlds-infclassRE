@@ -2589,7 +2589,7 @@ void CInfClassCharacter::UpdateTuningParam()
 	{
 		float Factor = 1.0f;
 		if(GameController()->GetGlobalEvent() == ERandomEvent::Disabling)
-			Factor = (float) m_Health / 5.f;
+			Factor = (float) m_Health / 10.f;
 		else
 			Factor += (float) (10 - m_Health) / 20.f;
 

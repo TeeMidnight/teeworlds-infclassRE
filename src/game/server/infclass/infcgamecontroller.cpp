@@ -2611,20 +2611,27 @@ void CInfClassGameController::ChooseRandomEvent()
 		m_GlobalEvent = ERandomEvent::None;
 
 	/* send message of random event */
-	GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_SCORE, 
-		_("Human event '{str:EventName}' was chosen!"),
-		"EventName", GetEventDisplayName(m_HumanEvent),
-		nullptr);
-	GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_SCORE, 
-		_("Infected event '{str:EventName}' was chosen!"),
-		"EventName", GetEventDisplayName(m_InfectedEvent),
-		nullptr);
-	if(m_GlobalEvent != ERandomEvent::None)
+
+	for(auto &pPlayer : GameServer()->m_apPlayers)
 	{
-		GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_SCORE, 
-			_("Oops! Global event '{str:EventName}'!"),
-			"EventName", GetEventDisplayName(m_GlobalEvent),
-			nullptr);
+		if(pPlayer)
+		{
+			GameServer()->SendChatTarget_Localization(pPlayer->GetCID(), CHATCATEGORY_SCORE, 
+				_("Human event '{str:EventName}' was chosen!"),
+				"EventName", Server()->Localization()->Localize(pPlayer->GetLanguage(), GetEventDisplayName(m_HumanEvent)),
+				nullptr);
+			GameServer()->SendChatTarget_Localization(pPlayer->GetCID(), CHATCATEGORY_SCORE, 
+				_("Infected event '{str:EventName}' was chosen!"),
+				"EventName", Server()->Localization()->Localize(pPlayer->GetLanguage(), GetEventDisplayName(m_InfectedEvent)),
+				nullptr);
+			if(m_GlobalEvent != ERandomEvent::None)
+			{
+				GameServer()->SendChatTarget_Localization(pPlayer->GetCID(), CHATCATEGORY_SCORE, 
+					_("Oops! Global event '{str:EventName}'!"),
+					"EventName", Server()->Localization()->Localize(pPlayer->GetLanguage(), GetEventDisplayName(m_GlobalEvent)),
+					nullptr);
+			}
+		}
 	}
 }
 
