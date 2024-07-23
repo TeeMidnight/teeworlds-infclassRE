@@ -630,7 +630,7 @@ bool CInfClassCharacter::TakeDamage(const vec2 &Force, float FloatDmg, int From,
 	GetClass()->OnCharacterDamage(&DamageContext);
 
 	const bool DmgFromHuman = pKillerPlayer && pKillerPlayer->IsHuman();
-	if(DmgFromHuman && GameController()->GetHumanEvent() == ERandomEvent::Brave)
+	if(DmgFromHuman && IsInfected() && GameController()->GetHumanEvent() == ERandomEvent::Brave)
 	{
 		if(Server()->Tick() - pKillerPlayer->m_LastActionMoveTick > 5)
 		{
