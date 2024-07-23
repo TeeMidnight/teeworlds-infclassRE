@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 11:35+0800\n"
+"POT-Creation-Date: 2024-07-23 12:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1270,6 +1270,10 @@ msgstr ""
 msgid "Undead"
 msgstr ""
 
+#: src/game/server/infclass/infcgamecontroller.cpp:2512
+msgid "Undead ({int:Callers}/{int:RequiredCallers})"
+msgstr ""
+
 #: src/game/server/infclass/infcgamecontroller.cpp:128
 msgid ""
 "Undead can be removed from a game by throwing it into kill tiles or reviving "
@@ -1414,7 +1418,6 @@ msgid "Witch"
 msgstr ""
 
 #: src/game/server/infclass/infcgamecontroller.cpp:2406
-#: src/game/server/infclass/infcgamecontroller.cpp:2512
 msgid "Witch ({int:Callers}/{int:RequiredCallers})"
 msgstr ""
 

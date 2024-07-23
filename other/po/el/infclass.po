@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: teeuniverse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 11:35+0800\n"
+"POT-Creation-Date: 2024-07-23 12:16+0800\n"
 "PO-Revision-Date: 2017-07-31 15:23-0400\n"
 "Last-Translator: necropotame <necropotame@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -1260,6 +1260,10 @@ msgstr ""
 msgid "Undead"
 msgstr "Αθάνατος"
 
+#: src/game/server/infclass/infcgamecontroller.cpp:2512
+msgid "Undead ({int:Callers}/{int:RequiredCallers})"
+msgstr ""
+
 #: src/game/server/infclass/infcgamecontroller.cpp:128
 msgid "Undead can be removed from a game by throwing it into kill tiles or reviving it as a Medic."
 msgstr ""
@@ -1405,7 +1409,7 @@ msgstr "Τοίχος λέιζερ: {sec:RemainingTime} "
 msgid "Witch"
 msgstr "Μάγισσα"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2406 src/game/server/infclass/infcgamecontroller.cpp:2512
+#: src/game/server/infclass/infcgamecontroller.cpp:2406
 msgid "Witch ({int:Callers}/{int:RequiredCallers})"
 msgstr ""
 

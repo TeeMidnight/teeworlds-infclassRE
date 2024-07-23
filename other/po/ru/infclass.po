@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: infectiondust\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 11:35+0800\n"
+"POT-Creation-Date: 2024-07-23 12:16+0800\n"
 "PO-Revision-Date: 2022-08-14 19:54\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
@@ -1214,6 +1214,11 @@ msgstr ""
 msgid "Undead"
 msgstr "Бессмертный"
 
+#: src/game/server/infclass/infcgamecontroller.cpp:2512
+#, fuzzy
+msgid "Undead ({int:Callers}/{int:RequiredCallers})"
+msgstr "Санта ({int:Callers}/{int:RequiredCallers})"
+
 #: src/game/server/infclass/infcgamecontroller.cpp:128
 msgid "Undead can be removed from a game by throwing it into kill tiles or reviving it as a Medic."
 msgstr ""
@@ -1351,7 +1356,7 @@ msgstr "Белая дыра: {sec:RemainingTime}"
 msgid "Witch"
 msgstr "Ведьма"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2406 src/game/server/infclass/infcgamecontroller.cpp:2512
+#: src/game/server/infclass/infcgamecontroller.cpp:2406
 msgid "Witch ({int:Callers}/{int:RequiredCallers})"
 msgstr "Ведьма ({int:Callers}/{int:RequiredCallers})"
 

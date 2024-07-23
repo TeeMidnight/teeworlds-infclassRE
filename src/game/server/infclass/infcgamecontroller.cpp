@@ -2509,7 +2509,7 @@ void CInfClassGameController::ChatUndead(IConsole::IResult *pResult)
 		else if(m_UndeadCallers.Size() < REQUIRED_CALLERS_COUNT)
 		{
 			GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_DEFAULT,
-				_("Witch ({int:Callers}/{int:RequiredCallers})"),
+				_("Undead ({int:Callers}/{int:RequiredCallers})"),
 				"Callers", &PrintableCallers,
 				"RequiredCallers", &PrintableRequiredCallers,
 				nullptr);
