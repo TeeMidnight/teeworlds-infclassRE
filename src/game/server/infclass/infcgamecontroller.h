@@ -271,6 +271,9 @@ public:
 	static void ChatWitch(IConsole::IResult *pResult, void *pUserData);
 	void ChatWitch(IConsole::IResult *pResult);
 
+	static void ChatUndead(IConsole::IResult *pResult, void *pUserData);
+	void ChatUndead(IConsole::IResult *pResult);
+
 	using IGameController::GameServer;
 	CGameWorld *GameWorld();
 	IConsole *Console() const;
@@ -326,8 +329,10 @@ private:
 	int GetMinimumInfectedForPlayers(int PlayersNumber) const;
 
 	int GetClientIdForNewWitch() const;
+	int GetClientIdForNewUndead() const;
 	bool IsSafeWitchCandidate(int ClientID) const;
 	ClientsArray m_WitchCallers;
+	ClientsArray m_UndeadCallers;
 
 	struct PlayerScore
 	{

@@ -1562,6 +1562,8 @@ void CInfClassGameController::RegisterChatCommands(IConsole *pConsole)
 
 	pConsole->Register("witch", "", CFGFLAG_CHAT, ChatWitch, this, "Call Witch");
 	pConsole->Register("santa", "", CFGFLAG_CHAT, ChatWitch, this, "Call the Santa");
+
+	pConsole->Register("undead", "", CFGFLAG_CHAT, ChatUndead, this, "Call the Undead");
 }
 
 void CInfClassGameController::ConRestoreClientName(IConsole::IResult *pResult, void *pUserData)
@@ -2401,6 +2403,95 @@ void CInfClassGameController::ChatWitch(IConsole::IResult *pResult)
 		}
 
 		m_WitchCallers.Clear();
+	}
+}
+
+void CInfClassGameController::ChatUndead(IConsole::IResult *pResult, void *pUserData)
+{
+	CInfClassGameController *pSelf = (CInfClassGameController *)pUserData;
+	pSelf->ChatUndead(pResult);
+}
+
+void CInfClassGameController::ChatUndead(IConsole::IResult *pResult)
+{
+	int ClientID = pResult->GetClientID();
+	const int REQUIRED_CALLERS_COUNT = 3;
+	const int MIN_ZOMBIES = 2;
+
+	Console()->Print(IConsole::OUTPUT_LEVEL_DEBUG, "conundead", "ChatUndead() called");
+
+	if(GetInfectedCount(EPlayerClass::Undead))
+	{
+		GameServer()->SendChatTarget_Localization(ClientID, CHATCATEGORY_DEFAULT, _("The Undead is already here"), nullptr);
+		return;
+	}
+
+	int Humans = 0;
+	int Infected = 0;
+	GetPlayerCounter(-1, Humans, Infected);
+
+	if(Humans + Infected < REQUIRED_CALLERS_COUNT)
+	{
+		GameServer()->SendChatTarget_Localization(ClientID, CHATCATEGORY_DEFAULT, _("Too few players to call a undead"), nullptr);
+		return;
+	}
+	if(Infected < MIN_ZOMBIES)
+	{
+		GameServer()->SendChatTarget_Localization(ClientID, CHATCATEGORY_DEFAULT, _("Too few infected to call a undead"), nullptr);
+		return;
+	}
+
+	// It is possible that we had the needed callers but undead already was there.
+	// In that case even if the caller is already in the list, we still want to spawn
+	// a new one without a message to the caller.
+	if(m_UndeadCallers.Size() < REQUIRED_CALLERS_COUNT)
+	{
+		if(m_UndeadCallers.Contains(ClientID))
+		{
+			GameServer()->SendChatTarget_Localization(ClientID, CHATCATEGORY_DEFAULT, _("You can't call undead twice"), nullptr);
+			return;
+		}
+
+		m_UndeadCallers.Add(ClientID);
+
+		int PrintableRequiredCallers = REQUIRED_CALLERS_COUNT;
+		int PrintableCallers = m_UndeadCallers.Size();
+		if(m_UndeadCallers.Size() == 1)
+		{
+			GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_DEFAULT,
+				_("{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead"),
+				"PlayerName", Server()->ClientName(ClientID),
+				"RequiredCallers", &PrintableRequiredCallers,
+				nullptr);
+		}
+		else if(m_UndeadCallers.Size() < REQUIRED_CALLERS_COUNT)
+		{
+			GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_DEFAULT,
+				_("Witch ({int:Callers}/{int:RequiredCallers})"),
+				"Callers", &PrintableCallers,
+				"RequiredCallers", &PrintableRequiredCallers,
+				nullptr);
+		}
+	}
+
+	if(m_UndeadCallers.Size() >= REQUIRED_CALLERS_COUNT)
+	{
+		int UndeadId = GetClientIdForNewUndead();
+		if(UndeadId < 0)
+		{
+			GameServer()->SendChatTarget_Localization(ClientID, CHATCATEGORY_DEFAULT,
+				_("The Undead is already here"),
+				nullptr);
+		}
+		else
+		{
+			GameServer()->SendChatTarget_Localization(-1, CHATCATEGORY_DEFAULT,
+				_("Undead {str:PlayerName} has arrived!"),
+				"PlayerName", Server()->ClientName(UndeadId),
+				nullptr);
+		}
+
+		m_UndeadCallers.Clear();
 	}
 }
 
@@ -3266,6 +3357,55 @@ int CInfClassGameController::GetClientIdForNewWitch() const
 	CInfClassPlayer *pPlayer = GetPlayer(Candidates[id]);
 	pPlayer->SetClass(EPlayerClass::Witch);
 	return Candidates[id];
+}
+
+int CInfClassGameController::GetClientIdForNewUndead() const
+{
+	ClientsArray Infected;
+
+	for(int ClientID : m_UndeadCallers)
+	{
+		CInfClassPlayer *pPlayer = GetPlayer(ClientID);
+		if(!pPlayer || !pPlayer->IsInGame())
+			continue;
+		// although impossible in normal game, but still check
+		if(pPlayer->GetClass() == EPlayerClass::Undead)
+			continue;
+		if(!pPlayer->IsInfected())
+			continue;
+
+		Infected.Add(ClientID);
+	}
+
+	if(Infected.IsEmpty())
+	{
+		// fallback
+		for(int ClientID = 0; ClientID < MAX_CLIENTS; ClientID++)
+		{
+			CInfClassPlayer *pPlayer = GetPlayer(ClientID);
+			if(!pPlayer || !pPlayer->IsInGame())
+				continue;
+			// although impossible in normal game, but still check
+			if(pPlayer->GetClass() == EPlayerClass::Undead)
+				continue;
+			if(!pPlayer->IsInfected())
+				continue;
+
+			Infected.Add(ClientID);
+		}
+	}
+
+	if(Infected.IsEmpty())
+	{
+		Console()->Print(IConsole::OUTPUT_LEVEL_DEBUG, "undead", "Unable to find any infected player");
+		return -1;
+	}
+
+	int id = random_int(0, Infected.Size() - 1);
+	/* /debug */
+	CInfClassPlayer *pPlayer = GetPlayer(Infected[id]);
+	pPlayer->SetClass(EPlayerClass::Undead);
+	return Infected[id];
 }
 
 bool CInfClassGameController::IsSafeWitchCandidate(int ClientID) const
