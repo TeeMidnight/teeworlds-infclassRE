@@ -505,6 +505,10 @@
 		"value": "Imbes na mamatay, siya ay hindi pwedeng makagalaw sa loob ng 10 segundo."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Wala na ang undead"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "Ang witch ay patay na"
 	},
@@ -563,7 +567,15 @@
 		"value": "Ang panglan na ito ay nakuha na"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
 	},
 	{
@@ -577,6 +589,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Ang undead ay kayang maka infect ng mga tao at maggamot ng infected gamit ang kanyang hammer."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} ay umalis na"
 	},
 	{
 		"key": "Undeads",

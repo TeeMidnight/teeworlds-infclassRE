@@ -522,6 +522,10 @@
 		"value": "Zamiast umiera\u0107, zostaje zamro\u017cony na 10 sekund."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Nieumar\u0142y jest wreszcie martwy"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "Wied\u017ama nie \u017cyje "
 	},
@@ -582,7 +586,15 @@
 		"value": "Nazwa u\u017cytkownika jest zaj\u0119ta przez istniej\u0105ce konto"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Celem zara\u017conych jest zainfekowa\u0107 ludzi."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Celem zara\u017conych jest zainfekowa\u0107 ludzi."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Celem zara\u017conych jest zainfekowa\u0107 ludzi."
 	},
 	{
@@ -596,6 +608,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Nieumar\u0142y mo\u017ce zara\u017ca\u0107 ludzi i leczy\u0107 zara\u017conych swoim m\u0142otem."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} Opu\u015bci\u0142 gr\u0119"
 	},
 	{
 		"key": "Undeads",

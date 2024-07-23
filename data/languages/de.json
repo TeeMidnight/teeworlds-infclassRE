@@ -689,6 +689,10 @@
 		"value": "Untote k\u00f6nnen nicht sterben, sondern werden f\u00fcr 10 Sekunden eingefroren."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Santa ist bereits hier."
+	},
+	{
 		"key": "The Voodoo does not die immediately when killed but instead enters Spirit mode for a short time.",
 		"value": "Der Voodoo stirbt nicht sofort, wenn er get\u00f6tet wird, sondern ist f\u00fcr kurze Zeit in einem geistlichen Modus."
 	},
@@ -831,11 +835,19 @@
 		"value": "Zu wenig Erkrankte (weniger als {int:MinimumInfected})"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Zu wenig Erkrankte, um Santa zu beschw\u00f6ren"
+	},
+	{
 		"key": "Too few infected to call a witch",
 		"value": "Zu wenig Erkrankte, um eine Hexe zu beschw\u00f6ren"
 	},
 	{
 		"key": "Too few infected to call the Santa",
+		"value": "Zu wenig Erkrankte, um Santa zu beschw\u00f6ren"
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Zu wenig Erkrankte, um Santa zu beschw\u00f6ren"
 	},
 	{
@@ -889,6 +901,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Der Untote kann unter Verwendung seines Hammers entweder Erkrankte heilen oder \u00dcberlebende anstecken."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "Santa {str:PlayerName} ist eingetroffen!"
 	},
 	{
 		"key": "Undeads",
@@ -1049,6 +1065,10 @@
 	{
 		"key": "You can change the language of this mod using the command /language.",
 		"value": "Du kannst die Sprache dieser Mod vermittels des Befehls /language wechseln."
+	},
+	{
+		"key": "You can't call undead twice",
+		"value": "Die Hexe kann nicht zweimal gerufen werden"
 	},
 	{
 		"key": "You can't call witch twice",
@@ -1229,6 +1249,10 @@
 	},
 	{
 		"key": "{str:PlayerName} is calling for Santa! (1/{int:RequiredCallers}) To call the Santa write: /santa",
+		"value": "{str:PlayerName} ruft nach Santa! (1/{int:RequiredCallers}) Um den Weihnachtsmann zu rufen: /santa"
+	},
+	{
+		"key": "{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead",
 		"value": "{str:PlayerName} ruft nach Santa! (1/{int:RequiredCallers}) Um den Weihnachtsmann zu rufen: /santa"
 	},
 	{

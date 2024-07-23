@@ -100,6 +100,10 @@
 		"value": "\u9009\u62e9\u4f60\u7684\u804c\u4e1a"
 	},
 	{
+		"key": "Christmas",
+		"value": "\u5723\u8bde\u964d\u4e34"
+	},
+	{
 		"key": "Class {str:ClassName} will be automatically attributed to you when round starts",
 		"value": "\u6e38\u620f\u5f00\u59cb\u65f6\u4f1a\u81ea\u52a8\u9009\u62e9\u968f\u673a\u804c\u4e1a"
 	},
@@ -712,6 +716,10 @@
 		"value": "\u4e0d\u6b7b\u65cf\u4e0d\u4f1a\u6b7b\u4ea1\uff0c\u800c\u662f\u88ab\u51bb\u7ed3 10 \u79d2\u3002"
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "\u4e0d\u6b7b\u65cf\u5df2\u7ecf\u5728\u8fd9\u91cc"
+	},
+	{
 		"key": "The Voodoo does not die immediately when killed but instead enters Spirit mode for a short time.",
 		"value": "\u5deb\u6bd2\u8005\u4e0d\u4f1a\u5728\u88ab\u6740\u6b7b\u65f6\u7acb\u523b\u6b7b\u4ea1\u800c\u662f\u8fdb\u5165\u77ed\u6682\u7684\u5deb\u6bd2\u72b6\u6001"
 	},
@@ -797,7 +805,7 @@
 	},
 	{
 		"key": "The undead is finally dead.....?",
-		"value": "\u4e0d\u6b7b\u65cf\u6700\u7ec8\u8fd8\u662f\u6b7b\u4e86"
+		"value": "\u4e0d\u6b7b\u65cf\u6700\u7ec8\u8fd8\u662f\u6b7b\u4e86...\u5417?"
 	},
 	{
 		"key": "The web hook mode can be toggled by switching the weapon.",
@@ -856,12 +864,20 @@
 		"value": "\u611f\u67d3\u8005\u592a\u5c11\u4e86\uff08\u5c0f\u4e8e {int:MinimumInfected}\u4e2a\uff09"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "\u611f\u67d3\u8005\u592a\u5c11\uff0c\u4e0d\u80fd\u53ec\u5524\u4e0d\u6b7b\u65cf"
+	},
+	{
 		"key": "Too few infected to call a witch",
 		"value": "\u611f\u67d3\u8005\u592a\u5c11\uff0c\u4e0d\u80fd\u53ec\u5524\u5973\u5deb"
 	},
 	{
 		"key": "Too few infected to call the Santa",
 		"value": "\u611f\u67d3\u8005\u592a\u5c11\uff0c\u4e0d\u80fd\u53ec\u5524\u5723\u8bde\u8001\u4eba"
+	},
+	{
+		"key": "Too few players to call a undead",
+		"value": "\u73a9\u5bb6\u592a\u5c11\uff0c\u4e0d\u80fd\u53ec\u5524\u4e0d\u6b7b\u65cf"
 	},
 	{
 		"key": "Too few players to call a witch",
@@ -914,6 +930,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "\u4e0d\u6b7b\u65cf\u53ef\u4ee5\u7528\u9524\u5b50\u611f\u67d3\u4eba\u7c7b\u6216\u6cbb\u7597\u611f\u67d3\u3002"
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "\u4e0d\u6b7b\u65cf{str:PlayerName}\u5df2\u7ecf\u5230\u8fbe"
 	},
 	{
 		"key": "Undeads",
@@ -1074,6 +1094,10 @@
 	{
 		"key": "You can change the language of this mod using the command /language.",
 		"value": "\u4f60\u53ef\u4ee5\u4f7f\u7528\u547d\u4ee4 /language \u5207\u6362\u6b64 mod \u7684\u8bed\u8a00\u3002"
+	},
+	{
+		"key": "You can't call undead twice",
+		"value": "\u4f60\u4e0d\u80fd\u91cd\u590d\u53ec\u5524\u4e0d\u6b7b\u65cf"
 	},
 	{
 		"key": "You can't call witch twice",
@@ -1254,6 +1278,10 @@
 	{
 		"key": "{str:PlayerName} is calling for Santa! (1/{int:RequiredCallers}) To call the Santa write: /santa",
 		"value": "{str:PlayerName} \u6b63\u5728\u53ec\u5524\u5723\u8bde\u8001\u4eba\uff01\uff081/{int:RequiredCallers}\uff09\u8981\u53ec\u5524\u5723\u8bde\u8001\u4eba\u8f93\u5165\uff1a/witch"
+	},
+	{
+		"key": "{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead",
+		"value": "{str:PlayerName} \u6b63\u5728\u53ec\u5524\u4e0d\u6b7b\u65cf\uff01\uff081/{int:RequiredCallers}\uff09\u8981\u53ec\u5524\u4e0d\u6b7b\u65cf\u8f93\u5165\uff1a/undead"
 	},
 	{
 		"key": "{str:PlayerName} is calling for Witch! (1/{int:RequiredCallers}) To call witch write: /witch",

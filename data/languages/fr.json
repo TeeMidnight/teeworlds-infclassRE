@@ -513,6 +513,10 @@
 		"value": "\u00c0 la place de mourir, illes sont gel\u00e9\u00b7e\u00b7s pendant 10 secondes."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Un\u00b7e Invincible a disparu"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "Un\u00b7e Sorcier\u00b7i\u00e8re a disparu"
 	},
@@ -571,7 +575,15 @@
 		"value": "Ce nom d'utilisateur est d\u00e9j\u00e0 pris par un compte existant"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Le but des infect\u00e9\u00b7e\u00b7s est d'infecter toutes les humaines et les humains."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Le but des infect\u00e9\u00b7e\u00b7s est d'infecter toutes les humaines et les humains."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Le but des infect\u00e9\u00b7e\u00b7s est d'infecter toutes les humaines et les humains."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Les Invincibles peuvent infecter les humain\u00b7e\u00b7s et soigner les infect\u00e9\u00b7e\u00b7s \u00e0 l'aide de leur marteau."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} a quitt\u00e9 la partie"
 	},
 	{
 		"key": "Undeads",

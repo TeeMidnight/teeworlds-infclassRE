@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: teeuniverse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-22 13:54+0800\n"
+"POT-Creation-Date: 2024-07-23 11:35+0800\n"
 "PO-Revision-Date: 2017-07-31 15:23-0400\n"
 "Last-Translator: necropotame <necropotame@gmail.com>\n"
 "Language-Team: Persian\n"
@@ -30,7 +30,7 @@ msgctxt "Scientist"
 msgid "A lucky Scientist devoted to killing can get a white hole that sucks the infected in which can be placed with the laser rifle."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1657
+#: src/game/server/infclass/infcgamecontroller.cpp:1721
 #, fuzzy
 msgid "A random class will be automatically attributed to you when round starts"
 msgstr "انتخاب خودکار نقش در ابتدای بازی بطور خودکار یک نقش برای شما انتخاب می کند"
@@ -46,7 +46,7 @@ msgstr "تمامی انسان های نزدیک به او تحت تأثیر ان
 msgid "All players start as a human."
 msgstr "همه ی بازیکن ها در نقش انسان بازی را آغاز می کنند."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2259 src/game/server/infclass/infcgamecontroller.cpp:2363
+#: src/game/server/infclass/infcgamecontroller.cpp:2323 src/game/server/infclass/infcgamecontroller.cpp:2427
 msgid "All witches are already here"
 msgstr ""
 
@@ -58,7 +58,7 @@ msgstr "مشکلی در ساخت حساب شما رخ داد"
 msgid "An error occured during the operation."
 msgstr "خطایی در عملیات رخ داده."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1059
+#: src/game/server/infclass/infcgamecontroller.cpp:1119
 msgctxt "Events"
 msgid "Ashes"
 msgstr ""
@@ -75,7 +75,7 @@ msgstr "زبان های در دسترس: {str:ListOfLanguage}"
 msgid "Based on the concept of Infection mod by Gravity"
 msgstr "پایه ریزی شده بر روی مد ویروس اولیه توسط Gravity"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1240
+#: src/game/server/infclass/infcgamecontroller.cpp:1302
 msgid "Bat"
 msgstr ""
 
@@ -89,11 +89,11 @@ msgctxt "Bat"
 msgid "Bat can jump endlessly in the air but it cannot infect humans."
 msgstr "افراد ویروسی باید همه ی انسان ها را ویروسی کنند"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1337
+#: src/game/server/infclass/infcgamecontroller.cpp:1399
 msgid "Bats"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1229
+#: src/game/server/infclass/infcgamecontroller.cpp:1291
 msgid "Biologist"
 msgstr "زیست شناس"
 
@@ -101,12 +101,12 @@ msgstr "زیست شناس"
 msgid "Biologist's bouncy shotgun can be used to hit the infected around corners."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1326
+#: src/game/server/infclass/infcgamecontroller.cpp:1388
 #, fuzzy
 msgid "Biologists"
 msgstr "زیست شناس"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1236
+#: src/game/server/infclass/infcgamecontroller.cpp:1298
 msgid "Boomer"
 msgstr "عامل انتحاری"
 
@@ -114,12 +114,12 @@ msgstr "عامل انتحاری"
 msgid "Boomer can infect through narrow walls."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1333
+#: src/game/server/infclass/infcgamecontroller.cpp:1395
 #, fuzzy
 msgid "Boomers"
 msgstr "عامل انتحاری"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1054
+#: src/game/server/infclass/infcgamecontroller.cpp:1114
 msgctxt "Events"
 msgid "Brave"
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Choose a help page with /help <page>"
 msgstr "برای انتخاب صفحه ی راهنما از /help <شماره ی صفحه> استفاده کنید"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1664
+#: src/game/server/infclass/entities/infccharacter.cpp:1669
 msgid "Choose your class"
 msgstr "کلاس خود را انتخاب کن"
 
@@ -144,7 +144,12 @@ msgstr "کلاس خود را انتخاب کن"
 msgid "Choosing a random class grants full armor."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1670
+#: src/game/server/infclass/infcgamecontroller.cpp:1126
+msgctxt "Events"
+msgid "Christmas"
+msgstr ""
+
+#: src/game/server/infclass/infcgamecontroller.cpp:1734
 #, fuzzy
 msgid "Class {str:ClassName} will be automatically attributed to you when round starts"
 msgstr "انتخاب خودکار نقش در ابتدای بازی بطور خودکار یک نقش برای شما انتخاب می کند"
@@ -154,7 +159,7 @@ msgstr "انتخاب خودکار نقش در ابتدای بازی بطور خ�
 msgid "Create an account on Crowdin and join the translation team:"
 msgstr "یک اکانت در Crowdin بسازید و در تیم ترجمه عضو شوید:"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1062
+#: src/game/server/infclass/infcgamecontroller.cpp:1122
 msgctxt "Events"
 msgid "Disabling"
 msgstr ""
@@ -171,11 +176,11 @@ msgid_plural "Each bomb can explode {int:NumBombs} times."
 msgstr[0] "هر بمب می تواند یک بار منفجر شود."
 msgstr[1] "هر بمب می تواند {int:NumBombs} بار منفجر شود."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1219
+#: src/game/server/infclass/infcgamecontroller.cpp:1281
 msgid "Engineer"
 msgstr "مهندس"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1316
+#: src/game/server/infclass/infcgamecontroller.cpp:1378
 #, fuzzy
 msgid "Engineers"
 msgstr "مهندس"
@@ -199,21 +204,21 @@ msgstr "میزان عملکرد مواد منفجره: {percent:BombLevel}"
 msgid "Fast round"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1064
+#: src/game/server/infclass/infcgamecontroller.cpp:1124
 msgctxt "Events"
 msgid "Fear"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1242
+#: src/game/server/infclass/infcgamecontroller.cpp:1304
 msgid "Ghost"
 msgstr "روح"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1339
+#: src/game/server/infclass/infcgamecontroller.cpp:1401
 #, fuzzy
 msgid "Ghosts"
 msgstr "روح"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1246
+#: src/game/server/infclass/infcgamecontroller.cpp:1308
 msgid "Ghoul"
 msgstr "غول"
 
@@ -223,7 +228,7 @@ msgctxt "Ghoul"
 msgid "Ghoul can infect humans and heal the infected with the hammer."
 msgstr "غول می تواند به وسیله ی چکش انسان ها را ویروسی کند و به دیگر ویروسی ها سلامتی بدهد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1343
+#: src/game/server/infclass/infcgamecontroller.cpp:1405
 #, fuzzy
 msgid "Ghouls"
 msgstr "غول"
@@ -237,7 +242,7 @@ msgctxt "Medic"
 msgid "Grenades with medicine give armor to everybody in their range, including Heroes and the Medic themself."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1217
+#: src/game/server/infclass/infcgamecontroller.cpp:1279
 msgid "Hero"
 msgstr "قهرمان"
 
@@ -253,7 +258,7 @@ msgstr ""
 msgid "Hero's turrets are great for detecting Ghosts."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1314
+#: src/game/server/infclass/infcgamecontroller.cpp:1376
 #, fuzzy
 msgid "Heroes"
 msgstr "قهرمان"
@@ -275,11 +280,11 @@ msgstr "نحوه ی ترجمه ی مود"
 msgid "How to use taxi mode"
 msgstr "نحوه ی ترجمه ی مود"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2615
+#: src/game/server/infclass/infcgamecontroller.cpp:2773
 msgid "Human event '{str:EventName}' was chosen!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1238
+#: src/game/server/infclass/infcgamecontroller.cpp:1300
 msgid "Hunter"
 msgstr "شکارچی"
 
@@ -287,7 +292,7 @@ msgstr "شکارچی"
 msgid "Hunter receives no knockback from Medic's shotgun."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1335
+#: src/game/server/infclass/infcgamecontroller.cpp:1397
 #, fuzzy
 msgid "Hunters"
 msgstr "شکارچی"
@@ -322,15 +327,15 @@ msgstr ""
 msgid "In the fast rounds *more* humans become infected initially, the spawning rate is increased and the round time limit is decreased. White hole is also disabled."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2619
+#: src/game/server/infclass/infcgamecontroller.cpp:2777
 msgid "Infected event '{str:EventName}' was chosen!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3638
+#: src/game/server/infclass/infcgamecontroller.cpp:3846
 msgid "Infected won the round in {sec:RoundDuration}"
 msgstr "زامبی ها برنده این راند شدند در {sec:RoundDuration}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3654
+#: src/game/server/infclass/infcgamecontroller.cpp:3862
 #, fuzzy
 msgid "Infection is coming in {sec:RemainingTime}"
 msgstr "{sec:RemainingTime} تا ظاهر شدن پرجم بعدی"
@@ -456,7 +461,7 @@ msgstr "دیوار لیزری: {sec:RemainingTime}"
 msgid "List of commands"
 msgstr "لیست دستورات"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1231
+#: src/game/server/infclass/infcgamecontroller.cpp:1293
 msgid "Looper"
 msgstr ""
 
@@ -465,7 +470,7 @@ msgstr ""
 msgid "Looper laser wall: {sec:RemainingTime}"
 msgstr "دیوار لیزری: {sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1328
+#: src/game/server/infclass/infcgamecontroller.cpp:1390
 msgid "Loopers"
 msgstr ""
 
@@ -477,7 +482,7 @@ msgstr "همکاران اصلی: {str:ListOfContributors}"
 msgid "Matrix room: {str:Url}"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1215
+#: src/game/server/infclass/infcgamecontroller.cpp:1277
 msgid "Medic"
 msgstr "پزشک"
 
@@ -499,17 +504,17 @@ msgstr ""
 msgid "Medic {str:MedicName} revived {str:RevivedName}"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1312
+#: src/game/server/infclass/infcgamecontroller.cpp:1374
 #, fuzzy
 msgid "Medics"
 msgstr "پزشک"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1310
+#: src/game/server/infclass/infcgamecontroller.cpp:1372
 #, fuzzy
 msgid "Mercenaries"
 msgstr "مزدور"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1213
+#: src/game/server/infclass/infcgamecontroller.cpp:1275
 msgid "Mercenary"
 msgstr "مزدور"
 
@@ -543,7 +548,7 @@ msgid_plural "Mines are limited to {int:NumMines} per player at the same time."
 msgstr[0] "تعداد مین های همزمان {int:NumMines} عدد است."
 msgstr[1] "تعداد مین های همزمان {int:NumMines} عدد است."
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1704
+#: src/game/server/infclass/entities/infccharacter.cpp:1709
 msgid "Need at least {int:MinPlayers} player"
 msgid_plural "Need at least {int:MinPlayers} players"
 msgstr[0] ""
@@ -559,7 +564,7 @@ msgctxt "Ninja"
 msgid "Next target in {sec:RemainingTime}"
 msgstr "هدف بعدی در {sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1223
+#: src/game/server/infclass/infcgamecontroller.cpp:1285
 msgid "Ninja"
 msgstr "نینجا"
 
@@ -583,7 +588,7 @@ msgstr ""
 msgid "Ninja's slash deals 9 damage by default. One more pistol shot will kill an infected with no armor."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1320
+#: src/game/server/infclass/infcgamecontroller.cpp:1382
 #, fuzzy
 msgid "Ninjas"
 msgstr "نینجا"
@@ -592,7 +597,7 @@ msgstr "نینجا"
 msgid "No player was found with this name"
 msgstr "هیچ بازیکنی با این نام پیدا نشد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1068
+#: src/game/server/infclass/infcgamecontroller.cpp:1130
 msgctxt "Events"
 msgid "Nothing"
 msgstr ""
@@ -605,7 +610,7 @@ msgid_plural "{int:NumBombs} bombs left"
 msgstr[0] "{sec: RemainingTime} بمب باقی مانده"
 msgstr[1] "{int:NumBombs} بمب باقی مانده"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3613
+#: src/game/server/infclass/infcgamecontroller.cpp:3821
 msgid "One human won the round"
 msgid_plural "{int:NumHumans} humans won the round"
 msgstr[0] "{int:NumHumans} انسان ها برنده راند شدند"
@@ -617,7 +622,7 @@ msgid_plural "{int:NumMines} mines are active"
 msgstr[0] "{int:NumMines} مین فعال هستند"
 msgstr[1] "{int:NumMines} مین فعال هستند"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2625
+#: src/game/server/infclass/infcgamecontroller.cpp:2783
 msgid "Oops! Global event '{str:EventName}'!"
 msgstr ""
 
@@ -625,13 +630,13 @@ msgstr ""
 msgid "Persistent player mute"
 msgstr ""
 
-#: src/game/server/infclass/classes/humans/human.cpp:1919
+#: src/game/server/infclass/classes/humans/human.cpp:1922
 msgid "Placed a turret, {int:TurretsNumber} turret left"
 msgid_plural "Placed a turret, {int:TurretsNumber} turrets left"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3400
+#: src/game/server/infclass/infcgamecontroller.cpp:3608
 msgid "Play more on this map"
 msgstr ""
 
@@ -649,7 +654,7 @@ msgstr "قفل شدن در مکان: {sec:RemainingTime}"
 msgid "Press <F3> or <F4> to enable or disable hook protection"
 msgstr "<F3> یا <F4> را برای فعال یا غیر فعال کردن محافظت زنجیر فشار دهید"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1675
+#: src/game/server/infclass/entities/infccharacter.cpp:1680
 msgid "Random choice"
 msgstr "انتخاب تصادفی"
 
@@ -664,16 +669,16 @@ msgstr[1] ""
 msgid "Rules of the game"
 msgstr "قوانین بازی"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2334
+#: src/game/server/infclass/infcgamecontroller.cpp:2398
 msgid "Santa ({int:Callers}/{int:RequiredCallers})"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2371
+#: src/game/server/infclass/infcgamecontroller.cpp:2435
 #, fuzzy
 msgid "Santa {str:PlayerName} has arrived!"
 msgstr "{str:PlayerName} بازی را ترک کرد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1227
+#: src/game/server/infclass/infcgamecontroller.cpp:1289
 msgid "Scientist"
 msgstr "دانشمند"
 
@@ -696,7 +701,7 @@ msgctxt "Scientist"
 msgid "Scientist has also grenades that teleport them."
 msgstr "او همچنین می تواند با استفاده از نارنجک انداز خود جا به جا شود."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1324
+#: src/game/server/infclass/infcgamecontroller.cpp:1386
 #, fuzzy
 msgid "Scientists"
 msgstr "دانشمند"
@@ -721,7 +726,7 @@ msgstr ""
 msgid "Server version from {str:ServerCompileDate} "
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1248
+#: src/game/server/infclass/infcgamecontroller.cpp:1310
 msgid "Slug"
 msgstr "حلزون"
 
@@ -739,12 +744,12 @@ msgctxt "Slug"
 msgid "Slug can infect humans and heal the infected with the hammer."
 msgstr "حلزون می تواند به وسیله ی چکش انسان ها را ویروسی کند و به دیگر ویروسی ها سلامتی بدهد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1345
+#: src/game/server/infclass/infcgamecontroller.cpp:1407
 #, fuzzy
 msgid "Slugs"
 msgstr "حلزون"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1234
+#: src/game/server/infclass/infcgamecontroller.cpp:1296
 msgid "Smoker"
 msgstr "سیگاری"
 
@@ -757,12 +762,12 @@ msgstr ""
 msgid "Smoker heals by hooking humans."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1331
+#: src/game/server/infclass/infcgamecontroller.cpp:1393
 #, fuzzy
 msgid "Smokers"
 msgstr "سیگاری"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1225
+#: src/game/server/infclass/infcgamecontroller.cpp:1287
 msgid "Sniper"
 msgstr "تک تیر انداز"
 
@@ -770,12 +775,12 @@ msgstr "تک تیر انداز"
 msgid "Sniper deals double as much damage in locked position."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1322
+#: src/game/server/infclass/infcgamecontroller.cpp:1384
 #, fuzzy
 msgid "Snipers"
 msgstr "تک تیر انداز"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1221
+#: src/game/server/infclass/infcgamecontroller.cpp:1283
 msgid "Soldier"
 msgstr "سرباز"
 
@@ -783,12 +788,12 @@ msgstr "سرباز"
 msgid "Soldier's bombs can hit through walls."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1318
+#: src/game/server/infclass/infcgamecontroller.cpp:1380
 #, fuzzy
 msgid "Soldiers"
 msgstr "سرباز"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3541
+#: src/game/server/infclass/infcgamecontroller.cpp:3749
 #, fuzzy
 msgid "Someone was infected to balance the game."
 msgstr "هنگامی که افراد آلوده با دیوار برخورد کنند می میرند"
@@ -797,7 +802,7 @@ msgstr "هنگامی که افراد آلوده با دیوار برخورد ک�
 msgid "Sources: {str:SourceUrl} "
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1244
+#: src/game/server/infclass/infcgamecontroller.cpp:1306
 msgid "Spider"
 msgstr "عنکبوت"
 
@@ -809,24 +814,24 @@ msgstr ""
 msgid "Spider doesn't need to be in Web mode to automatically grab any humans touching its hook."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1341
+#: src/game/server/infclass/infcgamecontroller.cpp:1403
 #, fuzzy
 msgid "Spiders"
 msgstr "عنکبوت"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:290
+#: src/game/server/infclass/classes/infected/infected.cpp:293
 #, fuzzy
 msgctxt "Voodoo"
 msgid "Staying alive for: {int:RemainingTime}"
 msgstr "قفل شدن در مکان: {sec:RemainingTime}"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:680
+#: src/game/server/infclass/classes/infected/infected.cpp:689
 #, fuzzy
 msgctxt "Ghoul"
 msgid "Stomach filled by {percent:FodderInStomach}"
 msgstr "{percent:FodderInStomach} معده پر شده است"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1052
+#: src/game/server/infclass/infcgamecontroller.cpp:1112
 msgctxt "Events"
 msgid "Storage"
 msgstr ""
@@ -944,11 +949,11 @@ msgctxt "Ninja"
 msgid "The Ninja can throw flash grenades that can freeze the infected for three seconds."
 msgstr "نینجا می تواند بمب های فلاشی پرتاب کند و برای سه ثانیه افراد ویروسی را به حالت یخ زده فرو ببرد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2255 src/game/server/infclass/infcgamecontroller.cpp:2358
+#: src/game/server/infclass/infcgamecontroller.cpp:2319 src/game/server/infclass/infcgamecontroller.cpp:2422
 msgid "The Santa is already here"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2237
+#: src/game/server/infclass/infcgamecontroller.cpp:2301
 msgid "The Santa is not available in this round"
 msgstr ""
 
@@ -987,6 +992,11 @@ msgctxt "Undead"
 msgid "The Undead cannot die. Instead of dying, it gets frozen for 10 seconds."
 msgstr "برای هر بار مردن او برای 10 ثانیه به حالت یخ زده تبدیل می شود."
 
+#: src/game/server/infclass/infcgamecontroller.cpp:2467 src/game/server/infclass/infcgamecontroller.cpp:2525
+#, fuzzy
+msgid "The Undead is already here"
+msgstr "سخت جان بطور کامل کشته شد"
+
 #: src/game/server/gamecontext.cpp:4342
 msgctxt "Voodoo"
 msgid "The Voodoo does not die immediately when killed but instead enters Spirit mode for a short time."
@@ -1004,21 +1014,21 @@ msgid ""
 "There is nothing to do with the laser."
 msgstr ""
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1696
+#: src/game/server/infclass/entities/infccharacter.cpp:1701
 #, fuzzy
 msgid "The class is disabled"
 msgstr "جادوگر مرد"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1713
+#: src/game/server/infclass/entities/infccharacter.cpp:1718
 msgid "The class limit exceeded"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1662
+#: src/game/server/infclass/infcgamecontroller.cpp:1726
 #, fuzzy
 msgid "The class selector will be displayed when round starts"
 msgstr "انتخاب کننده ی نقش در ابتدای بازی در دسترس خواهد بود"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1701 src/game/server/infclass/infcgamecontroller.cpp:2024 src/game/server/infclass/infcgamecontroller.cpp:2069
+#: src/game/server/infclass/infcgamecontroller.cpp:1765 src/game/server/infclass/infcgamecontroller.cpp:2088 src/game/server/infclass/infcgamecontroller.cpp:2133
 msgid "The command is not available (enabled only in training mode)"
 msgstr ""
 
@@ -1051,7 +1061,7 @@ msgctxt "Bat"
 msgid "The hammer is also useful for healing the infected."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3403
+#: src/game/server/infclass/infcgamecontroller.cpp:3611
 msgid "The last round"
 msgstr ""
 
@@ -1066,11 +1076,11 @@ msgctxt "Sniper"
 msgid "The locked position increases the Sniper's rifle damage from usual 10-13 to 30 damage points."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3601
+#: src/game/server/infclass/infcgamecontroller.cpp:3809
 msgid "The round canceled: All humans have left the game"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3598
+#: src/game/server/infclass/infcgamecontroller.cpp:3806
 msgid "The round canceled: All infected have left the game"
 msgstr ""
 
@@ -1079,21 +1089,21 @@ msgctxt "Slug"
 msgid "The slime heals the infected and deals damage to humans."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4072
+#: src/game/server/infclass/infcgamecontroller.cpp:4280
 msgid "The survival is over after {int:NumWaves} wave."
 msgid_plural "The survival is over after {int:NumWaves} waves."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4065
+#: src/game/server/infclass/infcgamecontroller.cpp:4273
 msgid "The survival is over. You have failed to survive a single wave."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4094
+#: src/game/server/infclass/infcgamecontroller.cpp:4302
 msgid "The survival is over. You have survived the final wave!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4089
+#: src/game/server/infclass/infcgamecontroller.cpp:4297
 msgid "The survival is over. You have survived!"
 msgstr ""
 
@@ -1105,11 +1115,11 @@ msgstr ""
 msgid "The turrets are not allowed by the game rules (at least right now)."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4518
+#: src/game/server/infclass/infcgamecontroller.cpp:4726
 msgid "The undead is finally dead"
 msgstr "سخت جان بطور کامل کشته شد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4513
+#: src/game/server/infclass/infcgamecontroller.cpp:4721
 #, fuzzy
 msgid "The undead is finally dead.....?"
 msgstr "سخت جان بطور کامل کشته شد"
@@ -1123,15 +1133,15 @@ msgstr ""
 msgid "The white hole is available!"
 msgstr ""
 
-#: src/game/server/infclass/classes/humans/human.cpp:2126
+#: src/game/server/infclass/classes/humans/human.cpp:2129
 msgid "The white hole is ready, use the laser rifle to disrupt space-time"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4506
+#: src/game/server/infclass/infcgamecontroller.cpp:4714
 msgid "The witch is dead"
 msgstr "جادوگر مرد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2234
+#: src/game/server/infclass/infcgamecontroller.cpp:2298
 msgid "The witch is not available in this round"
 msgstr ""
 
@@ -1165,7 +1175,7 @@ msgctxt "Sniper"
 msgid "They can also jump two times in the air."
 msgstr "او می تواند در آسمان دوبار بپرد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1057
+#: src/game/server/infclass/infcgamecontroller.cpp:1117
 msgctxt "Events"
 msgid "Thief"
 msgstr ""
@@ -1182,20 +1192,30 @@ msgstr ""
 msgid "Too few infected (less than {int:MinimumInfected})"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2286
+#: src/game/server/infclass/infcgamecontroller.cpp:2482
+#, fuzzy
+msgid "Too few infected to call a undead"
+msgstr "افراد ویروسی باید همه ی انسان ها را ویروسی کنند"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2350
 msgid "Too few infected to call a witch"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2282
+#: src/game/server/infclass/infcgamecontroller.cpp:2346
 #, fuzzy
 msgid "Too few infected to call the Santa"
 msgstr "افراد ویروسی باید همه ی انسان ها را ویروسی کنند"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2275
+#: src/game/server/infclass/infcgamecontroller.cpp:2477
+#, fuzzy
+msgid "Too few players to call a undead"
+msgstr "افراد ویروسی باید همه ی انسان ها را ویروسی کنند"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2339
 msgid "Too few players to call a witch"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2271
+#: src/game/server/infclass/infcgamecontroller.cpp:2335
 msgid "Too few players to call the Santa"
 msgstr ""
 
@@ -1215,31 +1235,31 @@ msgstr ""
 msgid "Type “/help {str:ClassName}” for more information about your class"
 msgstr "تایپ کنید «help {str:ClassName}/» برای اطلاعات بیشتر درمورد نقشتان"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2082
+#: src/game/server/infclass/infcgamecontroller.cpp:2146
 msgid "Unable to load the position: the character state is not valid"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2076
+#: src/game/server/infclass/infcgamecontroller.cpp:2140
 msgid "Unable to load the position: you have no character to load its position"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2043
+#: src/game/server/infclass/infcgamecontroller.cpp:2107
 msgid "Unable to save the position: the character does not stand on the ground"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2037
+#: src/game/server/infclass/infcgamecontroller.cpp:2101
 msgid "Unable to save the position: the character state is not valid"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2031
+#: src/game/server/infclass/infcgamecontroller.cpp:2095
 msgid "Unable to save the position: you have no character to save its position"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1632
+#: src/game/server/infclass/infcgamecontroller.cpp:1696
 msgid "Unable to set preferred class: Invalid class name"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1254
+#: src/game/server/infclass/infcgamecontroller.cpp:1316
 msgid "Undead"
 msgstr "جان سخت"
 
@@ -1253,12 +1273,17 @@ msgctxt "Undead"
 msgid "Undead can infect humans and heal the infected with the hammer."
 msgstr "سخت جان می تواند به وسیله ی چکش انسان ها را ویروسی کند و به دیگر ویروسی ها سلامتی بدهد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1351
+#: src/game/server/infclass/infcgamecontroller.cpp:2531
+#, fuzzy
+msgid "Undead {str:PlayerName} has arrived!"
+msgstr "{str:PlayerName} بازی را ترک کرد"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:1413
 #, fuzzy
 msgid "Undeads"
 msgstr "جان سخت"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1258
+#: src/game/server/infclass/infcgamecontroller.cpp:1320
 msgid "Unknown class"
 msgstr "نقش ناشناخته"
 
@@ -1266,7 +1291,7 @@ msgstr "نقش ناشناخته"
 msgid "Unknown language"
 msgstr "زبان ناشناخته"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1354
+#: src/game/server/infclass/infcgamecontroller.cpp:1416
 #, fuzzy
 msgid "Unknowns"
 msgstr "نقش ناشناخته"
@@ -1315,7 +1340,7 @@ msgstr "از «<نام بازیکن> <پیام من> msg/» برای فرستا�
 msgid "Use “/w <PlayerName> <My Message>” to send a private message to this player."
 msgstr "از «<نام بازیکن> <پیام من> msg/» برای فرستادن پیام خصوصی به یکی از بازیکن ها استفاده کنید."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1250
+#: src/game/server/infclass/infcgamecontroller.cpp:1312
 msgid "Voodoo"
 msgstr ""
 
@@ -1330,7 +1355,7 @@ msgstr "روح می تواند به وسیله ی چکش انسان ها را و
 msgid "Voodoo can unfreeze an Undead while in Spirit mode."
 msgstr "روح می تواند به وسیله ی چکش انسان ها را ویروسی کند و به دیگر ویروسی ها سلامتی بدهد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1347
+#: src/game/server/infclass/infcgamecontroller.cpp:1409
 msgid "Voodoos"
 msgstr ""
 
@@ -1344,7 +1369,7 @@ msgctxt "Inactive kick broadcast message"
 msgid "Warning: {sec:RemainingTime} until a move to spec for inactivity"
 msgstr ""
 
-#: src/game/server/infclass/classes/infected/infected.cpp:670
+#: src/game/server/infclass/classes/infected/infected.cpp:679
 #, fuzzy
 msgctxt "Spider"
 msgid "Web mode enabled"
@@ -1379,11 +1404,11 @@ msgstr ""
 msgid "White hole: {sec:RemainingTime}"
 msgstr "دیوار لیزری: {sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1252
+#: src/game/server/infclass/infcgamecontroller.cpp:1314
 msgid "Witch"
 msgstr "جادوگر"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2342
+#: src/game/server/infclass/infcgamecontroller.cpp:2406 src/game/server/infclass/infcgamecontroller.cpp:2512
 msgid "Witch ({int:Callers}/{int:RequiredCallers})"
 msgstr ""
 
@@ -1398,12 +1423,12 @@ msgstr "جادوگر می تواند به وسیله ی چکش انسان ها �
 msgid "Witch can spawn the infected through narrow walls."
 msgstr "جادوگر می تواند به وسیله ی چکش انسان ها را ویروسی کند و به دیگر ویروسی ها سلامتی بدهد."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2378
+#: src/game/server/infclass/infcgamecontroller.cpp:2442
 #, fuzzy
 msgid "Witch {str:PlayerName} has arrived!"
 msgstr "{str:PlayerName} بازی را ترک کرد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1349
+#: src/game/server/infclass/infcgamecontroller.cpp:1411
 #, fuzzy
 msgid "Witches"
 msgstr "جادوگر"
@@ -1425,7 +1450,7 @@ msgstr "شما یک فرد ویروسی در نقش {str:ClassName} هستید"
 msgid "You are blinded: {sec:EffectDuration}"
 msgstr "شما در حالت یخ زده هستید: {str:VictimName}"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:2275
+#: src/game/server/infclass/entities/infccharacter.cpp:2284
 msgid "You are frozen: {sec:EffectDuration}"
 msgstr "شما در حالت یخ زده هستید: {str:VictimName}"
 
@@ -1433,7 +1458,7 @@ msgstr "شما در حالت یخ زده هستید: {str:VictimName}"
 msgid "You are muted for {sec:Duration}"
 msgstr "شما توانایی چت کردن را به مدت {sec:Duration} از دست دادید"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:2286
+#: src/game/server/infclass/entities/infccharacter.cpp:2295
 #, fuzzy
 msgid "You are slowed: {sec:EffectDuration}"
 msgstr "شما در حالت یخ زده هستید: {str:VictimName}"
@@ -1446,7 +1471,11 @@ msgstr "شما می توانید با استفاده از دستور /language �
 msgid "You can toggle hook protection by pressing f3 (\"Vote yes\" keybind)."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2303
+#: src/game/server/infclass/infcgamecontroller.cpp:2493
+msgid "You can't call undead twice"
+msgstr ""
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2367
 msgid "You can't call witch twice"
 msgstr ""
 
@@ -1479,7 +1508,7 @@ msgstr ""
 msgid "You have been infected by {str:KillerName}"
 msgstr "شما یک فرد ویروسی در نقش {str:ClassName} هستید"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2299
+#: src/game/server/infclass/infcgamecontroller.cpp:2363
 #, fuzzy
 msgid "You have called the Santa once again"
 msgstr "جادوگر را کشتید ، +5 امتیاز"
@@ -1501,20 +1530,20 @@ msgstr "شما {str:VictimName} را ویروسی کردید، +3 امتیاز!"
 msgid "You have infected {str:VictimName}, shame on you!"
 msgstr "شما {str:VictimName} را ویروسی کردید، +3 امتیاز!"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4380
+#: src/game/server/infclass/infcgamecontroller.cpp:4588
 msgid "You have killed a witch, +5 points"
 msgstr "جادوگر را کشتید ، +5 امتیاز"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4384
+#: src/game/server/infclass/infcgamecontroller.cpp:4592
 #, fuzzy
 msgid "You have killed an undead! +5 points"
 msgstr "جادوگر را کشتید ، +5 امتیاز"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3629
+#: src/game/server/infclass/infcgamecontroller.cpp:3837
 msgid "You have survived, +5 points"
 msgstr "شما توانستید جان سالم به در ببرید، +5 امتیاز"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3770
+#: src/game/server/infclass/infcgamecontroller.cpp:3978
 msgid "You have to wait until the survival is over"
 msgstr ""
 
@@ -1522,7 +1551,7 @@ msgstr ""
 msgid "You have {int:NumTurrets} of {int:MaxTurrets} turrets. Use the hammer to place one."
 msgstr ""
 
-#: src/game/server/infclass/classes/humans/human.cpp:2179
+#: src/game/server/infclass/classes/humans/human.cpp:2194
 msgid "You have {int:NumTurrets} turret available, use the Hammer to place it"
 msgid_plural "You have {int:NumTurrets} turrets available, use the Hammer to place it"
 msgstr[0] ""
@@ -1557,76 +1586,76 @@ msgstr ""
 msgid "Your account has been created and you are now logged."
 msgstr "اکانت شما ساخته شد و شما الان وارد شدید!"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1274
+#: src/game/server/infclass/infcgamecontroller.cpp:1336
 msgctxt "For 'Killed by <>'"
 msgid "a Bat"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1270
+#: src/game/server/infclass/infcgamecontroller.cpp:1332
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Boomer"
 msgstr "عامل انتحاری"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1276
+#: src/game/server/infclass/infcgamecontroller.cpp:1338
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Ghost"
 msgstr "روح"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1280
+#: src/game/server/infclass/infcgamecontroller.cpp:1342
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Ghoul"
 msgstr "غول"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1272
+#: src/game/server/infclass/infcgamecontroller.cpp:1334
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Hunter"
 msgstr "شکارچی"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1282
+#: src/game/server/infclass/infcgamecontroller.cpp:1344
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Slug"
 msgstr "حلزون"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1268
+#: src/game/server/infclass/infcgamecontroller.cpp:1330
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Smoker"
 msgstr "سیگاری"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1278
+#: src/game/server/infclass/infcgamecontroller.cpp:1340
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Spider"
 msgstr "عنکبوت"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1284
+#: src/game/server/infclass/infcgamecontroller.cpp:1346
 msgctxt "For 'Killed by <>'"
 msgid "a Voodoo"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1286
+#: src/game/server/infclass/infcgamecontroller.cpp:1348
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Witch"
 msgstr "جادوگر"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1288
+#: src/game/server/infclass/infcgamecontroller.cpp:1350
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "an Undead"
 msgstr "جان سخت"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1292
+#: src/game/server/infclass/infcgamecontroller.cpp:1354
 msgctxt "For 'Killed by <>'"
 msgid "someone unknown"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1718
+#: src/game/server/infclass/infcgamecontroller.cpp:1782
 #, fuzzy
 msgid "{str:PlayerName} changed the class to {str:ClassName}"
 msgstr "{str:PlayerName} نامش را به {str:NewName} تغییر داد"
@@ -1635,7 +1664,7 @@ msgstr "{str:PlayerName} نامش را به {str:NewName} تغییر داد"
 msgid "{str:PlayerName} changed their name to {str:NewName}"
 msgstr "{str:PlayerName} نامش را به {str:NewName} تغییر داد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3158
+#: src/game/server/infclass/infcgamecontroller.cpp:3318
 #, fuzzy
 msgid "{str:PlayerName} didn't survive in this round."
 msgstr "{str:PlayerName} وارد شد و به بازی پیوست"
@@ -1665,19 +1694,23 @@ msgstr "{str:PlayerName} بازی را ترک کرد"
 msgid "{str:PlayerName} has left the game ({str:Reason})"
 msgstr "{str:PlayerName} به دلیل ({str:Reason}) بازی را ترک کرد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2316
+#: src/game/server/infclass/infcgamecontroller.cpp:2380
 msgid "{str:PlayerName} is calling for Santa! (1/{int:RequiredCallers}) To call the Santa write: /santa"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2324
+#: src/game/server/infclass/infcgamecontroller.cpp:2504
+msgid "{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead"
+msgstr ""
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2388
 msgid "{str:PlayerName} is calling for Witch! (1/{int:RequiredCallers}) To call witch write: /witch"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2829
+#: src/game/server/infclass/infcgamecontroller.cpp:2989
 msgid "{str:PlayerName} joined the game"
 msgstr "{str:PlayerName} به بازی ملحق شد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2825
+#: src/game/server/infclass/infcgamecontroller.cpp:2985
 msgid "{str:PlayerName} joined the spectators"
 msgstr "{str:PlayerName} به تماشاچیان ملحق شد"
 
@@ -1690,32 +1723,32 @@ msgstr "{str:PlayerName} نامش را به {str:NewName} تغییر داد"
 msgid "{str:PlayerName} wants {str:VictimName} to be banned ({str:Reason})"
 msgstr "{str:PlayerName} می خواهد که {str:VictimName} بدلیل ({str:Reason}) بن شود"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3107
+#: src/game/server/infclass/infcgamecontroller.cpp:3267
 #, fuzzy
 msgid "{str:PlayerName} was chopped up by {str:Killer}."
 msgstr "{str:PlayerName} به دلیل ({str:Reason}) بن شد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3106
+#: src/game/server/infclass/infcgamecontroller.cpp:3266
 #, fuzzy
 msgid "{str:PlayerName} was decapitated by {str:Killer}."
 msgstr "{str:PlayerName} بازی را ترک کرد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3104
+#: src/game/server/infclass/infcgamecontroller.cpp:3264
 #, fuzzy
 msgid "{str:PlayerName} was destroyed by {str:Killer}."
 msgstr "{str:PlayerName} بازی را ترک کرد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3108
+#: src/game/server/infclass/infcgamecontroller.cpp:3268
 #, fuzzy
 msgid "{str:PlayerName} was removed from this world by {str:Killer}."
 msgstr "{str:PlayerName} نامش را به {str:NewName} تغییر داد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3105
+#: src/game/server/infclass/infcgamecontroller.cpp:3265
 #, fuzzy
 msgid "{str:PlayerName} was slain by {str:Killer}."
 msgstr "{str:PlayerName} به دلیل ({str:Reason}) بن شد"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3522
+#: src/game/server/infclass/infcgamecontroller.cpp:3730
 msgid "{str:VictimName} has been infected"
 msgstr "{str:VictimName} زامبی شد"
 

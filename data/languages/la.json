@@ -513,6 +513,10 @@
 		"value": "Pro morte secundas 10 gelatur."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Immortalis tandem mortuus est"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "Malefica mortua est"
 	},
@@ -571,7 +575,15 @@
 		"value": "Hoc accomputus iam exemptus est."
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Finis infectorum est inficere homines omnes."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Finis infectorum est inficere homines omnes."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Finis infectorum est inficere homines omnes."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Immortalis malleo homines inficere infectosque sanare potest."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} pugnam reliquit"
 	},
 	{
 		"key": "Undeads",

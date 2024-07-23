@@ -397,6 +397,10 @@
 		"value": "Nem hal meg, hanem lefagy 10 m\u00e1sodpercre."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Az \u00e9l\u0151halott v\u00e9gre meghalt"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "A boszork\u00e1ny meghalt"
 	},
@@ -451,7 +455,15 @@
 		"value": "K\u00e9tszer ugorhat leveg\u0151ben."
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "A zombik c\u00e9lja, hogy minden embert megfert\u0151zzenek."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "A zombik c\u00e9lja, hogy minden embert megfert\u0151zzenek."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "A zombik c\u00e9lja, hogy minden embert megfert\u0151zzenek."
 	},
 	{
@@ -465,6 +477,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Az \u00e9l\u0151halott kalap\u00e1cs\u00e1val megfert\u0151zhet embereket, \u00e9s gy\u00f3gy\u00edthat zombikat."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} kil\u00e9pett a j\u00e1t\u00e9kb\u00f3l"
 	},
 	{
 		"key": "Undeads",

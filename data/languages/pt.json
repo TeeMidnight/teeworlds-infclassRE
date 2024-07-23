@@ -513,6 +513,10 @@
 		"value": "Ao inv\u00e9s de morrer, ele congela por 10 segundos."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "O Morto Vivo finalmente morreu"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "A bruxa est\u00e1 morta"
 	},
@@ -571,7 +575,15 @@
 		"value": "Esse nome de usu\u00e1rio j\u00e1 est\u00e1 em uso por uma conta existente."
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "A meta dos infectados \u00e9 infectar todos os humanos."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "A meta dos infectados \u00e9 infectar todos os humanos."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "A meta dos infectados \u00e9 infectar todos os humanos."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "O Morto Vivo pode infectar humanos e curar infectados com seu martelo."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} saiu do jogo"
 	},
 	{
 		"key": "Undeads",

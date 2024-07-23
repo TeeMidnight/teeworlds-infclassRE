@@ -299,6 +299,10 @@
 		"value": "Mets\u00e4st\u00e4j\u00e4 voi tartuttaa ihmisi\u00e4 ja parantaa tarttuneita vasarallaan."
 	},
 	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} j\u00e4tti pelin"
+	},
+	{
 		"key": "Undeads",
 		"value": "Ep\u00e4kuollut"
 	},

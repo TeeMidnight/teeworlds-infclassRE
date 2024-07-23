@@ -522,6 +522,10 @@
 		"value": "Umjesto da umre, on se zaledi na 10 sekundi."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Undead je napokon mrtav"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "Vje\u0161tica je mrtva"
 	},
@@ -582,7 +586,15 @@
 		"value": "Korisni\u010dko ime je ve\u0107 zauzeto"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Cilj za zara\u017eene je zaraziti sve ljude."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Cilj za zara\u017eene je zaraziti sve ljude."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Cilj za zara\u017eene je zaraziti sve ljude."
 	},
 	{
@@ -596,6 +608,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Undead mo\u017ee zaraziti ljude i lije\u010diti zara\u017eene svojim \u010deki\u0107em."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} je iza\u0161ao iz igre"
 	},
 	{
 		"key": "Undeads",

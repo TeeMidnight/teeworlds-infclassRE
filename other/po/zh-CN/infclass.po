@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: infectiondust\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-22 13:54+0800\n"
+"POT-Creation-Date: 2024-07-23 11:35+0800\n"
 "PO-Revision-Date: 2023-12-02 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -30,7 +30,7 @@ msgctxt "Scientist"
 msgid "A lucky Scientist devoted to killing can get a white hole that sucks the infected in which can be placed with the laser rifle."
 msgstr "幸运的科学家会在杀死感染者时得到白洞, 白洞可用激光枪放置"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1657
+#: src/game/server/infclass/infcgamecontroller.cpp:1721
 #, fuzzy
 msgid "A random class will be automatically attributed to you when round starts"
 msgstr "游戏开始时会自动选择随机职业"
@@ -44,7 +44,7 @@ msgstr "人类会被爆炸感染"
 msgid "All players start as a human."
 msgstr "所有玩家一开始都是人类"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2259 src/game/server/infclass/infcgamecontroller.cpp:2363
+#: src/game/server/infclass/infcgamecontroller.cpp:2323 src/game/server/infclass/infcgamecontroller.cpp:2427
 msgid "All witches are already here"
 msgstr "所有女巫已经在这里了"
 
@@ -56,7 +56,7 @@ msgstr "创建帐户时发生错误。"
 msgid "An error occured during the operation."
 msgstr "在操作过程中发生错误。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1059
+#: src/game/server/infclass/infcgamecontroller.cpp:1119
 msgctxt "Events"
 msgid "Ashes"
 msgstr "余烬"
@@ -73,7 +73,7 @@ msgstr "可用语言︰ {str:ListOfLanguage}"
 msgid "Based on the concept of Infection mod by Gravity"
 msgstr "基于 Gravity 所做的原始感染模式 (Infection) mod"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1240
+#: src/game/server/infclass/infcgamecontroller.cpp:1302
 msgid "Bat"
 msgstr "蝙蝠"
 
@@ -86,11 +86,11 @@ msgctxt "Bat"
 msgid "Bat can jump endlessly in the air but it cannot infect humans."
 msgstr "蝙蝠能够在空中无限跳跃. 但是不能直接感染人类"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1337
+#: src/game/server/infclass/infcgamecontroller.cpp:1399
 msgid "Bats"
 msgstr "蝙蝠"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1229
+#: src/game/server/infclass/infcgamecontroller.cpp:1291
 msgid "Biologist"
 msgstr "生物学家"
 
@@ -98,11 +98,11 @@ msgstr "生物学家"
 msgid "Biologist's bouncy shotgun can be used to hit the infected around corners."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1326
+#: src/game/server/infclass/infcgamecontroller.cpp:1388
 msgid "Biologists"
 msgstr "生物学家"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1236
+#: src/game/server/infclass/infcgamecontroller.cpp:1298
 msgid "Boomer"
 msgstr "爆炸者"
 
@@ -110,11 +110,11 @@ msgstr "爆炸者"
 msgid "Boomer can infect through narrow walls."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1333
+#: src/game/server/infclass/infcgamecontroller.cpp:1395
 msgid "Boomers"
 msgstr "爆炸者"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1054
+#: src/game/server/infclass/infcgamecontroller.cpp:1114
 msgctxt "Events"
 msgid "Brave"
 msgstr "无畏"
@@ -131,7 +131,7 @@ msgstr "不能查看第 {int:PageNumber} 页更改日志"
 msgid "Choose a help page with /help <page>"
 msgstr "使用 /help <page> 查看帮助。"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1664
+#: src/game/server/infclass/entities/infccharacter.cpp:1669
 msgid "Choose your class"
 msgstr "选择你的职业"
 
@@ -139,7 +139,12 @@ msgstr "选择你的职业"
 msgid "Choosing a random class grants full armor."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1670
+#: src/game/server/infclass/infcgamecontroller.cpp:1126
+msgctxt "Events"
+msgid "Christmas"
+msgstr "圣诞降临"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:1734
 #, fuzzy
 msgid "Class {str:ClassName} will be automatically attributed to you when round starts"
 msgstr "游戏开始时会自动选择随机职业"
@@ -148,7 +153,7 @@ msgstr "游戏开始时会自动选择随机职业"
 msgid "Create an account on Crowdin and join the translation team:"
 msgstr "在 Crowdin 上创建一个账户并加入翻译团队:"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1062
+#: src/game/server/infclass/infcgamecontroller.cpp:1122
 msgctxt "Events"
 msgid "Disabling"
 msgstr "伤残"
@@ -163,11 +168,11 @@ msgid "Each bomb can explode one time."
 msgid_plural "Each bomb can explode {int:NumBombs} times."
 msgstr[0] "炸弹可以爆炸 {int:NumBombs} 次。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1219
+#: src/game/server/infclass/infcgamecontroller.cpp:1281
 msgid "Engineer"
 msgstr "工程师"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1316
+#: src/game/server/infclass/infcgamecontroller.cpp:1378
 msgid "Engineers"
 msgstr "工程师"
 
@@ -188,20 +193,20 @@ msgstr "爆炸当量： {percent:BombLevel}"
 msgid "Fast round"
 msgstr "极速回合"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1064
+#: src/game/server/infclass/infcgamecontroller.cpp:1124
 msgctxt "Events"
 msgid "Fear"
 msgstr "恐惧"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1242
+#: src/game/server/infclass/infcgamecontroller.cpp:1304
 msgid "Ghost"
 msgstr "幽灵"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1339
+#: src/game/server/infclass/infcgamecontroller.cpp:1401
 msgid "Ghosts"
 msgstr "幽灵"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1246
+#: src/game/server/infclass/infcgamecontroller.cpp:1308
 msgid "Ghoul"
 msgstr "食尸鬼"
 
@@ -210,7 +215,7 @@ msgctxt "Ghoul"
 msgid "Ghoul can infect humans and heal the infected with the hammer."
 msgstr "食尸鬼可以用锤子感染人类或治疗感染"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1343
+#: src/game/server/infclass/infcgamecontroller.cpp:1405
 msgid "Ghouls"
 msgstr "食尸鬼"
 
@@ -223,7 +228,7 @@ msgctxt "Medic"
 msgid "Grenades with medicine give armor to everybody in their range, including Heroes and the Medic themself."
 msgstr "医疗兵的榴弹可以给在范围里的每个人盾, 包括英雄和医疗兵自己"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1217
+#: src/game/server/infclass/infcgamecontroller.cpp:1279
 msgid "Hero"
 msgstr "英雄"
 
@@ -240,7 +245,7 @@ msgstr ""
 msgid "Hero's turrets are great for detecting Ghosts."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1314
+#: src/game/server/infclass/infcgamecontroller.cpp:1376
 msgid "Heroes"
 msgstr "英雄"
 
@@ -260,11 +265,11 @@ msgstr "如何翻译此 mod"
 msgid "How to use taxi mode"
 msgstr "怎么开车"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2615
+#: src/game/server/infclass/infcgamecontroller.cpp:2773
 msgid "Human event '{str:EventName}' was chosen!"
 msgstr "人类事件'{str:EventName}'被选中!"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1238
+#: src/game/server/infclass/infcgamecontroller.cpp:1300
 msgid "Hunter"
 msgstr "猎人"
 
@@ -272,7 +277,7 @@ msgstr "猎人"
 msgid "Hunter receives no knockback from Medic's shotgun."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1335
+#: src/game/server/infclass/infcgamecontroller.cpp:1397
 msgid "Hunters"
 msgstr "猎人"
 
@@ -303,15 +308,15 @@ msgstr "为了开车, 两个人都必须取消勾子保护(一般按F3), 然后�
 msgid "In the fast rounds *more* humans become infected initially, the spawning rate is increased and the round time limit is decreased. White hole is also disabled."
 msgstr "在极速回合里, 更多的人类会被感染, 重生速度会增加, 回合时间缩短, 白洞被禁用"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2619
+#: src/game/server/infclass/infcgamecontroller.cpp:2777
 msgid "Infected event '{str:EventName}' was chosen!"
 msgstr "感染事件'{str:EventName}'被选中!"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3638
+#: src/game/server/infclass/infcgamecontroller.cpp:3846
 msgid "Infected won the round in {sec:RoundDuration}"
 msgstr "被感染者在本轮中获得胜利 {sec:RoundDuration}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3654
+#: src/game/server/infclass/infcgamecontroller.cpp:3862
 msgid "Infection is coming in {sec:RemainingTime}"
 msgstr "感染将在{sec:RemainingTime}后到来"
 
@@ -425,7 +430,7 @@ msgstr "激光墙︰{sec:RemainingTime}"
 msgid "List of commands"
 msgstr "命令列表"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1231
+#: src/game/server/infclass/infcgamecontroller.cpp:1293
 msgid "Looper"
 msgstr "环形师"
 
@@ -433,7 +438,7 @@ msgstr "环形师"
 msgid "Looper laser wall: {sec:RemainingTime}"
 msgstr "环形师激光墙：{sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1328
+#: src/game/server/infclass/infcgamecontroller.cpp:1390
 msgid "Loopers"
 msgstr "环形师"
 
@@ -445,7 +450,7 @@ msgstr "主要贡献者︰{str:ListOfContributors}"
 msgid "Matrix room: {str:Url}"
 msgstr "Matrix房间: {str:Url}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1215
+#: src/game/server/infclass/infcgamecontroller.cpp:1277
 msgid "Medic"
 msgstr "医疗兵"
 
@@ -466,15 +471,15 @@ msgstr ""
 msgid "Medic {str:MedicName} revived {str:RevivedName}"
 msgstr "医疗兵 {str:MedicName} 治疗了 {str:RevivedName}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1312
+#: src/game/server/infclass/infcgamecontroller.cpp:1374
 msgid "Medics"
 msgstr "医疗兵"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1310
+#: src/game/server/infclass/infcgamecontroller.cpp:1372
 msgid "Mercenaries"
 msgstr "雇佣兵"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1213
+#: src/game/server/infclass/infcgamecontroller.cpp:1275
 msgid "Mercenary"
 msgstr "雇佣兵"
 
@@ -503,7 +508,7 @@ msgid "Mines are limited to one per player at the same time."
 msgid_plural "Mines are limited to {int:NumMines} per player at the same time."
 msgstr[0] "每个玩家同时可使用 {int:NumMines} 个地雷。"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1704
+#: src/game/server/infclass/entities/infccharacter.cpp:1709
 msgid "Need at least {int:MinPlayers} player"
 msgid_plural "Need at least {int:MinPlayers} players"
 msgstr[0] "至少需要 {int:MinPlayers} 玩家"
@@ -517,7 +522,7 @@ msgctxt "Ninja"
 msgid "Next target in {sec:RemainingTime}"
 msgstr "{sec:RemainingTime} 后出现下一个目标"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1223
+#: src/game/server/infclass/infcgamecontroller.cpp:1285
 msgid "Ninja"
 msgstr "忍者"
 
@@ -541,7 +546,7 @@ msgstr ""
 msgid "Ninja's slash deals 9 damage by default. One more pistol shot will kill an infected with no armor."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1320
+#: src/game/server/infclass/infcgamecontroller.cpp:1382
 msgid "Ninjas"
 msgstr "忍者"
 
@@ -549,7 +554,7 @@ msgstr "忍者"
 msgid "No player was found with this name"
 msgstr "没有找到这个名字的玩家"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1068
+#: src/game/server/infclass/infcgamecontroller.cpp:1130
 msgctxt "Events"
 msgid "Nothing"
 msgstr ""
@@ -560,7 +565,7 @@ msgid "One bomb left"
 msgid_plural "{int:NumBombs} bombs left"
 msgstr[0] "炸弹剩余 {int:NumBombs}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3613
+#: src/game/server/infclass/infcgamecontroller.cpp:3821
 msgid "One human won the round"
 msgid_plural "{int:NumHumans} humans won the round"
 msgstr[0] "{int:NumHumans} 名人类获得本轮胜利"
@@ -570,7 +575,7 @@ msgid "One mine is active"
 msgid_plural "{int:NumMines} mines are active"
 msgstr[0] "地雷已激活 {int:NumMines} 个"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2625
+#: src/game/server/infclass/infcgamecontroller.cpp:2783
 msgid "Oops! Global event '{str:EventName}'!"
 msgstr "艹! 全局事件'{str:EventName}'!"
 
@@ -578,12 +583,12 @@ msgstr "艹! 全局事件'{str:EventName}'!"
 msgid "Persistent player mute"
 msgstr "永久禁言玩家"
 
-#: src/game/server/infclass/classes/humans/human.cpp:1919
+#: src/game/server/infclass/classes/humans/human.cpp:1922
 msgid "Placed a turret, {int:TurretsNumber} turret left"
 msgid_plural "Placed a turret, {int:TurretsNumber} turrets left"
 msgstr[0] ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3400
+#: src/game/server/infclass/infcgamecontroller.cpp:3608
 msgid "Play more on this map"
 msgstr "在地图上玩更多内容"
 
@@ -600,7 +605,7 @@ msgstr "位置锁定：{sec:RemainingTime}"
 msgid "Press <F3> or <F4> to enable or disable hook protection"
 msgstr "按 <F3> 或 <F4> 来启用或禁用钩子保护"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1675
+#: src/game/server/infclass/entities/infccharacter.cpp:1680
 msgid "Random choice"
 msgstr "随机选择"
 
@@ -614,15 +619,15 @@ msgstr[0] "科学家通过杀死至少{int:NumKills}个感染者来获得它"
 msgid "Rules of the game"
 msgstr "游戏规则"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2334
+#: src/game/server/infclass/infcgamecontroller.cpp:2398
 msgid "Santa ({int:Callers}/{int:RequiredCallers})"
 msgstr "请求圣诞老人 ({int:Callers}/{int:RequiredCallers})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2371
+#: src/game/server/infclass/infcgamecontroller.cpp:2435
 msgid "Santa {str:PlayerName} has arrived!"
 msgstr "圣诞老人{str:PlayerName}已经到达"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1227
+#: src/game/server/infclass/infcgamecontroller.cpp:1289
 msgid "Scientist"
 msgstr "科学家"
 
@@ -644,7 +649,7 @@ msgctxt "Scientist"
 msgid "Scientist has also grenades that teleport them."
 msgstr "科学家有用于瞬移的榴弹枪。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1324
+#: src/game/server/infclass/infcgamecontroller.cpp:1386
 msgid "Scientists"
 msgstr "科学家"
 
@@ -668,7 +673,7 @@ msgstr "自杀被阻止。再次自杀以确认。"
 msgid "Server version from {str:ServerCompileDate} "
 msgstr "服务器构建日期: {str:ServerCompileDate} "
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1248
+#: src/game/server/infclass/infcgamecontroller.cpp:1310
 msgid "Slug"
 msgstr "鼻涕虫"
 
@@ -685,11 +690,11 @@ msgctxt "Slug"
 msgid "Slug can infect humans and heal the infected with the hammer."
 msgstr "鼻涕虫可以用锤子感染人类或治疗感染。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1345
+#: src/game/server/infclass/infcgamecontroller.cpp:1407
 msgid "Slugs"
 msgstr "鼻涕虫"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1234
+#: src/game/server/infclass/infcgamecontroller.cpp:1296
 msgid "Smoker"
 msgstr "吸烟者"
 
@@ -702,11 +707,11 @@ msgstr "吸烟者有一个强大的钩子，通过伤害人类，来恢复吸烟
 msgid "Smoker heals by hooking humans."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1331
+#: src/game/server/infclass/infcgamecontroller.cpp:1393
 msgid "Smokers"
 msgstr "吸烟者"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1225
+#: src/game/server/infclass/infcgamecontroller.cpp:1287
 msgid "Sniper"
 msgstr "狙击手"
 
@@ -714,11 +719,11 @@ msgstr "狙击手"
 msgid "Sniper deals double as much damage in locked position."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1322
+#: src/game/server/infclass/infcgamecontroller.cpp:1384
 msgid "Snipers"
 msgstr "狙击手"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1221
+#: src/game/server/infclass/infcgamecontroller.cpp:1283
 msgid "Soldier"
 msgstr "士兵"
 
@@ -726,11 +731,11 @@ msgstr "士兵"
 msgid "Soldier's bombs can hit through walls."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1318
+#: src/game/server/infclass/infcgamecontroller.cpp:1380
 msgid "Soldiers"
 msgstr "士兵"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3541
+#: src/game/server/infclass/infcgamecontroller.cpp:3749
 msgid "Someone was infected to balance the game."
 msgstr "为了平衡游戏有人被感染了"
 
@@ -738,7 +743,7 @@ msgstr "为了平衡游戏有人被感染了"
 msgid "Sources: {str:SourceUrl} "
 msgstr "源代码: {str:SourceUrl} "
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1244
+#: src/game/server/infclass/infcgamecontroller.cpp:1306
 msgid "Spider"
 msgstr "蜘蛛"
 
@@ -751,21 +756,21 @@ msgstr ""
 msgid "Spider doesn't need to be in Web mode to automatically grab any humans touching its hook."
 msgstr "蜘蛛有网状勾子, 可以抓住碰到勾子的人类"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1341
+#: src/game/server/infclass/infcgamecontroller.cpp:1403
 msgid "Spiders"
 msgstr "蜘蛛"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:290
+#: src/game/server/infclass/classes/infected/infected.cpp:293
 msgctxt "Voodoo"
 msgid "Staying alive for: {int:RemainingTime}"
 msgstr "剩余存活时间: {int:RemainingTime}"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:680
+#: src/game/server/infclass/classes/infected/infected.cpp:689
 msgctxt "Ghoul"
 msgid "Stomach filled by {percent:FodderInStomach}"
 msgstr "营养：{percent:FodderInStomach}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1052
+#: src/game/server/infclass/infcgamecontroller.cpp:1112
 msgctxt "Events"
 msgid "Storage"
 msgstr "贮藏"
@@ -872,11 +877,11 @@ msgctxt "Ninja"
 msgid "The Ninja can throw flash grenades that can freeze the infected for three seconds."
 msgstr "忍者可以用闪光弹冻结感染者3秒"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2255 src/game/server/infclass/infcgamecontroller.cpp:2358
+#: src/game/server/infclass/infcgamecontroller.cpp:2319 src/game/server/infclass/infcgamecontroller.cpp:2422
 msgid "The Santa is already here"
 msgstr "圣诞老人已经在这里"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2237
+#: src/game/server/infclass/infcgamecontroller.cpp:2301
 #, fuzzy
 msgid "The Santa is not available in this round"
 msgstr "命令不可用(仅在练习模式中启用)"
@@ -911,6 +916,11 @@ msgctxt "Undead"
 msgid "The Undead cannot die. Instead of dying, it gets frozen for 10 seconds."
 msgstr "不死族不会死亡，而是被冻结 10 秒。"
 
+#: src/game/server/infclass/infcgamecontroller.cpp:2467 src/game/server/infclass/infcgamecontroller.cpp:2525
+#, fuzzy
+msgid "The Undead is already here"
+msgstr "不死族已经在这里"
+
 #: src/game/server/gamecontext.cpp:4342
 msgctxt "Voodoo"
 msgid "The Voodoo does not die immediately when killed but instead enters Spirit mode for a short time."
@@ -930,20 +940,20 @@ msgstr ""
 "炸弹当量已经满了\n"
 "激光已经无法升级"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1696
+#: src/game/server/infclass/entities/infccharacter.cpp:1701
 msgid "The class is disabled"
 msgstr "此职业被禁用"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1713
+#: src/game/server/infclass/entities/infccharacter.cpp:1718
 msgid "The class limit exceeded"
 msgstr "已超出职业限制"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1662
+#: src/game/server/infclass/infcgamecontroller.cpp:1726
 #, fuzzy
 msgid "The class selector will be displayed when round starts"
 msgstr "在回合开始时，将显示职业选择器"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1701 src/game/server/infclass/infcgamecontroller.cpp:2024 src/game/server/infclass/infcgamecontroller.cpp:2069
+#: src/game/server/infclass/infcgamecontroller.cpp:1765 src/game/server/infclass/infcgamecontroller.cpp:2088 src/game/server/infclass/infcgamecontroller.cpp:2133
 msgid "The command is not available (enabled only in training mode)"
 msgstr "命令不可用(仅在练习模式中启用)"
 
@@ -974,7 +984,7 @@ msgctxt "Bat"
 msgid "The hammer is also useful for healing the infected."
 msgstr "锤子可以治疗感染者"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3403
+#: src/game/server/infclass/infcgamecontroller.cpp:3611
 msgid "The last round"
 msgstr "最后一轮"
 
@@ -989,11 +999,11 @@ msgctxt "Sniper"
 msgid "The locked position increases the Sniper's rifle damage from usual 10-13 to 30 damage points."
 msgstr "位置锁定将狙击手的激光枪伤害从通常的 10-13 点增加到 20 点。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3601
+#: src/game/server/infclass/infcgamecontroller.cpp:3809
 msgid "The round canceled: All humans have left the game"
 msgstr "回合取消, 所有人类离开了游戏"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3598
+#: src/game/server/infclass/infcgamecontroller.cpp:3806
 msgid "The round canceled: All infected have left the game"
 msgstr "回合取消, 所有感染者离开了游戏"
 
@@ -1002,20 +1012,20 @@ msgctxt "Slug"
 msgid "The slime heals the infected and deals damage to humans."
 msgstr "粘液可以治疗感染者并对人类造成伤害"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4072
+#: src/game/server/infclass/infcgamecontroller.cpp:4280
 msgid "The survival is over after {int:NumWaves} wave."
 msgid_plural "The survival is over after {int:NumWaves} waves."
 msgstr[0] ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4065
+#: src/game/server/infclass/infcgamecontroller.cpp:4273
 msgid "The survival is over. You have failed to survive a single wave."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4094
+#: src/game/server/infclass/infcgamecontroller.cpp:4302
 msgid "The survival is over. You have survived the final wave!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4089
+#: src/game/server/infclass/infcgamecontroller.cpp:4297
 msgid "The survival is over. You have survived!"
 msgstr ""
 
@@ -1027,14 +1037,14 @@ msgstr ""
 msgid "The turrets are not allowed by the game rules (at least right now)."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4518
+#: src/game/server/infclass/infcgamecontroller.cpp:4726
 msgid "The undead is finally dead"
 msgstr "不死族最终还是死了"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4513
+#: src/game/server/infclass/infcgamecontroller.cpp:4721
 #, fuzzy
 msgid "The undead is finally dead.....?"
-msgstr "不死族最终还是死了"
+msgstr "不死族最终还是死了...吗?"
 
 #: src/game/server/gamecontext.cpp:4323
 msgctxt "Spider"
@@ -1045,15 +1055,15 @@ msgstr "通过切换武器可以切换钩子模式"
 msgid "The white hole is available!"
 msgstr "白洞已就绪！"
 
-#: src/game/server/infclass/classes/humans/human.cpp:2126
+#: src/game/server/infclass/classes/humans/human.cpp:2129
 msgid "The white hole is ready, use the laser rifle to disrupt space-time"
 msgstr "白洞已经就绪, 使用激光枪使空间混乱"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4506
+#: src/game/server/infclass/infcgamecontroller.cpp:4714
 msgid "The witch is dead"
 msgstr "女巫已死"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2234
+#: src/game/server/infclass/infcgamecontroller.cpp:2298
 #, fuzzy
 msgid "The witch is not available in this round"
 msgstr "命令不可用(仅在练习模式中启用)"
@@ -1083,7 +1093,7 @@ msgctxt "Sniper"
 msgid "They can also jump two times in the air."
 msgstr "他可以三段跳。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1057
+#: src/game/server/infclass/infcgamecontroller.cpp:1117
 msgctxt "Events"
 msgid "Thief"
 msgstr "窃取"
@@ -1100,19 +1110,29 @@ msgstr "若要离开车，请跳跃。要从乘客身上下车，可启用钩子
 msgid "Too few infected (less than {int:MinimumInfected})"
 msgstr "感染者太少了（小于 {int:MinimumInfected}个）"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2286
+#: src/game/server/infclass/infcgamecontroller.cpp:2482
+#, fuzzy
+msgid "Too few infected to call a undead"
+msgstr "感染者太少，不能召唤不死族"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2350
 msgid "Too few infected to call a witch"
 msgstr "感染者太少，不能召唤女巫"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2282
+#: src/game/server/infclass/infcgamecontroller.cpp:2346
 msgid "Too few infected to call the Santa"
 msgstr "感染者太少，不能召唤圣诞老人"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2275
+#: src/game/server/infclass/infcgamecontroller.cpp:2477
+#, fuzzy
+msgid "Too few players to call a undead"
+msgstr "玩家太少，不能召唤不死族"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2339
 msgid "Too few players to call a witch"
 msgstr "玩家太少，不能召唤女巫"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2271
+#: src/game/server/infclass/infcgamecontroller.cpp:2335
 msgid "Too few players to call the Santa"
 msgstr "玩家太少，不能召唤圣诞老人"
 
@@ -1132,31 +1152,31 @@ msgstr "两个或更多的人类可以组成一辆车"
 msgid "Type “/help {str:ClassName}” for more information about your class"
 msgstr "键入“/help {str:ClassName}”获取当前职业的更多信息"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2082
+#: src/game/server/infclass/infcgamecontroller.cpp:2146
 msgid "Unable to load the position: the character state is not valid"
 msgstr "无法加载坐标: 玩家状态无效"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2076
+#: src/game/server/infclass/infcgamecontroller.cpp:2140
 msgid "Unable to load the position: you have no character to load its position"
 msgstr "无法加载坐标: 你没有角色来加载位置"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2043
+#: src/game/server/infclass/infcgamecontroller.cpp:2107
 msgid "Unable to save the position: the character does not stand on the ground"
 msgstr "无法保存坐标: 角色不在地上"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2037
+#: src/game/server/infclass/infcgamecontroller.cpp:2101
 msgid "Unable to save the position: the character state is not valid"
 msgstr "无法保存坐标: 玩家状态无效"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2031
+#: src/game/server/infclass/infcgamecontroller.cpp:2095
 msgid "Unable to save the position: you have no character to save its position"
 msgstr "无法保存坐标: 你没有角色来保存位置"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1632
+#: src/game/server/infclass/infcgamecontroller.cpp:1696
 msgid "Unable to set preferred class: Invalid class name"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1254
+#: src/game/server/infclass/infcgamecontroller.cpp:1316
 msgid "Undead"
 msgstr "不死族"
 
@@ -1169,11 +1189,16 @@ msgctxt "Undead"
 msgid "Undead can infect humans and heal the infected with the hammer."
 msgstr "不死族可以用锤子感染人类或治疗感染。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1351
+#: src/game/server/infclass/infcgamecontroller.cpp:2531
+#, fuzzy
+msgid "Undead {str:PlayerName} has arrived!"
+msgstr "不死族{str:PlayerName}已经到达"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:1413
 msgid "Undeads"
 msgstr "不死族"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1258
+#: src/game/server/infclass/infcgamecontroller.cpp:1320
 msgid "Unknown class"
 msgstr "未知职业"
 
@@ -1181,7 +1206,7 @@ msgstr "未知职业"
 msgid "Unknown language"
 msgstr "未知语言"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1354
+#: src/game/server/infclass/infcgamecontroller.cpp:1416
 msgid "Unknowns"
 msgstr "未知职业"
 
@@ -1226,7 +1251,7 @@ msgstr "使用 \"/mute <玩家名>\"来单方面禁言这个玩家"
 msgid "Use “/w <PlayerName> <My Message>” to send a private message to this player."
 msgstr "使用 \"/w <玩家名> <消息>\" 给这个玩家发送私聊"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1250
+#: src/game/server/infclass/infcgamecontroller.cpp:1312
 msgid "Voodoo"
 msgstr "巫毒者"
 
@@ -1240,7 +1265,7 @@ msgstr "巫毒者可以用锤子感染人类或治疗感染"
 msgid "Voodoo can unfreeze an Undead while in Spirit mode."
 msgstr "巫毒者可以用锤子感染人类或治疗感染"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1347
+#: src/game/server/infclass/infcgamecontroller.cpp:1409
 msgid "Voodoos"
 msgstr "巫毒者"
 
@@ -1254,7 +1279,7 @@ msgctxt "Inactive kick broadcast message"
 msgid "Warning: {sec:RemainingTime} until a move to spec for inactivity"
 msgstr "警告: 将在 {sec:RemainingTime} 后因挂机移动到旁观"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:670
+#: src/game/server/infclass/classes/infected/infected.cpp:679
 msgctxt "Spider"
 msgid "Web mode enabled"
 msgstr "网状模式启用"
@@ -1286,11 +1311,11 @@ msgstr "白洞把感染者拉进其中心。"
 msgid "White hole: {sec:RemainingTime}"
 msgstr "白洞：{sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1252
+#: src/game/server/infclass/infcgamecontroller.cpp:1314
 msgid "Witch"
 msgstr "女巫"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2342
+#: src/game/server/infclass/infcgamecontroller.cpp:2406 src/game/server/infclass/infcgamecontroller.cpp:2512
 msgid "Witch ({int:Callers}/{int:RequiredCallers})"
 msgstr "召唤女巫（{int:Callers}/{int:RequiredCallers}）"
 
@@ -1304,11 +1329,11 @@ msgstr "女巫可以用锤子感染人类或治疗感染"
 msgid "Witch can spawn the infected through narrow walls."
 msgstr "女巫可以用锤子感染人类或治疗感染"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2378
+#: src/game/server/infclass/infcgamecontroller.cpp:2442
 msgid "Witch {str:PlayerName} has arrived!"
 msgstr "女巫 {str:PlayerName} 已经到达"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1349
+#: src/game/server/infclass/infcgamecontroller.cpp:1411
 msgid "Witches"
 msgstr "女巫"
 
@@ -1328,7 +1353,7 @@ msgstr "你被感染了：{str:ClassName}"
 msgid "You are blinded: {sec:EffectDuration}"
 msgstr "你失明了: {sec:EffectDuration}"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:2275
+#: src/game/server/infclass/entities/infccharacter.cpp:2284
 msgid "You are frozen: {sec:EffectDuration}"
 msgstr "你被冻结了︰{sec:EffectDuration}"
 
@@ -1336,7 +1361,7 @@ msgstr "你被冻结了︰{sec:EffectDuration}"
 msgid "You are muted for {sec:Duration}"
 msgstr "你被禁言了{sec:Duration}"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:2286
+#: src/game/server/infclass/entities/infccharacter.cpp:2295
 msgid "You are slowed: {sec:EffectDuration}"
 msgstr "你被减速了：{sec:EffectDuration}"
 
@@ -1348,7 +1373,12 @@ msgstr "你可以使用命令 /language 切换此 mod 的语言。"
 msgid "You can toggle hook protection by pressing f3 (\"Vote yes\" keybind)."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2303
+#: src/game/server/infclass/infcgamecontroller.cpp:2493
+#, fuzzy
+msgid "You can't call undead twice"
+msgstr "你不能重复召唤不死族"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2367
 msgid "You can't call witch twice"
 msgstr "你不能重复召唤女巫"
 
@@ -1380,7 +1410,7 @@ msgstr "你已投票跳过此地图"
 msgid "You have been infected by {str:KillerName}"
 msgstr "你被 {str:KillerName} 感染了"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2299
+#: src/game/server/infclass/infcgamecontroller.cpp:2363
 msgid "You have called the Santa once again"
 msgstr "你再次呼叫了圣诞老人"
 
@@ -1400,19 +1430,19 @@ msgstr "你感染了 {str:VictimName}，+3 分"
 msgid "You have infected {str:VictimName}, shame on you!"
 msgstr "你使 {str:VictimName} 被感染了, 你感到羞愧"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4380
+#: src/game/server/infclass/infcgamecontroller.cpp:4588
 msgid "You have killed a witch, +5 points"
 msgstr "你杀了一个女巫，+5 分"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4384
+#: src/game/server/infclass/infcgamecontroller.cpp:4592
 msgid "You have killed an undead! +5 points"
 msgstr "你杀了一个不死族，+5 分"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3629
+#: src/game/server/infclass/infcgamecontroller.cpp:3837
 msgid "You have survived, +5 points"
 msgstr "你成功存活，+5 分"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3770
+#: src/game/server/infclass/infcgamecontroller.cpp:3978
 msgid "You have to wait until the survival is over"
 msgstr ""
 
@@ -1420,7 +1450,7 @@ msgstr ""
 msgid "You have {int:NumTurrets} of {int:MaxTurrets} turrets. Use the hammer to place one."
 msgstr "你有 {int:NumTurrets}/{int:MaxTurrets}个炮塔, 可使用锤子放置一个"
 
-#: src/game/server/infclass/classes/humans/human.cpp:2179
+#: src/game/server/infclass/classes/humans/human.cpp:2194
 msgid "You have {int:NumTurrets} turret available, use the Hammer to place it"
 msgid_plural "You have {int:NumTurrets} turrets available, use the Hammer to place it"
 msgstr[0] "你有{int:NumTurrets}个炮塔, 可用锤子放置"
@@ -1453,77 +1483,77 @@ msgstr "你至少需要 {int:MinimumHP}点血量"
 msgid "Your account has been created and you are now logged."
 msgstr "已成功创建账号，并成功登录。"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1274
+#: src/game/server/infclass/infcgamecontroller.cpp:1336
 msgctxt "For 'Killed by <>'"
 msgid "a Bat"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1270
+#: src/game/server/infclass/infcgamecontroller.cpp:1332
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Boomer"
 msgstr "爆炸者"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1276
+#: src/game/server/infclass/infcgamecontroller.cpp:1338
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Ghost"
 msgstr "幽灵"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1280
+#: src/game/server/infclass/infcgamecontroller.cpp:1342
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Ghoul"
 msgstr "食尸鬼"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1272
+#: src/game/server/infclass/infcgamecontroller.cpp:1334
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Hunter"
 msgstr "猎人"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1282
+#: src/game/server/infclass/infcgamecontroller.cpp:1344
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Slug"
 msgstr "鼻涕虫"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1268
+#: src/game/server/infclass/infcgamecontroller.cpp:1330
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Smoker"
 msgstr "吸烟者"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1278
+#: src/game/server/infclass/infcgamecontroller.cpp:1340
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Spider"
 msgstr "蜘蛛"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1284
+#: src/game/server/infclass/infcgamecontroller.cpp:1346
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Voodoo"
 msgstr "巫毒者"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1286
+#: src/game/server/infclass/infcgamecontroller.cpp:1348
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Witch"
 msgstr "女巫"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1288
+#: src/game/server/infclass/infcgamecontroller.cpp:1350
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "an Undead"
 msgstr "不死族"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1292
+#: src/game/server/infclass/infcgamecontroller.cpp:1354
 msgctxt "For 'Killed by <>'"
 msgid "someone unknown"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1718
+#: src/game/server/infclass/infcgamecontroller.cpp:1782
 msgid "{str:PlayerName} changed the class to {str:ClassName}"
 msgstr "{str:PlayerName} 修改职业为 {str:ClassName}"
 
@@ -1531,7 +1561,7 @@ msgstr "{str:PlayerName} 修改职业为 {str:ClassName}"
 msgid "{str:PlayerName} changed their name to {str:NewName}"
 msgstr "{str:PlayerName} 已改名为 {str:NewName}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3158
+#: src/game/server/infclass/infcgamecontroller.cpp:3318
 #, fuzzy
 msgid "{str:PlayerName} didn't survive in this round."
 msgstr "{str:PlayerName} 连接并加入游戏"
@@ -1560,19 +1590,24 @@ msgstr "{str:PlayerName} 离开游戏"
 msgid "{str:PlayerName} has left the game ({str:Reason})"
 msgstr "{str:PlayerName} 离开游戏 ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2316
+#: src/game/server/infclass/infcgamecontroller.cpp:2380
 msgid "{str:PlayerName} is calling for Santa! (1/{int:RequiredCallers}) To call the Santa write: /santa"
 msgstr "{str:PlayerName} 正在召唤圣诞老人！（1/{int:RequiredCallers}）要召唤圣诞老人输入：/witch"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2324
+#: src/game/server/infclass/infcgamecontroller.cpp:2504
+#, fuzzy
+msgid "{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead"
+msgstr "{str:PlayerName} 正在召唤不死族！（1/{int:RequiredCallers}）要召唤不死族输入：/undead"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2388
 msgid "{str:PlayerName} is calling for Witch! (1/{int:RequiredCallers}) To call witch write: /witch"
 msgstr "{str:PlayerName} 正在召唤女巫！（1/{int:RequiredCallers}）要召唤女巫输入：/witch"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2829
+#: src/game/server/infclass/infcgamecontroller.cpp:2989
 msgid "{str:PlayerName} joined the game"
 msgstr "{str:PlayerName} 加入游戏"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2825
+#: src/game/server/infclass/infcgamecontroller.cpp:2985
 msgid "{str:PlayerName} joined the spectators"
 msgstr "{str:PlayerName} 加入旁观者"
 
@@ -1584,32 +1619,32 @@ msgstr "{str:PlayerName} 提议开始投票 '{str:VoteName}'"
 msgid "{str:PlayerName} wants {str:VictimName} to be banned ({str:Reason})"
 msgstr "{str:PlayerName} 提议封禁 {str:VictimName} ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3107
+#: src/game/server/infclass/infcgamecontroller.cpp:3267
 #, fuzzy
 msgid "{str:PlayerName} was chopped up by {str:Killer}."
 msgstr "{str:PlayerName} 被封禁 ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3106
+#: src/game/server/infclass/infcgamecontroller.cpp:3266
 #, fuzzy
 msgid "{str:PlayerName} was decapitated by {str:Killer}."
 msgstr "{str:PlayerName} 摧毁了你的炮塔！"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3104
+#: src/game/server/infclass/infcgamecontroller.cpp:3264
 #, fuzzy
 msgid "{str:PlayerName} was destroyed by {str:Killer}."
 msgstr "{str:PlayerName} 摧毁了你的炮塔！"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3108
+#: src/game/server/infclass/infcgamecontroller.cpp:3268
 #, fuzzy
 msgid "{str:PlayerName} was removed from this world by {str:Killer}."
 msgstr "{str:PlayerName} 提议开始投票 '{str:VoteName}'"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3105
+#: src/game/server/infclass/infcgamecontroller.cpp:3265
 #, fuzzy
 msgid "{str:PlayerName} was slain by {str:Killer}."
 msgstr "{str:PlayerName} 被封禁 ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3522
+#: src/game/server/infclass/infcgamecontroller.cpp:3730
 msgid "{str:VictimName} has been infected"
 msgstr "{str:VictimName} 被感染了"
 

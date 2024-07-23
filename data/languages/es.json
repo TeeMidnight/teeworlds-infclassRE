@@ -513,6 +513,10 @@
 		"value": "En vez de morir, se queda congelado 10 segundos."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "El muerto viviente ha muerto finalmente"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "La bruja ha muerto"
 	},
@@ -571,7 +575,15 @@
 		"value": "Este nombre de usuario ya est\u00e1 cogido por una cuenta existente"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "El objetivo de los infectados es el de infectar a todos los humanos."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "El objetivo de los infectados es el de infectar a todos los humanos."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "El objetivo de los infectados es el de infectar a todos los humanos."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "El Muerto viviente puede infectar a humanos y curar a otros infectados con su martillo."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} ha salido del juego"
 	},
 	{
 		"key": "Undeads",

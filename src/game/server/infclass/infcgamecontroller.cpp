@@ -1122,6 +1122,8 @@ const char *CInfClassGameController::GetEventDisplayName(ERandomEvent Event)
 			return _C("Events", "Disabling");
 		case ERandomEvent::Fear:
 			return _C("Events", "Fear");
+		case ERandomEvent::Christmas:
+			return _C("Events", "Christmas");
 
 		case ERandomEvent::None:
 		default:

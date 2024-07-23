@@ -513,6 +513,10 @@
 		"value": "In plaats van te sterven, bevriest hij voor 10 seconden."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "De ondode is eindelijk dood"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "De heks is dood"
 	},
@@ -571,7 +575,15 @@
 		"value": "Deze gebruikersnaam is al gebruikt door een bestaand account."
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Het doel voor de ge\u00efnfecteerden is voor alle mensen te infecteren."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Het doel voor de ge\u00efnfecteerden is voor alle mensen te infecteren."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Het doel voor de ge\u00efnfecteerden is voor alle mensen te infecteren."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "De ondode kan mensen infecteren en mensen genezen met zijn hamer."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} heeft het spel verlaten"
 	},
 	{
 		"key": "Undeads",

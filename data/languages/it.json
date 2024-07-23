@@ -513,6 +513,10 @@
 		"value": "Invece di morire, si congela per 10 secondi."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Il Morto Vivente \u00e8 finalmente morto"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "La Strega \u00e8 morta"
 	},
@@ -571,7 +575,15 @@
 		"value": "Questo username \u00e8 stato gi\u00e0 preso da un account esistente"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Lo scopo degli infetti \u00e8 di infettare tutti gli umani."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Lo scopo degli infetti \u00e8 di infettare tutti gli umani."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Lo scopo degli infetti \u00e8 di infettare tutti gli umani."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Il Morto Vivente pu\u00f2 infettare gli umani e guarire gli infetti con il suo martello."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} ha lasciato il gioco"
 	},
 	{
 		"key": "Undeads",

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: teeuniverse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-22 13:54+0800\n"
+"POT-Creation-Date: 2024-07-23 11:35+0800\n"
 "PO-Revision-Date: 2017-07-31 15:23-0400\n"
 "Last-Translator: necropotame <necropotame@gmail.com>\n"
 "Language-Team: Tagalog\n"
@@ -30,7 +30,7 @@ msgctxt "Scientist"
 msgid "A lucky Scientist devoted to killing can get a white hole that sucks the infected in which can be placed with the laser rifle."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1657
+#: src/game/server/infclass/infcgamecontroller.cpp:1721
 #, fuzzy
 msgid "A random class will be automatically attributed to you when round starts"
 msgstr "Random class ang ibibigay sayo pag wala kang napili sa pagsimula ng round"
@@ -46,7 +46,7 @@ msgstr "Lahat ng tao sa loob ng pagsabog ay magiging infected."
 msgid "All players start as a human."
 msgstr "Lahat ng naglalaro ay nagsisimula bilang tao."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2259 src/game/server/infclass/infcgamecontroller.cpp:2363
+#: src/game/server/infclass/infcgamecontroller.cpp:2323 src/game/server/infclass/infcgamecontroller.cpp:2427
 msgid "All witches are already here"
 msgstr ""
 
@@ -58,7 +58,7 @@ msgstr "May maling nangyari habang ginagawa ang iyong account."
 msgid "An error occured during the operation."
 msgstr "May maling nangyari habang ginagawa ang operasyon."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1059
+#: src/game/server/infclass/infcgamecontroller.cpp:1119
 msgctxt "Events"
 msgid "Ashes"
 msgstr ""
@@ -75,7 +75,7 @@ msgstr "Available na languages: {str:ListOfLanguage}"
 msgid "Based on the concept of Infection mod by Gravity"
 msgstr "Base sa concepto ng infection mod ni Gravity"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1240
+#: src/game/server/infclass/infcgamecontroller.cpp:1302
 msgid "Bat"
 msgstr ""
 
@@ -89,11 +89,11 @@ msgctxt "Bat"
 msgid "Bat can jump endlessly in the air but it cannot infect humans."
 msgstr "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1337
+#: src/game/server/infclass/infcgamecontroller.cpp:1399
 msgid "Bats"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1229
+#: src/game/server/infclass/infcgamecontroller.cpp:1291
 msgid "Biologist"
 msgstr "Biologist"
 
@@ -101,12 +101,12 @@ msgstr "Biologist"
 msgid "Biologist's bouncy shotgun can be used to hit the infected around corners."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1326
+#: src/game/server/infclass/infcgamecontroller.cpp:1388
 #, fuzzy
 msgid "Biologists"
 msgstr "Biologist"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1236
+#: src/game/server/infclass/infcgamecontroller.cpp:1298
 msgid "Boomer"
 msgstr "Boomer"
 
@@ -114,12 +114,12 @@ msgstr "Boomer"
 msgid "Boomer can infect through narrow walls."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1333
+#: src/game/server/infclass/infcgamecontroller.cpp:1395
 #, fuzzy
 msgid "Boomers"
 msgstr "Boomer"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1054
+#: src/game/server/infclass/infcgamecontroller.cpp:1114
 msgctxt "Events"
 msgid "Brave"
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Choose a help page with /help <page>"
 msgstr "Pumili ng help page gamit ang /help <page>"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1664
+#: src/game/server/infclass/entities/infccharacter.cpp:1669
 msgid "Choose your class"
 msgstr "Pumili ka ng class"
 
@@ -144,7 +144,12 @@ msgstr "Pumili ka ng class"
 msgid "Choosing a random class grants full armor."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1670
+#: src/game/server/infclass/infcgamecontroller.cpp:1126
+msgctxt "Events"
+msgid "Christmas"
+msgstr ""
+
+#: src/game/server/infclass/infcgamecontroller.cpp:1734
 #, fuzzy
 msgid "Class {str:ClassName} will be automatically attributed to you when round starts"
 msgstr "Random class ang ibibigay sayo pag wala kang napili sa pagsimula ng round"
@@ -154,7 +159,7 @@ msgstr "Random class ang ibibigay sayo pag wala kang napili sa pagsimula ng roun
 msgid "Create an account on Crowdin and join the translation team:"
 msgstr "Gumawa ng account sa Crowdin at sumama sa translation team:"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1062
+#: src/game/server/infclass/infcgamecontroller.cpp:1122
 msgctxt "Events"
 msgid "Disabling"
 msgstr ""
@@ -171,11 +176,11 @@ msgid_plural "Each bomb can explode {int:NumBombs} times."
 msgstr[0] "Kada bomba ay kayang sumabog ng paisa-isa."
 msgstr[1] "Kada bomba ay kayang sumabog ng {int:NumBombs} beses."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1219
+#: src/game/server/infclass/infcgamecontroller.cpp:1281
 msgid "Engineer"
 msgstr "Engineer"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1316
+#: src/game/server/infclass/infcgamecontroller.cpp:1378
 #, fuzzy
 msgid "Engineers"
 msgstr "Engineer"
@@ -198,21 +203,21 @@ msgstr "Laki ng pagsabog: {percent:BombLevel}"
 msgid "Fast round"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1064
+#: src/game/server/infclass/infcgamecontroller.cpp:1124
 msgctxt "Events"
 msgid "Fear"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1242
+#: src/game/server/infclass/infcgamecontroller.cpp:1304
 msgid "Ghost"
 msgstr "Ghost"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1339
+#: src/game/server/infclass/infcgamecontroller.cpp:1401
 #, fuzzy
 msgid "Ghosts"
 msgstr "Ghost"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1246
+#: src/game/server/infclass/infcgamecontroller.cpp:1308
 msgid "Ghoul"
 msgstr "Ghould"
 
@@ -222,7 +227,7 @@ msgctxt "Ghoul"
 msgid "Ghoul can infect humans and heal the infected with the hammer."
 msgstr "Ang Ghoul ay kayang maka infect ng mga tao at makagamot ng mga infected gamit ang kanyang hammer."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1343
+#: src/game/server/infclass/infcgamecontroller.cpp:1405
 #, fuzzy
 msgid "Ghouls"
 msgstr "Ghould"
@@ -236,7 +241,7 @@ msgctxt "Medic"
 msgid "Grenades with medicine give armor to everybody in their range, including Heroes and the Medic themself."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1217
+#: src/game/server/infclass/infcgamecontroller.cpp:1279
 msgid "Hero"
 msgstr "Hero"
 
@@ -252,7 +257,7 @@ msgstr ""
 msgid "Hero's turrets are great for detecting Ghosts."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1314
+#: src/game/server/infclass/infcgamecontroller.cpp:1376
 #, fuzzy
 msgid "Heroes"
 msgstr "Hero"
@@ -274,11 +279,11 @@ msgstr "Paano matranslate ang mod"
 msgid "How to use taxi mode"
 msgstr "Paano matranslate ang mod"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2615
+#: src/game/server/infclass/infcgamecontroller.cpp:2773
 msgid "Human event '{str:EventName}' was chosen!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1238
+#: src/game/server/infclass/infcgamecontroller.cpp:1300
 msgid "Hunter"
 msgstr "Hunter"
 
@@ -286,7 +291,7 @@ msgstr "Hunter"
 msgid "Hunter receives no knockback from Medic's shotgun."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1335
+#: src/game/server/infclass/infcgamecontroller.cpp:1397
 #, fuzzy
 msgid "Hunters"
 msgstr "Hunter"
@@ -321,15 +326,15 @@ msgstr ""
 msgid "In the fast rounds *more* humans become infected initially, the spawning rate is increased and the round time limit is decreased. White hole is also disabled."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2619
+#: src/game/server/infclass/infcgamecontroller.cpp:2777
 msgid "Infected event '{str:EventName}' was chosen!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3638
+#: src/game/server/infclass/infcgamecontroller.cpp:3846
 msgid "Infected won the round in {sec:RoundDuration}"
 msgstr "Ang mga Infected ay nanalo sa loob ng {sec:RoundDuration}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3654
+#: src/game/server/infclass/infcgamecontroller.cpp:3862
 #, fuzzy
 msgid "Infection is coming in {sec:RemainingTime}"
 msgstr "{sec:RemainingTime} bago ang sunod na watawat"
@@ -455,7 +460,7 @@ msgstr "Pader ng laser: {sec:RemainingTime}"
 msgid "List of commands"
 msgstr "Lista ng mga commands"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1231
+#: src/game/server/infclass/infcgamecontroller.cpp:1293
 msgid "Looper"
 msgstr ""
 
@@ -464,7 +469,7 @@ msgstr ""
 msgid "Looper laser wall: {sec:RemainingTime}"
 msgstr "Pader ng laser: {sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1328
+#: src/game/server/infclass/infcgamecontroller.cpp:1390
 msgid "Loopers"
 msgstr ""
 
@@ -476,7 +481,7 @@ msgstr "Mga pangunahing contributors: {str:ListOfContributors}"
 msgid "Matrix room: {str:Url}"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1215
+#: src/game/server/infclass/infcgamecontroller.cpp:1277
 msgid "Medic"
 msgstr "Medic"
 
@@ -498,17 +503,17 @@ msgstr ""
 msgid "Medic {str:MedicName} revived {str:RevivedName}"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1312
+#: src/game/server/infclass/infcgamecontroller.cpp:1374
 #, fuzzy
 msgid "Medics"
 msgstr "Medic"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1310
+#: src/game/server/infclass/infcgamecontroller.cpp:1372
 #, fuzzy
 msgid "Mercenaries"
 msgstr "Mercenary"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1213
+#: src/game/server/infclass/infcgamecontroller.cpp:1275
 msgid "Mercenary"
 msgstr "Mercenary"
 
@@ -542,7 +547,7 @@ msgid_plural "Mines are limited to {int:NumMines} per player at the same time."
 msgstr[0] "Ang mga mines ay limitado sa isa kada player."
 msgstr[1] "Ang mga mines ay limitado sa {int:NumMines} kada player."
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1704
+#: src/game/server/infclass/entities/infccharacter.cpp:1709
 msgid "Need at least {int:MinPlayers} player"
 msgid_plural "Need at least {int:MinPlayers} players"
 msgstr[0] ""
@@ -558,7 +563,7 @@ msgctxt "Ninja"
 msgid "Next target in {sec:RemainingTime}"
 msgstr "Sunod na layon sa {sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1223
+#: src/game/server/infclass/infcgamecontroller.cpp:1285
 msgid "Ninja"
 msgstr "Ninja"
 
@@ -582,7 +587,7 @@ msgstr ""
 msgid "Ninja's slash deals 9 damage by default. One more pistol shot will kill an infected with no armor."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1320
+#: src/game/server/infclass/infcgamecontroller.cpp:1382
 #, fuzzy
 msgid "Ninjas"
 msgstr "Ninja"
@@ -591,7 +596,7 @@ msgstr "Ninja"
 msgid "No player was found with this name"
 msgstr "Walang player na nahanap sa pangalan na ito"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1068
+#: src/game/server/infclass/infcgamecontroller.cpp:1130
 msgctxt "Events"
 msgid "Nothing"
 msgstr ""
@@ -604,7 +609,7 @@ msgid_plural "{int:NumBombs} bombs left"
 msgstr[0] "Isang bomba ang natira"
 msgstr[1] "{int:NumBombs} bomba ang natira"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3613
+#: src/game/server/infclass/infcgamecontroller.cpp:3821
 msgid "One human won the round"
 msgid_plural "{int:NumHumans} humans won the round"
 msgstr[0] "Isang tao lamang ang nanalo"
@@ -616,7 +621,7 @@ msgid_plural "{int:NumMines} mines are active"
 msgstr[0] "Isang mine ang active"
 msgstr[1] "{int:NumMines} mine ang active"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2625
+#: src/game/server/infclass/infcgamecontroller.cpp:2783
 msgid "Oops! Global event '{str:EventName}'!"
 msgstr ""
 
@@ -624,13 +629,13 @@ msgstr ""
 msgid "Persistent player mute"
 msgstr ""
 
-#: src/game/server/infclass/classes/humans/human.cpp:1919
+#: src/game/server/infclass/classes/humans/human.cpp:1922
 msgid "Placed a turret, {int:TurretsNumber} turret left"
 msgid_plural "Placed a turret, {int:TurretsNumber} turrets left"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3400
+#: src/game/server/infclass/infcgamecontroller.cpp:3608
 msgid "Play more on this map"
 msgstr ""
 
@@ -648,7 +653,7 @@ msgstr "Ikandado ang kanyang pwesto ng: {sec:RemainingTime}"
 msgid "Press <F3> or <F4> to enable or disable hook protection"
 msgstr "Pindutin ang <F3> o <F4> para ion o ioff ang hook protection"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1675
+#: src/game/server/infclass/entities/infccharacter.cpp:1680
 msgid "Random choice"
 msgstr "Random"
 
@@ -663,16 +668,16 @@ msgstr[1] ""
 msgid "Rules of the game"
 msgstr "Mga batas ng laro"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2334
+#: src/game/server/infclass/infcgamecontroller.cpp:2398
 msgid "Santa ({int:Callers}/{int:RequiredCallers})"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2371
+#: src/game/server/infclass/infcgamecontroller.cpp:2435
 #, fuzzy
 msgid "Santa {str:PlayerName} has arrived!"
 msgstr "{str:PlayerName} ay umalis na"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1227
+#: src/game/server/infclass/infcgamecontroller.cpp:1289
 msgid "Scientist"
 msgstr "Scientist"
 
@@ -695,7 +700,7 @@ msgctxt "Scientist"
 msgid "Scientist has also grenades that teleport them."
 msgstr "Mayroon din siyang grenade na kaya sa kanyang magteleport."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1324
+#: src/game/server/infclass/infcgamecontroller.cpp:1386
 #, fuzzy
 msgid "Scientists"
 msgstr "Scientist"
@@ -720,7 +725,7 @@ msgstr ""
 msgid "Server version from {str:ServerCompileDate} "
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1248
+#: src/game/server/infclass/infcgamecontroller.cpp:1310
 msgid "Slug"
 msgstr "Slug"
 
@@ -738,12 +743,12 @@ msgctxt "Slug"
 msgid "Slug can infect humans and heal the infected with the hammer."
 msgstr "Ang Slug ay kayang maka infect ng humans at makagamot ng mga infected gamit ang kanyang hammer."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1345
+#: src/game/server/infclass/infcgamecontroller.cpp:1407
 #, fuzzy
 msgid "Slugs"
 msgstr "Slug"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1234
+#: src/game/server/infclass/infcgamecontroller.cpp:1296
 msgid "Smoker"
 msgstr "Smoker"
 
@@ -756,12 +761,12 @@ msgstr ""
 msgid "Smoker heals by hooking humans."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1331
+#: src/game/server/infclass/infcgamecontroller.cpp:1393
 #, fuzzy
 msgid "Smokers"
 msgstr "Smoker"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1225
+#: src/game/server/infclass/infcgamecontroller.cpp:1287
 msgid "Sniper"
 msgstr "Sniper"
 
@@ -769,12 +774,12 @@ msgstr "Sniper"
 msgid "Sniper deals double as much damage in locked position."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1322
+#: src/game/server/infclass/infcgamecontroller.cpp:1384
 #, fuzzy
 msgid "Snipers"
 msgstr "Sniper"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1221
+#: src/game/server/infclass/infcgamecontroller.cpp:1283
 msgid "Soldier"
 msgstr "Soldier"
 
@@ -782,12 +787,12 @@ msgstr "Soldier"
 msgid "Soldier's bombs can hit through walls."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1318
+#: src/game/server/infclass/infcgamecontroller.cpp:1380
 #, fuzzy
 msgid "Soldiers"
 msgstr "Soldier"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3541
+#: src/game/server/infclass/infcgamecontroller.cpp:3749
 #, fuzzy
 msgid "Someone was infected to balance the game."
 msgstr "Pagnadikitan ng infected ang wall, mamatay siya."
@@ -796,7 +801,7 @@ msgstr "Pagnadikitan ng infected ang wall, mamatay siya."
 msgid "Sources: {str:SourceUrl} "
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1244
+#: src/game/server/infclass/infcgamecontroller.cpp:1306
 msgid "Spider"
 msgstr "Spider"
 
@@ -808,24 +813,24 @@ msgstr ""
 msgid "Spider doesn't need to be in Web mode to automatically grab any humans touching its hook."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1341
+#: src/game/server/infclass/infcgamecontroller.cpp:1403
 #, fuzzy
 msgid "Spiders"
 msgstr "Spider"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:290
+#: src/game/server/infclass/classes/infected/infected.cpp:293
 #, fuzzy
 msgctxt "Voodoo"
 msgid "Staying alive for: {int:RemainingTime}"
 msgstr "Ikandado ang kanyang pwesto ng: {sec:RemainingTime}"
 
-#: src/game/server/infclass/classes/infected/infected.cpp:680
+#: src/game/server/infclass/classes/infected/infected.cpp:689
 #, fuzzy
 msgctxt "Ghoul"
 msgid "Stomach filled by {percent:FodderInStomach}"
 msgstr "Ang tiyan ay puno ng {percent:FodderInStomach}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1052
+#: src/game/server/infclass/infcgamecontroller.cpp:1112
 msgctxt "Events"
 msgid "Storage"
 msgstr ""
@@ -943,11 +948,11 @@ msgctxt "Ninja"
 msgid "The Ninja can throw flash grenades that can freeze the infected for three seconds."
 msgstr "Ang ninja ay kayang mag tapon ng flash grenades na kayang magstun ng infected sa loob ng 3 segundo."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2255 src/game/server/infclass/infcgamecontroller.cpp:2358
+#: src/game/server/infclass/infcgamecontroller.cpp:2319 src/game/server/infclass/infcgamecontroller.cpp:2422
 msgid "The Santa is already here"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2237
+#: src/game/server/infclass/infcgamecontroller.cpp:2301
 msgid "The Santa is not available in this round"
 msgstr ""
 
@@ -986,6 +991,11 @@ msgctxt "Undead"
 msgid "The Undead cannot die. Instead of dying, it gets frozen for 10 seconds."
 msgstr "Imbes na mamatay, siya ay hindi pwedeng makagalaw sa loob ng 10 segundo."
 
+#: src/game/server/infclass/infcgamecontroller.cpp:2467 src/game/server/infclass/infcgamecontroller.cpp:2525
+#, fuzzy
+msgid "The Undead is already here"
+msgstr "Wala na ang undead"
+
 #: src/game/server/gamecontext.cpp:4342
 msgctxt "Voodoo"
 msgid "The Voodoo does not die immediately when killed but instead enters Spirit mode for a short time."
@@ -1003,21 +1013,21 @@ msgid ""
 "There is nothing to do with the laser."
 msgstr ""
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1696
+#: src/game/server/infclass/entities/infccharacter.cpp:1701
 #, fuzzy
 msgid "The class is disabled"
 msgstr "Ang witch ay patay na"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:1713
+#: src/game/server/infclass/entities/infccharacter.cpp:1718
 msgid "The class limit exceeded"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1662
+#: src/game/server/infclass/infcgamecontroller.cpp:1726
 #, fuzzy
 msgid "The class selector will be displayed when round starts"
 msgstr "Ang class selector ay ipapakita sa pagsimula ng round"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1701 src/game/server/infclass/infcgamecontroller.cpp:2024 src/game/server/infclass/infcgamecontroller.cpp:2069
+#: src/game/server/infclass/infcgamecontroller.cpp:1765 src/game/server/infclass/infcgamecontroller.cpp:2088 src/game/server/infclass/infcgamecontroller.cpp:2133
 msgid "The command is not available (enabled only in training mode)"
 msgstr ""
 
@@ -1050,7 +1060,7 @@ msgctxt "Bat"
 msgid "The hammer is also useful for healing the infected."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3403
+#: src/game/server/infclass/infcgamecontroller.cpp:3611
 msgid "The last round"
 msgstr ""
 
@@ -1065,11 +1075,11 @@ msgctxt "Sniper"
 msgid "The locked position increases the Sniper's rifle damage from usual 10-13 to 30 damage points."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3601
+#: src/game/server/infclass/infcgamecontroller.cpp:3809
 msgid "The round canceled: All humans have left the game"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3598
+#: src/game/server/infclass/infcgamecontroller.cpp:3806
 msgid "The round canceled: All infected have left the game"
 msgstr ""
 
@@ -1078,21 +1088,21 @@ msgctxt "Slug"
 msgid "The slime heals the infected and deals damage to humans."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4072
+#: src/game/server/infclass/infcgamecontroller.cpp:4280
 msgid "The survival is over after {int:NumWaves} wave."
 msgid_plural "The survival is over after {int:NumWaves} waves."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4065
+#: src/game/server/infclass/infcgamecontroller.cpp:4273
 msgid "The survival is over. You have failed to survive a single wave."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4094
+#: src/game/server/infclass/infcgamecontroller.cpp:4302
 msgid "The survival is over. You have survived the final wave!"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4089
+#: src/game/server/infclass/infcgamecontroller.cpp:4297
 msgid "The survival is over. You have survived!"
 msgstr ""
 
@@ -1104,11 +1114,11 @@ msgstr ""
 msgid "The turrets are not allowed by the game rules (at least right now)."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4518
+#: src/game/server/infclass/infcgamecontroller.cpp:4726
 msgid "The undead is finally dead"
 msgstr "Wala na ang undead"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4513
+#: src/game/server/infclass/infcgamecontroller.cpp:4721
 #, fuzzy
 msgid "The undead is finally dead.....?"
 msgstr "Wala na ang undead"
@@ -1122,15 +1132,15 @@ msgstr ""
 msgid "The white hole is available!"
 msgstr ""
 
-#: src/game/server/infclass/classes/humans/human.cpp:2126
+#: src/game/server/infclass/classes/humans/human.cpp:2129
 msgid "The white hole is ready, use the laser rifle to disrupt space-time"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4506
+#: src/game/server/infclass/infcgamecontroller.cpp:4714
 msgid "The witch is dead"
 msgstr "Ang witch ay patay na"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2234
+#: src/game/server/infclass/infcgamecontroller.cpp:2298
 msgid "The witch is not available in this round"
 msgstr ""
 
@@ -1164,7 +1174,7 @@ msgctxt "Sniper"
 msgid "They can also jump two times in the air."
 msgstr "Kaya nyang tumalon ng dalawang beses sa hangin."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1057
+#: src/game/server/infclass/infcgamecontroller.cpp:1117
 msgctxt "Events"
 msgid "Thief"
 msgstr ""
@@ -1181,20 +1191,30 @@ msgstr ""
 msgid "Too few infected (less than {int:MinimumInfected})"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2286
+#: src/game/server/infclass/infcgamecontroller.cpp:2482
+#, fuzzy
+msgid "Too few infected to call a undead"
+msgstr "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2350
 msgid "Too few infected to call a witch"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2282
+#: src/game/server/infclass/infcgamecontroller.cpp:2346
 #, fuzzy
 msgid "Too few infected to call the Santa"
 msgstr "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2275
+#: src/game/server/infclass/infcgamecontroller.cpp:2477
+#, fuzzy
+msgid "Too few players to call a undead"
+msgstr "Ang layunin ng mga infected ay i-infect lahat ng mga tao."
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2339
 msgid "Too few players to call a witch"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2271
+#: src/game/server/infclass/infcgamecontroller.cpp:2335
 msgid "Too few players to call the Santa"
 msgstr ""
 
@@ -1214,31 +1234,31 @@ msgstr ""
 msgid "Type “/help {str:ClassName}” for more information about your class"
 msgstr "Isulat \"/help {str:ClassName}\" para sa mas marami na inpormasyon tungkol sa iyong klase"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2082
+#: src/game/server/infclass/infcgamecontroller.cpp:2146
 msgid "Unable to load the position: the character state is not valid"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2076
+#: src/game/server/infclass/infcgamecontroller.cpp:2140
 msgid "Unable to load the position: you have no character to load its position"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2043
+#: src/game/server/infclass/infcgamecontroller.cpp:2107
 msgid "Unable to save the position: the character does not stand on the ground"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2037
+#: src/game/server/infclass/infcgamecontroller.cpp:2101
 msgid "Unable to save the position: the character state is not valid"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2031
+#: src/game/server/infclass/infcgamecontroller.cpp:2095
 msgid "Unable to save the position: you have no character to save its position"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1632
+#: src/game/server/infclass/infcgamecontroller.cpp:1696
 msgid "Unable to set preferred class: Invalid class name"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1254
+#: src/game/server/infclass/infcgamecontroller.cpp:1316
 msgid "Undead"
 msgstr "Undead"
 
@@ -1252,12 +1272,17 @@ msgctxt "Undead"
 msgid "Undead can infect humans and heal the infected with the hammer."
 msgstr "Ang undead ay kayang maka infect ng mga tao at maggamot ng infected gamit ang kanyang hammer."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1351
+#: src/game/server/infclass/infcgamecontroller.cpp:2531
+#, fuzzy
+msgid "Undead {str:PlayerName} has arrived!"
+msgstr "{str:PlayerName} ay umalis na"
+
+#: src/game/server/infclass/infcgamecontroller.cpp:1413
 #, fuzzy
 msgid "Undeads"
 msgstr "Undead"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1258
+#: src/game/server/infclass/infcgamecontroller.cpp:1320
 msgid "Unknown class"
 msgstr "Di alam na klase"
 
@@ -1265,7 +1290,7 @@ msgstr "Di alam na klase"
 msgid "Unknown language"
 msgstr "Hindi alam na lingwahe"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1354
+#: src/game/server/infclass/infcgamecontroller.cpp:1416
 #, fuzzy
 msgid "Unknowns"
 msgstr "Di alam na klase"
@@ -1314,7 +1339,7 @@ msgstr "Gamitin “/msg <panglan> <mensahe>” para masend sa player privately."
 msgid "Use “/w <PlayerName> <My Message>” to send a private message to this player."
 msgstr "Gamitin “/msg <panglan> <mensahe>” para masend sa player privately."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1250
+#: src/game/server/infclass/infcgamecontroller.cpp:1312
 msgid "Voodoo"
 msgstr ""
 
@@ -1329,7 +1354,7 @@ msgstr "Ang Ghost ay kayang maka infect ng humans at makagamot ng mga infected g
 msgid "Voodoo can unfreeze an Undead while in Spirit mode."
 msgstr "Ang Ghost ay kayang maka infect ng humans at makagamot ng mga infected gamit ang kanyang hammer."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1347
+#: src/game/server/infclass/infcgamecontroller.cpp:1409
 msgid "Voodoos"
 msgstr ""
 
@@ -1343,7 +1368,7 @@ msgctxt "Inactive kick broadcast message"
 msgid "Warning: {sec:RemainingTime} until a move to spec for inactivity"
 msgstr ""
 
-#: src/game/server/infclass/classes/infected/infected.cpp:670
+#: src/game/server/infclass/classes/infected/infected.cpp:679
 #, fuzzy
 msgctxt "Spider"
 msgid "Web mode enabled"
@@ -1378,11 +1403,11 @@ msgstr ""
 msgid "White hole: {sec:RemainingTime}"
 msgstr "Pader ng laser: {sec:RemainingTime}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1252
+#: src/game/server/infclass/infcgamecontroller.cpp:1314
 msgid "Witch"
 msgstr "Witch"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2342
+#: src/game/server/infclass/infcgamecontroller.cpp:2406 src/game/server/infclass/infcgamecontroller.cpp:2512
 msgid "Witch ({int:Callers}/{int:RequiredCallers})"
 msgstr ""
 
@@ -1397,12 +1422,12 @@ msgstr "Ang witch ay kayang makainfect ng mga tao at gumamot ng infected gamit a
 msgid "Witch can spawn the infected through narrow walls."
 msgstr "Ang witch ay kayang makainfect ng mga tao at gumamot ng infected gamit ang kanyang hammer."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2378
+#: src/game/server/infclass/infcgamecontroller.cpp:2442
 #, fuzzy
 msgid "Witch {str:PlayerName} has arrived!"
 msgstr "{str:PlayerName} ay umalis na"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1349
+#: src/game/server/infclass/infcgamecontroller.cpp:1411
 #, fuzzy
 msgid "Witches"
 msgstr "Witch"
@@ -1424,7 +1449,7 @@ msgstr "Ikaw ay nainfected: {str:ClassName}"
 msgid "You are blinded: {sec:EffectDuration}"
 msgstr "Ikaw ay frozen: {sec:EffectDuration}"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:2275
+#: src/game/server/infclass/entities/infccharacter.cpp:2284
 msgid "You are frozen: {sec:EffectDuration}"
 msgstr "Ikaw ay frozen: {sec:EffectDuration}"
 
@@ -1432,7 +1457,7 @@ msgstr "Ikaw ay frozen: {sec:EffectDuration}"
 msgid "You are muted for {sec:Duration}"
 msgstr "Ikaw ay hindi pwedeng magsalita ng {sec:Duration} minuto"
 
-#: src/game/server/infclass/entities/infccharacter.cpp:2286
+#: src/game/server/infclass/entities/infccharacter.cpp:2295
 #, fuzzy
 msgid "You are slowed: {sec:EffectDuration}"
 msgstr "Ikaw ay frozen: {sec:EffectDuration}"
@@ -1445,7 +1470,11 @@ msgstr "Kaya mong palitan ang wika ng mod na ito gamit ang command na /language.
 msgid "You can toggle hook protection by pressing f3 (\"Vote yes\" keybind)."
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2303
+#: src/game/server/infclass/infcgamecontroller.cpp:2493
+msgid "You can't call undead twice"
+msgstr ""
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2367
 msgid "You can't call witch twice"
 msgstr ""
 
@@ -1478,7 +1507,7 @@ msgstr ""
 msgid "You have been infected by {str:KillerName}"
 msgstr "Ikaw ay nainfected: {str:ClassName}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2299
+#: src/game/server/infclass/infcgamecontroller.cpp:2363
 #, fuzzy
 msgid "You have called the Santa once again"
 msgstr "Napatay mo ang Mangkukulam, +5 puntos"
@@ -1500,20 +1529,20 @@ msgstr "Napatay mo si {str:VictimName}, +3 puntos"
 msgid "You have infected {str:VictimName}, shame on you!"
 msgstr "Napatay mo si {str:VictimName}, +3 puntos"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4380
+#: src/game/server/infclass/infcgamecontroller.cpp:4588
 msgid "You have killed a witch, +5 points"
 msgstr "Napatay mo ang Mangkukulam, +5 puntos"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:4384
+#: src/game/server/infclass/infcgamecontroller.cpp:4592
 #, fuzzy
 msgid "You have killed an undead! +5 points"
 msgstr "Napatay mo ang Mangkukulam, +5 puntos"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3629
+#: src/game/server/infclass/infcgamecontroller.cpp:3837
 msgid "You have survived, +5 points"
 msgstr "Ikaw ay nabuhay, +5 na puntos"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3770
+#: src/game/server/infclass/infcgamecontroller.cpp:3978
 msgid "You have to wait until the survival is over"
 msgstr ""
 
@@ -1521,7 +1550,7 @@ msgstr ""
 msgid "You have {int:NumTurrets} of {int:MaxTurrets} turrets. Use the hammer to place one."
 msgstr ""
 
-#: src/game/server/infclass/classes/humans/human.cpp:2179
+#: src/game/server/infclass/classes/humans/human.cpp:2194
 msgid "You have {int:NumTurrets} turret available, use the Hammer to place it"
 msgid_plural "You have {int:NumTurrets} turrets available, use the Hammer to place it"
 msgstr[0] ""
@@ -1556,76 +1585,76 @@ msgstr ""
 msgid "Your account has been created and you are now logged."
 msgstr "Ang account mo ay nagawa na at ikaw ay naka log-in na."
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1274
+#: src/game/server/infclass/infcgamecontroller.cpp:1336
 msgctxt "For 'Killed by <>'"
 msgid "a Bat"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1270
+#: src/game/server/infclass/infcgamecontroller.cpp:1332
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Boomer"
 msgstr "Boomer"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1276
+#: src/game/server/infclass/infcgamecontroller.cpp:1338
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Ghost"
 msgstr "Ghost"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1280
+#: src/game/server/infclass/infcgamecontroller.cpp:1342
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Ghoul"
 msgstr "Ghould"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1272
+#: src/game/server/infclass/infcgamecontroller.cpp:1334
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Hunter"
 msgstr "Hunter"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1282
+#: src/game/server/infclass/infcgamecontroller.cpp:1344
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Slug"
 msgstr "Slug"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1268
+#: src/game/server/infclass/infcgamecontroller.cpp:1330
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Smoker"
 msgstr "Smoker"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1278
+#: src/game/server/infclass/infcgamecontroller.cpp:1340
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Spider"
 msgstr "Spider"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1284
+#: src/game/server/infclass/infcgamecontroller.cpp:1346
 msgctxt "For 'Killed by <>'"
 msgid "a Voodoo"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1286
+#: src/game/server/infclass/infcgamecontroller.cpp:1348
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "a Witch"
 msgstr "Witch"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1288
+#: src/game/server/infclass/infcgamecontroller.cpp:1350
 #, fuzzy
 msgctxt "For 'Killed by <>'"
 msgid "an Undead"
 msgstr "Undead"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1292
+#: src/game/server/infclass/infcgamecontroller.cpp:1354
 msgctxt "For 'Killed by <>'"
 msgid "someone unknown"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:1718
+#: src/game/server/infclass/infcgamecontroller.cpp:1782
 #, fuzzy
 msgid "{str:PlayerName} changed the class to {str:ClassName}"
 msgstr "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
@@ -1634,7 +1663,7 @@ msgstr "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
 msgid "{str:PlayerName} changed their name to {str:NewName}"
 msgstr "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3158
+#: src/game/server/infclass/infcgamecontroller.cpp:3318
 #, fuzzy
 msgid "{str:PlayerName} didn't survive in this round."
 msgstr "{str:PlayerName} ay pumasok at sumama sa laro"
@@ -1664,19 +1693,23 @@ msgstr "{str:PlayerName} ay umalis na"
 msgid "{str:PlayerName} has left the game ({str:Reason})"
 msgstr "{str:PlayerName} ay umalis dahil ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2316
+#: src/game/server/infclass/infcgamecontroller.cpp:2380
 msgid "{str:PlayerName} is calling for Santa! (1/{int:RequiredCallers}) To call the Santa write: /santa"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2324
+#: src/game/server/infclass/infcgamecontroller.cpp:2504
+msgid "{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead"
+msgstr ""
+
+#: src/game/server/infclass/infcgamecontroller.cpp:2388
 msgid "{str:PlayerName} is calling for Witch! (1/{int:RequiredCallers}) To call witch write: /witch"
 msgstr ""
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2829
+#: src/game/server/infclass/infcgamecontroller.cpp:2989
 msgid "{str:PlayerName} joined the game"
 msgstr "si {str:PlayerName} ay sumama sa laro"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:2825
+#: src/game/server/infclass/infcgamecontroller.cpp:2985
 msgid "{str:PlayerName} joined the spectators"
 msgstr "{str:PlayerName} ay sumama sa mga manonood"
 
@@ -1689,32 +1722,32 @@ msgstr "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
 msgid "{str:PlayerName} wants {str:VictimName} to be banned ({str:Reason})"
 msgstr "Si {str:PlayerName} ay gustong maban si {str:VictimName} dahil ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3107
+#: src/game/server/infclass/infcgamecontroller.cpp:3267
 #, fuzzy
 msgid "{str:PlayerName} was chopped up by {str:Killer}."
 msgstr "{str:PlayerName} ay naban dahil ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3106
+#: src/game/server/infclass/infcgamecontroller.cpp:3266
 #, fuzzy
 msgid "{str:PlayerName} was decapitated by {str:Killer}."
 msgstr "{str:PlayerName} ay umalis na"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3104
+#: src/game/server/infclass/infcgamecontroller.cpp:3264
 #, fuzzy
 msgid "{str:PlayerName} was destroyed by {str:Killer}."
 msgstr "{str:PlayerName} ay umalis na"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3108
+#: src/game/server/infclass/infcgamecontroller.cpp:3268
 #, fuzzy
 msgid "{str:PlayerName} was removed from this world by {str:Killer}."
 msgstr "Si {str:PlayerName} ay nagpalit ng pangalan at siya na si {str:NewName}"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3105
+#: src/game/server/infclass/infcgamecontroller.cpp:3265
 #, fuzzy
 msgid "{str:PlayerName} was slain by {str:Killer}."
 msgstr "{str:PlayerName} ay naban dahil ({str:Reason})"
 
-#: src/game/server/infclass/infcgamecontroller.cpp:3522
+#: src/game/server/infclass/infcgamecontroller.cpp:3730
 msgid "{str:VictimName} has been infected"
 msgstr "si {str:VictimName} ay isa nang infected"
 

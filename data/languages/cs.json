@@ -486,6 +486,10 @@
 		"value": "M\u00edsto smrti se zmraz\u00ed na 10 sekund"
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Nemrtv\u00fd je kone\u010dn\u011b mrtv\u00fd"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "\u010carod\u011bjnice byla zabita"
 	},
@@ -546,7 +550,15 @@
 		"value": "Toto jm\u00e9no je obsazen\u00e9"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "C\u00edl naka\u017een\u00fdch, je nakazit v\u0161echny lidi."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "C\u00edl naka\u017een\u00fdch, je nakazit v\u0161echny lidi."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "C\u00edl naka\u017een\u00fdch, je nakazit v\u0161echny lidi."
 	},
 	{
@@ -560,6 +572,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Nemrtv\u00fd m\u016f\u017ee infikovat lidi a l\u00e9\u010dit naka\u017een\u00e9."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} opustil hru"
 	},
 	{
 		"key": "Undeads",

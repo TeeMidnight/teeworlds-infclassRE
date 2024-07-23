@@ -513,6 +513,10 @@
 		"value": "\u00d6lmek yerine 10 saniyeli\u011fine donar."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "Zombi nihayet \u00f6ld\u00fc"
+	},
+	{
 		"key": "The class is disabled",
 		"value": "Cad\u0131 \u00f6ld\u00fc"
 	},
@@ -571,7 +575,15 @@
 		"value": "Bu kullan\u0131c\u0131 ad\u0131 daha \u00f6nceden al\u0131nm\u0131\u015f"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Zombilerin g\u00f6revi b\u00fct\u00fcn insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrmektir."
+	},
+	{
 		"key": "Too few infected to call the Santa",
+		"value": "Zombilerin g\u00f6revi b\u00fct\u00fcn insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrmektir."
+	},
+	{
+		"key": "Too few players to call a undead",
 		"value": "Zombilerin g\u00f6revi b\u00fct\u00fcn insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrmektir."
 	},
 	{
@@ -585,6 +597,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Avc\u0131, insanlar\u0131 d\u00f6n\u00fc\u015ft\u00fcrebilir ve \u00e7ekiciyle vurarak zombileri iyile\u015ftirebilir."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "{str:PlayerName} oyundan ayr\u0131ld\u0131"
 	},
 	{
 		"key": "Undeads",

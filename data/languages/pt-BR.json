@@ -689,6 +689,10 @@
 		"value": "Os Mortos-vivos n\u00e3o podem morrer. Em vez de morrer, ficam congelados por 10 segundos."
 	},
 	{
+		"key": "The Undead is already here",
+		"value": "O Papai Noel j\u00e1 est\u00e1 aqui"
+	},
+	{
 		"key": "The Voodoo does not die immediately when killed but instead enters Spirit mode for a short time.",
 		"value": "O Vodu n\u00e3o morre imediatamente quando morto, mas entra em modo Espirito por um curto per\u00edodo de tempo."
 	},
@@ -831,12 +835,20 @@
 		"value": "Poucos infectados (menos de {int:MinimumInfected})"
 	},
 	{
+		"key": "Too few infected to call a undead",
+		"value": "Poucos infectados para chamar o Papai Noel"
+	},
+	{
 		"key": "Too few infected to call a witch",
 		"value": "Poucos jogadores para chamar uma bruxa"
 	},
 	{
 		"key": "Too few infected to call the Santa",
 		"value": "Poucos infectados para chamar o Papai Noel"
+	},
+	{
+		"key": "Too few players to call a undead",
+		"value": "Poucos jogadores para chamar o Papai Noel"
 	},
 	{
 		"key": "Too few players to call a witch",
@@ -889,6 +901,10 @@
 	{
 		"key": "Undead can infect humans and heal the infected with the hammer.",
 		"value": "Mortos-vivos podem infectar seres humanos e curar os infectados com o martelo."
+	},
+	{
+		"key": "Undead {str:PlayerName} has arrived!",
+		"value": "O Papai Noel {str:PlayerName} chegou!"
 	},
 	{
 		"key": "Undeads",
@@ -1049,6 +1065,10 @@
 	{
 		"key": "You can change the language of this mod using the command /language.",
 		"value": "Voc\u00ea pode alterar o idioma deste mod usando o comando: /language."
+	},
+	{
+		"key": "You can't call undead twice",
+		"value": "Voc\u00ea n\u00e3o pode chamar a bruxa duas vezes"
 	},
 	{
 		"key": "You can't call witch twice",
@@ -1229,6 +1249,10 @@
 	},
 	{
 		"key": "{str:PlayerName} is calling for Santa! (1/{int:RequiredCallers}) To call the Santa write: /santa",
+		"value": "{str:PlayerName} est\u00e1 chamando Papai Noel! (1/{int:RequiredCallers}) Para chamar o Papai Noel digite: /santa"
+	},
+	{
+		"key": "{str:PlayerName} is calling for Undead! (1/{int:RequiredCallers}) To call undead write: /undead",
 		"value": "{str:PlayerName} est\u00e1 chamando Papai Noel! (1/{int:RequiredCallers}) Para chamar o Papai Noel digite: /santa"
 	},
 	{
