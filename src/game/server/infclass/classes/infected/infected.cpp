@@ -208,6 +208,9 @@ int CInfClassInfected::GetJumps() const
 		return 3;
 	case EPlayerClass::Bat:
 		return Config()->m_InfBatAirjumpLimit;
+	case EPlayerClass::Witch:
+		if(GameController()->GetGlobalEvent() == ERandomEvent::Christmas)
+			return Config()->m_InfBatAirjumpLimit;
 	default:
 		return 2;
 	}
@@ -641,6 +644,12 @@ void CInfClassInfected::OnHammerFired(WeaponFireContext *pFireContext)
 	if(pFireContext->FireAccepted)
 	{
 		GameServer()->CreateSound(GetPos(), SOUND_HAMMER_FIRE);
+	}
+
+	if(GameController()->GetGlobalEvent() == ERandomEvent::Christmas && GetPlayerClass() == EPlayerClass::Witch)
+	{
+		GameController()->WitchChrismasCall(GetPlayer()->GetCID());
+		m_pCharacter->SetReloadDuration(5.00f);
 	}
 }
 

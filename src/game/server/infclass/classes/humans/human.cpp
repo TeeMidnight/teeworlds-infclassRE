@@ -1886,10 +1886,13 @@ void CInfClassHuman::PlaceScientistMine(WeaponFireContext *pFireContext)
 
 	if(!FreeSpace)
 		return;
+	int MineLimit = g_Config.m_InfMineLimit;
+	if(GameController()->GetGlobalEvent() == ERandomEvent::Christmas)
+		MineLimit++;
 
 	if(pIntersectMine) // Move the mine
 		GameWorld()->DestroyEntity(pIntersectMine);
-	else if(NbMine >= g_Config.m_InfMineLimit && pOlderMine)
+	else if(NbMine >= MineLimit && pOlderMine)
 		GameWorld()->DestroyEntity(pOlderMine);
 
 	new CScientistMine(GameServer(), ProjStartPos, GetCID());
@@ -2150,6 +2153,18 @@ void CInfClassHuman::OnHeroFlagTaken(CInfClassCharacter *pHero)
 
 	m_pCharacter->SetEmote(EMOTE_HAPPY, Server()->Tick() + Server()->TickSpeed());
 	GameServer()->SendEmoticon(GetCID(), EMOTICON_MUSIC);
+
+	if(GameController()->GetGlobalEvent() == ERandomEvent::Christmas)
+	{
+		if(Config()->m_InfTurretEnableLaser)
+		{
+			new CTurret(GameServer(), GetPos(), GetCID(), m_pCharacter->GetPos(), CTurret::PLASMA);
+		}
+		else if(Config()->m_InfTurretEnablePlasma)
+		{
+			new CTurret(GameServer(), GetPos(), GetCID(), m_pCharacter->GetPos(), CTurret::LASER);
+		}
+	}
 
 	if(pHero != m_pCharacter)
 	{

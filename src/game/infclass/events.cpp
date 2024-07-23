@@ -21,6 +21,7 @@ enum RANDOMEVENT
 	START_GLOBALEVENT,
 	RANDOMEVENT_DISABLING,
     RANDOMEVENT_FEAR,
+	RANDOMEVENT_CHRISTMAS,
 	END_GLOBALEVENT,
 
 	NB_RANDOMEVENT,
@@ -52,6 +53,8 @@ const char *toString(ERandomEvent RandomEvent)
         return "disabling";
     case ERandomEvent::Fear:
         return "fear";
+    case ERandomEvent::Christmas:
+        return "christmas";
 
 	case ERandomEvent::Invalid:
 	case ERandomEvent::Count:

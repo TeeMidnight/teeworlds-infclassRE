@@ -1059,6 +1059,46 @@ void CInfClassGameController::AshesEventCheck(int& Dmg, int From, EDamageType Da
 	}
 }
 
+void CInfClassGameController::WitchChrismasCall(int WitchId)
+{
+	if(!GetPlayer(WitchId))
+		return;
+	if(!GetPlayer(WitchId)->GetCharacter())
+		return;
+
+	ClientsArray Infected;
+
+	for(int ClientID = 0; ClientID < MAX_CLIENTS; ClientID++)
+	{
+		CInfClassPlayer *pPlayer = GetPlayer(ClientID);
+		if(!pPlayer || !pPlayer->IsInGame())
+			continue;
+		if(pPlayer->GetClass() == EPlayerClass::Witch)
+			continue;
+		if(!pPlayer->IsInfected())
+			continue;
+		if(!pPlayer->GetCharacter())
+			continue;
+
+		Infected.Add(ClientID);
+	}
+
+	if(Infected.IsEmpty())
+		return;
+
+	int Id = random_int(0, Infected.Size() - 1);
+	CInfClassPlayer *pInfected = GetPlayer(Infected[Id]);
+	CInfClassInfected *pCaller = CInfClassInfected::GetInstance(GetPlayer(WitchId)->GetCharacter());
+
+	vec2 SpawnPos;
+	if(pCaller->FindWitchSpawnPosition(SpawnPos))
+	{
+		GameServer()->CreatePlayerSpawn(SpawnPos);
+		pInfected->GetCharacter()->SetPosition(SpawnPos);
+		pInfected->GetCharacter()->ResetHook();
+	}
+}
+
 const char *CInfClassGameController::GetEventName(ERandomEvent Event)
 {
 	return toString(Event);
@@ -3401,11 +3441,10 @@ int CInfClassGameController::GetClientIdForNewUndead() const
 		return -1;
 	}
 
-	int id = random_int(0, Infected.Size() - 1);
-	/* /debug */
-	CInfClassPlayer *pPlayer = GetPlayer(Infected[id]);
+	int Id = random_int(0, Infected.Size() - 1);
+	CInfClassPlayer *pPlayer = GetPlayer(Infected[Id]);
 	pPlayer->SetClass(EPlayerClass::Undead);
-	return Infected[id];
+	return Infected[Id];
 }
 
 bool CInfClassGameController::IsSafeWitchCandidate(int ClientID) const

@@ -18,6 +18,7 @@ enum class ERandomEvent
     /* global */
     Disabling,
     Fear,
+	Christmas,
 
 	Count
 };
@@ -38,7 +39,8 @@ static constexpr icArray<ERandomEvent, NB_RANDOMEVENT> AllGlobalEvents{
 	ERandomEvent::None,
 
     ERandomEvent::Disabling,
-    ERandomEvent::Fear
+    ERandomEvent::Fear,
+	ERandomEvent::Christmas
 };
 
 constexpr int NB_HUMANEVENT = AllHumanEvents.Size();

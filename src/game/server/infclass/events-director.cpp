@@ -5,6 +5,7 @@
 #include <engine/shared/config.h>
 
 #include <game/infclass/classes.h>
+#include <game/infclass/events.h>
 #include <game/server/skininfo.h>
 
 #include <vector>
@@ -58,9 +59,9 @@ void EventsDirector::SetPreloadedMapName(const char *pName)
 	}
 }
 
-void EventsDirector::SetupSkin(const CSkinContext &Context, CWeakSkinInfo *pOutput, int DDNetVersion, int InfClassVersion)
+void EventsDirector::SetupSkin(const CSkinContext &Context, CWeakSkinInfo *pOutput, int DDNetVersion, int InfClassVersion, int Event)
 {
-	if(IsWinter())
+	if(IsWinter() || Event == static_cast<int>(ERandomEvent::Christmas))
 	{
 		// The skins added in PR: https://github.com/ddnet/ddnet/pull/1218
 		bool ClientHasSantaSkins = DDNetVersion >= 11031;

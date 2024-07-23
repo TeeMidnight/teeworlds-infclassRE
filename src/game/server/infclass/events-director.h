@@ -10,7 +10,7 @@ public:
 	static const char *GetMapConverterId(const char *pConverterId);
 
 	static void SetPreloadedMapName(const char *pName);
-	static void SetupSkin(const CSkinContext &Context, CWeakSkinInfo *pOutput, int DDNetVersion, int InfClassVersion);
+	static void SetupSkin(const CSkinContext &Context, CWeakSkinInfo *pOutput, int DDNetVersion, int InfClassVersion, int Event = -1);
 	static const char *GetEventMapName(const char *pMapName);
 
 	static bool IsWinter();

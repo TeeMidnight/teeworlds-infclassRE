@@ -196,6 +196,7 @@ public:
 	int GetInfectionStartTick() const;
 
 	void AshesEventCheck(int& Dmg, int From, EDamageType DamageType);
+	void WitchChrismasCall(int WitchId);
 
 	static const char *GetEventName(ERandomEvent Event);
 	static const char *GetEventDisplayName(ERandomEvent Event);
